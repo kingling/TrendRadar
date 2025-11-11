@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-12 05:39:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">16.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759161" target="_blank" class="news-link">美国史上最长政府关门即将结束，历史显示：重启后美股往往继续走高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002988" target="_blank" class="news-link">美股七巨头收盘播报｜周二（11月11日），美国科技股七巨头（Magnificent 7）指数跌0.21%，报210.01点。 “超级”市值科技股跌0.53%，报405.79点。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112050616941800" target="_blank" class="news-link">市场消息：美国银行监管机构正着手敲定与国债挂钩的银行资本计划。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112050312413800" target="_blank" class="news-link">美国财长贝森特：很高兴昨天在财政部欢迎沙特公共投资基金总裁亚西尔·鲁梅扬，讨论了沙特公共投资基金加大对美重大投资的机会。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002978" target="_blank" class="news-link">美国财长贝森特：周一会见了沙特主权投资基金PIF的主管。 讨论了该国在美国的投资机会。</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767792_101_1" target="_blank" class="news-link">美国交通部长Duffy：空管人员将在特朗普政府开门之后24-48（小时）获得以往薪酬的70%。剩余30%将在那一周之后发放。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767787_100_1" target="_blank" class="news-link">美国财长贝森特：昨天很高兴接待沙特公共投资基金总裁亚西尔·鲁迈延阁下莅临财政部，并讨论了沙特公共投资基金增加对美国重大投资的机会。</a> <font color='red'><strong>[8 - 28]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002977" target="_blank" class="news-link">美国交通部长Duffy：空管人员将在特朗普政府开门之后24-48（小时）获得以往薪酬的70%。 剩余30%将在那一周之后发放。</a> [11]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">AMD</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002982" target="_blank" class="news-link">AMD股价美股盘后涨4.5%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002981" target="_blank" class="news-link">AMD：预计毛利润率将介于55%-58%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002989" target="_blank" class="news-link">周二（11月11日），降息赢家指数涨0.77%，报97.56点。 “特朗普关税输家”指数涨0.24%，报104.77点。 散户抱团概念股指数/迷因股（meme stock）指数涨0.86%，报18.11点。 人工智能（AI）赢家指数跌1.76%，AI软件先驱指数跌0.44%，AI风险敞口半导体跌2.77%。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45891968" target="_blank" class="news-link">Adk-go: code-first Go toolkit for building, evaluating, and deploying AI agents</a> [12] <font color='grey'>- 05时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002976" target="_blank" class="news-link">生物科技ETF收涨将近2.9%，和医疗业ETF领跑美股行业ETF，半导体ETF跌超2.1%</a> [12] <font color='grey'>- 05时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002971" target="_blank" class="news-link">标普500指数收涨14.18点，涨幅0.21%，报6846.61点。 道琼斯工业平均指数收涨559.33点，涨幅1.18%，报47927.96点。 纳斯达克综合指数（纳指）收跌58.874点，跌幅0.25%，报23468.301点。 纳斯达克100指数收跌78.251点，跌幅0.31%，报23468.301点。 纳斯达克生物科技指数收涨2.94%，报5523.06点。 费城半导体指数收跌2.48%，报6979.701点。 费城证交所KBW银行指数收涨0.17%，报152.24点。 道琼斯KBW地区银行指数收涨0.34%，报118.20点。</a> [15]</div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112050055390800" target="_blank" class="news-link">美股收盘：三大股指涨跌不一 英伟达跌近3%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45891016" target="_blank" class="news-link">FFmpeg to Google: Fund us or stop sending bugs</a> [25] <font color='grey'>- 05时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002973" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.06%，报8233.31点。 热门中概股里，阿特斯太阳能跌7.8%，晶科能源跌5.3%，腾讯音乐跌3.7%，阿里跌3.2%，B站跌1.9%，网易涨1.5%，贝壳涨1.8%，百胜中国涨3%，小鹏涨7.6%。 ETF中，中国科技指数ETF（CQQQ）收跌0.98%，中概互联网指数ETF（KWEB）收跌0.60%。 德银嘉实沪深300指数ETF（ASHR）收跌0.96%，XtrackersHarvest中证50（ASHS）收跌0.68%。</a> [14]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
