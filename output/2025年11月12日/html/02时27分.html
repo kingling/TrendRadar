@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-11-12 02:27:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">13.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002933" target="_blank" class="news-link">【白宫国家经济委员会主任：美国部分10月数据可能永远丢失】白宫国家经济委员会主任凯文·哈塞特表示，时长创纪录的政府停摆意味着一些本应于10月收集的经济数据可能永远不会被记录下来，这使得全面评估美国经济健康状况变得困难。“据我了解，有些调查实际上根本没有完成，所以我们可能永远也无法知道那个月发生了什么，”哈塞特说，“在数据机构恢复运作之前，我们可能还要经历一段阴云笼罩的时期。”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759158" target="_blank" class="news-link">白宫国家经济委员会主任：美国部分10月数据可能永远丢失</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112020805549800" target="_blank" class="news-link">消息人士：美国北极研究委员伊丽莎白•克拉瓦略（Elizabeth Cravalho）已离职。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002928" target="_blank" class="news-link">美国加利福利亚州长Newsom：总统特朗普的海上石油计划将让加州环保环境“到达时已死亡”（DOA）。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767650_101_1" target="_blank" class="news-link">美国加利福利亚州长纽瑟姆：总统特朗普的海上石油计划将让加州环保环境“到达时已死亡”。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112014514232800" target="_blank" class="news-link">美国交通部长达菲：政府停摆结束后 空管人员48小时内可获70%的欠薪</a> [11] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571362885843173402/" target="_blank" class="news-link">韩国考古专家解读600年前汉字木简</a> [23] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112020238925800" target="_blank" class="news-link">OpenAI用德国音乐人创作歌词训练模型被判侵权</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767663_101_1" target="_blank" class="news-link">Openai用德国音乐人创作歌词训练模型被判侵权</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002929" target="_blank" class="news-link">俄罗斯推出首款国产人形机器人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112014127458800" target="_blank" class="news-link">俄罗斯推出首款国产人形机器人</a> [12] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">核能</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112020537104800" target="_blank" class="news-link">乌克兰总理：乌克兰将对乌克兰国家核能发电公司（Energoatom）展开紧急审计。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112020526208800" target="_blank" class="news-link">乌克兰总理：乌克兰在腐败调查后解散了乌克兰国家核能发电公司（Energoatom）的监督委员会。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45890186" target="_blank" class="news-link">We ran over 600 image generations to compare AI image models</a> [15] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002930" target="_blank" class="news-link">挪威：暂停主权财富基金道德准则使其免于抛售2300亿美元科技股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
