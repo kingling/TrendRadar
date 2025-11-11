@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-11-12 02:50:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AMD</td>
+                <td class="count">15</td>
+                <td class="percentage">28.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112024223003800" target="_blank" class="news-link">AMD(AMD.O)：预计PC市场CPU份额将超过40%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002938" target="_blank" class="news-link">AMD CEO苏姿丰：客户的AI投资并没有“趋于稳定”。 AI计算基础设施的需求得不到满足。 AI加速器并没有造成CPU市场下滑。 公司预计，数据中心/AI电脑芯片总市场规模（TAM）到2030年将增长至1万亿美元。 最新TAM目标包括CPU、加速器、网络。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112024159825800" target="_blank" class="news-link">AMD(AMD.O)：预计数据中心整体业务年复合增长率将超过60%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112024148840800" target="_blank" class="news-link">AMD(AMD.O)：预计未来3-5年年均营收增长率将达到35%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112024020124800" target="_blank" class="news-link">AMD(AMD.O)：数据中心的增长目标是数据中心的AI芯片。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112023951512800" target="_blank" class="news-link">AMD(AMD.O)：预计服务器CPU市场份额将超过50%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112023919643800" target="_blank" class="news-link">AMD(AMD.O)：预计数据中心年复合增长率将超过80%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112023900381800" target="_blank" class="news-link">AMD(AMD.O)：预计2027年数据中心收入将达到“数百亿美元”。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022950825800" target="_blank" class="news-link">AMD首席执行官苏姿丰：新的目标市场涵盖CPU、加速器和网络设备。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022645192800" target="_blank" class="news-link">AMD首席执行官苏姿丰：AMD预计到2030年，数据中心总市场规模将增长至1万亿美元。</a> [11] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022626987800" target="_blank" class="news-link">AMD首席执行官苏姿丰：推理业务增长速度快于训练业务。人工智能加速器并未导致CPU市场放缓。</a> [12] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022441940800" target="_blank" class="news-link">AMD首席执行官苏姿丰：客户对人工智能的投资并未“趋于平稳”。</a> [14] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022400327800" target="_blank" class="news-link">AMD首席执行官苏姿丰：市场对人工智能计算基础设施的需求永无止境。</a> [15] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112021936730800" target="_blank" class="news-link">AMD首席执行官苏姿丰：从2026年开始，AMD(AMD.O)的定制芯片设计收入将达到450亿美元。</a> [18] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/AMD" target="_blank" class="news-link">AMD</a> [26] <font color='grey'>- 02时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">11.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002936" target="_blank" class="news-link">美国军方考虑在加沙附近建立一个1万人的基地。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002940" target="_blank" class="news-link">美国总统特朗普谈众议院就结束停摆协议的潜在投票：我认为投票结果会是积极的。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767683_100_1" target="_blank" class="news-link">西方石油公司：预计2026年在美国陆上投资将高达4亿美元。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767674_101_1" target="_blank" class="news-link">美国军方考虑在加沙附近建立一个1万人的基地。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022550745800" target="_blank" class="news-link">市场消息：美军探索在加沙地带附近建造可容纳10000人的基地的可能性。美国海军要求提供潜在基地的详细计划。</a> [13] <font color='grey'>- 02时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112022128480800" target="_blank" class="news-link">美国消费者金融保护局（CFPB）认为运营资金充足，至少可以维持到12月31日。</a> [17] <font color='grey'>- 02时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45884937" target="_blank" class="news-link">SoftBank sells its entire stake in Nvidia</a> [26] <font color='grey'>- 02时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002934" target="_blank" class="news-link">OpenAI用德国音乐人创作歌词训练模型被判侵权</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
