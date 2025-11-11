@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 31</p><p>生成时间: 2025-11-12 03:37:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">16.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112030530610800" target="_blank" class="news-link">美国研究在加沙地带附近建临时基地</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002953" target="_blank" class="news-link">美国原油期货收涨1.5%，纽约天然气涨超5.2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112030224408800" target="_blank" class="news-link">罗马尼亚能源部长表示，不会要求美国延长对卢克石油制裁设定的11月21日最后期限。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767716_100_1" target="_blank" class="news-link">罗马尼亚将不会请求延长美国于11月21日对卢克石油公司（Lukoil）制裁的最后期限。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002928" target="_blank" class="news-link">美国加州州长：特朗普的海上钻油计划是“死路一条”</a> [25] <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">AMD</td>
+                <td class="count">3</td>
+                <td class="percentage">9.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759159" target="_blank" class="news-link">苏姿丰：到2030年AI数据中心市场规模料突破1万亿，AMD营收年增或超35%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3002951" target="_blank" class="news-link">AMD预计数据中心需求将加速销售增长</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112024606128800" target="_blank" class="news-link">AMD(AMD.O)短线拉升，现涨1.12%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45891016" target="_blank" class="news-link">FFmpeg to Google: Fund Us or Stop Sending Bugs</a> [16] <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45890394" target="_blank" class="news-link">Show HN: Data Formulator 0.5 – interactive AI agents for data visualization</a> [19] <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767720_100_1" target="_blank" class="news-link">荷兰大臣：欧盟及荷兰致力于恢复芯片供应链。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3767704_100_1" target="_blank" class="news-link">荷兰经济大臣卡尔曼斯：已与欧盟委员会副主席谢夫乔维奇就闻泰科技Nexperia子公司事宜进行了交谈。</a> <font color='red'><strong>[8 - 28]</strong></font> <font color='grey'>- 03时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
