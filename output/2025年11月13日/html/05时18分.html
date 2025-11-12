@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 63</p><p>生成时间: 2025-11-13 05:18:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">12.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003623" target="_blank" class="news-link">美国纽约联储系统公开市场账户（SOMA）经理Roberto Perli：强有力的证据表明，银行储备金不再充足。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759261" target="_blank" class="news-link">美国政府关门结束倒计时：众议院周三晚表决临时拨款法案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759260" target="_blank" class="news-link">美国投资级债券发行规模创2020年来新高，全球债市迎来创纪录之年</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113050532042800" target="_blank" class="news-link">美国能源部宣布已授予合同，为战略石油储备采购约100万桶原油。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770402_100_1" target="_blank" class="news-link">美国白宫顾问哈西特：美国正就重大贸易协议进行谈判，将调整食品关税。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770428_100_1" target="_blank" class="news-link">美国纽约联储市场主管Perli：“没有任何理由”表明常备回购工具的使用规模无法达到较大水平。</a> [21] <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113045000001800" target="_blank" class="news-link">美国众议院将于十分钟后就临时拨款法案进行投票；美联储柯林斯将于十分钟后就经济和金融形势展望发表讲话。</a> [22] <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113044517247800" target="_blank" class="news-link">G7外长联合声明：重申强烈支持美国总统特朗普结束加沙冲突的计划，强调归还已故人质遗骸的紧迫性。</a> [25] <font color='grey'>- 05时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003620" target="_blank" class="news-link">圭亚那与Cerebras Systems Inc.（CBRS）围绕人工智能（AI）数据中心签署谅解备忘录。 Cerebras将在圭亚那数据中心部署CS-3 AI超算。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45906604" target="_blank" class="news-link">OmniAI (YC W24) Is Hiring Forward Deployed Engineers</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770418_101_1" target="_blank" class="news-link">圭亚那与Cerebras Systems Inc.（CBRS）围绕人工智能（AI）数据中心签署谅解备忘录。</a> <font color='red'><strong>[8 - 30]</strong></font> <font color='grey'>- 05时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113050121041800" target="_blank" class="news-link">美股收盘：道指创新高 AMD涨9%</a> [12] <font color='grey'>- 05时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">1.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113050804559800" target="_blank" class="news-link">OpenAI：GPT-5.1将于本周向所有用户推出。GPT-5将继续向付费订阅用户开放三个月，GPT-5的停用期不会影响其他旧版模型的可用性。将很快将GPT-5 Pro升级至GPT-5.1 Pro。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45901543" target="_blank" class="news-link">Anthropic invests $50B in US AI infrastructure</a> [25] <font color='grey'>- 05时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
