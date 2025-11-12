@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 83</p><p>生成时间: 2025-11-13 02:27:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">44</td>
+                <td class="percentage">53.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003579" target="_blank" class="news-link">美国财政部拍卖420亿美元10年期国债，得标利率4.074%，投标倍数2.43。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020359727800" target="_blank" class="news-link">美国移民和海关执法局：美国参议院民主党工作人员冒充律师来释放非法移民。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759253" target="_blank" class="news-link">Meta承诺将开支超10亿美元，在美国威斯康星州建设一个数据中心</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020312319800" target="_blank" class="news-link">美国10年期国债收益率在10年期债券拍卖后小幅回落，最新下跌4.8个基点，报4.062%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003577" target="_blank" class="news-link">美国财长暗示将“逐步”改变国债发行结构，因应投资者需求变化</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003576" target="_blank" class="news-link">美国亚特兰大联储主席Raphael Bostic：美联储在让通胀重返目标2%方面恪守承诺。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020205453800" target="_blank" class="news-link">美国至11月12日10年期国债竞拍-得标利率配置百分比 97.52%，前值78.38%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020205452800" target="_blank" class="news-link">美国至11月12日10年期国债竞拍-投标倍数 2.43，前值2.48。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020205428800" target="_blank" class="news-link">美国至11月12日10年期国债竞拍-得标利率 4.074%，前值4.12%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020200772800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：预计将看到进口商品价格大幅下降。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003572" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：贸易赤字和美国政府的财政赤字都在下滑。 301关税和122关税都被视作应急计划。</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113020004409800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈贸易）哈塞特谈贸易：任何成本影响都是水平调整效应，而不是通胀。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770261_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：关税政策需要针对转运采取执法行动。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770259_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：总统特朗普关注的是可负担性。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770257_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：正就食品相关产品的变化进行讨论。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770256_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：贸易谈判是一个持续的过程。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770255_101_1" target="_blank" class="news-link">美国白宫国家经济委员会主任凯文·哈塞特：相比美国总统特朗普的第一任期，现在的白宫“更有效率”。</a> <font color='red'><strong>[7 - 27]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770247_101_1" target="_blank" class="news-link">美国白宫国家经济委员会主任凯文·哈塞特：今年就业增幅达到129%。</a> <font color='red'><strong>[9 - 29]</strong></font> <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003570" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：我非常尊重美联储主席鲍威尔。 我认同美国总统特朗普关于“利率可以更低”的看法。 如果特朗普提出要求，我会担任下一任美联储主席。</a> [11]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015904860800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈贸易）若最高法院在关税案中的裁定对政府不利，将考虑其他选项和替代权限。</a> [11] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003569" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：美国政府停摆将影响到四季度GDP。 预计本季度增幅介于1.5%-2%。 预计全年将增长2%左右。 通胀不会一直处于人们希望看到的水平。 通胀动能相当具有方向性。</a> [12]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015629297800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：50年期抵押贷款可能会让购房变得更容易。</a> [12] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770236_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：任何成本影响都属于水平调整效应，并非通货膨胀。</a> [12] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003568" target="_blank" class="news-link">特朗普政府发布声明，称支持用于结束美国政府关门的立法草案，总统特朗普将（在参众两院都批准的草案上）签字——让该草案生效为法律。</a> [13] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770232_101_1" target="_blank" class="news-link">美国亚特兰大联储主席Raphael Bostic：美联储在让通胀重返目标2%方面恪守承诺。</a> [13] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015430870800" target="_blank" class="news-link">美国总统特朗普：我很高兴宣布提名艾伦·彼得森（Aaron Peterson）担任美国阿拉斯加地区联邦地区法院的法官。</a> [14] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015411099800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特谈住房问题：不知道美国总统特朗普是否已决定推出50年期抵押贷款。</a> [15] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770228_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：尚不清楚总统特朗普是否已决定推出50年期抵押贷款。</a> [16] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015254843800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：将利用未来的和解法案来应对美国经济。</a> [17] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015231386800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：我们正在使赤字相对于目标有所减少，并对经济增长持乐观态度。</a> [18] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770222_100_1" target="_blank" class="news-link">美国亚特兰大联储主席博斯蒂克：企业告诉美联储，政策已具备紧缩性，尤其是在住房和其他对利率敏感的行业中。</a> [18] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015122644800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：赤字下降的三分之一来自关税收入，三分之一来自经济带动的税收收入，还有三分之一来自支出削减。</a> [19] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770220_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：将利用未来的预算调节议案来解决美国经济问题。</a> [19] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770217_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：赤字下降的三分之一源于关税收入，三分之一源于经济带来的税收收入，三分之一源于支出减少。</a> [20] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003559" target="_blank" class="news-link">美国亚特兰大联储主席Raphael Bostic：价格稳定性仍然是更加清晰、更加迫切的风险。</a> [21] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015031127800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：本财年美国财政赤字可能减少6000亿美元。</a> [21] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015012810800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：美国贸易和财政赤字正在下降。</a> [22] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113015000001800" target="_blank" class="news-link">美国至11月12日10年期国债竞拍-得标利率、投标倍数将于十分钟后公布。</a> [23] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113014931444800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：从历史上看，美元现在正处于强势地位。</a> [24] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113014926137800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：如果想让通货膨胀来解决赤字问题，那就是在走向金融危机。</a> [25] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113014902733800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：强势美元政策是一项明智的政策。任何国家都需要稳健的货币。</a> [26] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113014827718800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：美联储主席提名的混乱可能会影响宣布的时间。</a> [27] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113014622086800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：我同意特朗普的观点，利率可以低得多。</a> [30] <font color='grey'>- 02时27分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E8%92%B8%E6%B1%BD%E5%BC%B9%E5%B0%84%E4%BC%81%E4%B8%9A%E7%A0%B4%E4%BA%A7%E4%BA%86%E5%90%97" target="_blank" class="news-link">美国蒸汽弹射企业破产了吗</a> [30] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251113/1068357939.html" target="_blank" class="news-link">美国防长：美国正将巴拿马运河从中国的“恶意影响”中解放出来</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770240_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：预计自中国和其他国家进口商品的售价将大幅下降。</a> <font color='red'><strong>[10 - 30]</strong></font> <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571748571801272329/" target="_blank" class="news-link">iPhone可检测针孔摄像头？客服回应</a> [27] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH603516" target="_blank" class="news-link">淳中科技</a> [30] <font color='grey'>- 02时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
