@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2025-11-13 04:21:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">11</td>
+                <td class="percentage">28.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251113/1068358301.html" target="_blank" class="news-link">白宫：美国不考虑在加沙边境建设军事基地</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003610" target="_blank" class="news-link">美国原油期货收跌约4.2%，投资者权衡供应过剩问题与俄罗斯被制裁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113034712131800" target="_blank" class="news-link">美国联邦贸易委员会正在调查代理顾问机构ISS和Glass Lewis。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113033409574800" target="_blank" class="news-link">消息人士称，美国联邦贸易委员会正在调查代理咨询公司是否违反了反垄断法。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113032506975800" target="_blank" class="news-link">美国众议院民主党人表示，派拉蒙拒绝回答有关特朗普政府批准CBS合并交易的问题。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770380_100_1" target="_blank" class="news-link">美国投资管理公司贝莱德CEO芬克、摩根士丹利CEO高盛董事会主席兼CEO所罗门、黑石CEO施瓦茨曼、KKR联合创始人Kravis等高管出席美国白宫晚宴。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770365_101_1" target="_blank" class="news-link">【行情】美国纽交所12月汽油期货收报1.9554美元/加仑，纽交所12月取暖油期货收报2.4816美元/加仑。</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113031440693800" target="_blank" class="news-link">韩国代理检察总长宣布辞职</a> [11] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113031143900800" target="_blank" class="news-link">消息人士称，俄罗斯卢克石油公司已向美国财政部申请延长11月21日之后禁止与该公司进行交易的最后期限。</a> [14] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113030912097800" target="_blank" class="news-link">美国众议院少数党领袖杰弗瑞斯：我们将提出一项为期三年的《平价医疗法案》税收抵免延期法案。</a> [16] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113030526263800" target="_blank" class="news-link">市场消息：美国劳工统计局尚未就十月数据的发布发表任何官方消息。</a> [17] <font color='grey'>- 04时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">2</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113031402005800" target="_blank" class="news-link">OpenAI：GPT-5系列升级，发布GPT-5.1 INstant和GPT-5.1 Thinking。</a> [13] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45904551" target="_blank" class="news-link">GPT-5.1: A smarter, more conversational ChatGPT</a> [26] <font color='grey'>- 04时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770385_100_1" target="_blank" class="news-link">美国国防部：美国国务院批准向丹麦出售AIM-9X Block II型战术导弹，估计价值3.184亿美元。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45904860" target="_blank" class="news-link">Is your electric bill going up? AI is partly to blame</a> [23] <font color='grey'>- 04时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759257" target="_blank" class="news-link">辛识平：中国市场强大“磁吸力”从何而来</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
