@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2025-11-12 19:39:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oDqvl5gHiK" target="_blank" class="news-link">日本向“台独”分子授勋，外交部：坚决反对</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251112/1068354295.html" target="_blank" class="news-link">媒体: 德国因美国政府停摆被迫为美军基地工作人员支付薪资</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251112/1068353259.html" target="_blank" class="news-link">美媒：美国动用无人机和F-35战斗机打击委内瑞拉海岸附近的船只</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112192819701800" target="_blank" class="news-link">高盛预测：美国股市将在未来十年内表现逊于新兴市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112192558168800" target="_blank" class="news-link">金十数据整理：担心AI繁荣可持续性的三大理由</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112191909875800" target="_blank" class="news-link">高盛：人工智能相关公司今年已发行了1390亿美元的公司债券</a> [12] <font color='grey'>- 19时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251112/1068353750.html" target="_blank" class="news-link">媒体：中国将向菲律宾提供应对两场强台风灾害 的240万美元援助</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003389" target="_blank" class="news-link">潘功胜：深入研究谋划“十五五”时期中国人民银行重点工作，构建科学稳健的货币政策体系</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116680" target="_blank" class="news-link">华自科技(300490.SZ)：目前共自持两个独立储能电站</a> [12] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ002326" target="_blank" class="news-link">永太科技</a> [27] <font color='grey'>- 19时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
