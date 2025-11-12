@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2025-11-13 06:18:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">35</td>
+                <td class="percentage">46.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759264" target="_blank" class="news-link">定在1月21日！美国最高法院将对美联储理事库克案件进行庭辩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003647" target="_blank" class="news-link">皮尔巴拉对加入美国锂冶炼伙伴关系持开放态度。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113055605146800" target="_blank" class="news-link">美国国务卿鲁比奥：人们对约旦河西岸局势外溢，从而削弱美国在加沙所作努力的可能性有所担忧，但我们不认为会发生这种情况。我们会尽一切努力确保这种情况不会发生。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113055402775800" target="_blank" class="news-link">美国国务卿鲁比奥：美国曾提出协助调查印度德里爆炸事件，但印度非常有能力，他们正在出色地开展工作。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003641" target="_blank" class="news-link">行业周报：美国上周API原油库存增加130万桶</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054720880800" target="_blank" class="news-link">美国国务卿鲁比奥：没有任何变化或事件阻碍我们在加勒比地区开展行动的能力。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003640" target="_blank" class="news-link">为节省成本 美国铸币局停止生产一美分硬币</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054639861800" target="_blank" class="news-link">据CNN巴西：美国国务卿鲁比奥将于周四在华盛顿会见巴西外交部长维埃拉。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054600864800" target="_blank" class="news-link">美国国务卿鲁比奥：（被问及情报共享方面是否会有任何变化）美国与英国及其他国家保持着牢固的关系。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770706_101_1" target="_blank" class="news-link">皮尔巴拉：对加入美国锂冶炼伙伴关系持开放态度。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770654_100_1" target="_blank" class="news-link">美国国务卿卢比奥：我们将尽一切可能确保类似事件不再发生。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770653_100_1" target="_blank" class="news-link">美国国务卿卢比奥：我们对约旦河西岸事件可能蔓延并对我们在加沙的行动造成不利影响表示担忧，但我们预计不会出现这种情况。</a> <font color='red'><strong>[7 - 27]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770652_100_1" target="_blank" class="news-link">美国国务卿卢比奥：美国已提出协助调查新德里爆炸事件，但印度处理此类事件的能力很强，他们的工作也很好。</a> <font color='red'><strong>[8 - 28]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770642_100_1" target="_blank" class="news-link">美国国务卿卢比奥：美国与英国及其他国家保持着牢固的关系。</a> <font color='red'><strong>[9 - 29]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054433775800" target="_blank" class="news-link">美国政府“开门”将是慢动作 重启时间或达一周以上</a> [11] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770626_100_1" target="_blank" class="news-link">美国国务卿卢比奥：在G7外长会议上，无人向其提及委内瑞拉方面的行动。</a> [12] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770625_100_1" target="_blank" class="news-link">美国国务卿卢比奥：CNN新闻关于情报共享的报道是虚假新闻。</a> [13] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054311878800" target="_blank" class="news-link">美国至11月7日当周API取暖油库存 -0.2万桶，前值33.4万桶。</a> [14] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770624_100_1" target="_blank" class="news-link">美国国务卿卢比奥：下周将与沙特阿拉伯签署一些不错的协议。</a> [14] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054249664800" target="_blank" class="news-link">美国至11月7日当周API精炼油库存 94.4万桶，前值-245.9万桶。</a> [15] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770615_100_1" target="_blank" class="news-link">美国国务卿卢比奥：就目前而言，美国需要进行的评估是，俄罗斯并不真的想要和平。</a> [15] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054207710800" target="_blank" class="news-link">美国国务卿鲁比奥：在七国集团外长会议上，没有人和我提及委内瑞拉的行动。</a> [16] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770614_101_1" target="_blank" class="news-link">美国石油协会（API）数据显示，上周，美国API原油库存增加130万桶，之前一周增加650万桶。</a> [16] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054128297800" target="_blank" class="news-link">美国国务卿鲁比奥：CNN关于加勒比地区打击行动情报共享的报道是“假新闻”。</a> [17] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770608_100_1" target="_blank" class="news-link">美国参议院委员会将于下周举行听证会，讨论政府停摆对航空安全的影响。</a> [17] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770600_100_1" target="_blank" class="news-link">美国波士顿联储主席柯林斯：美联储的独立性使其能够专注于基于数据且具有长期视野的政策。</a> [18] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770593_100_1" target="_blank" class="news-link">美国波士顿联储主席柯林斯：通胀水平偏高，有必要维持适度紧缩的政策。</a> [19] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3770592_100_1" target="_blank" class="news-link">美国波士顿联储主席柯林斯：考虑到风险，将利率下调两档是合理的。</a> [20] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053746135800" target="_blank" class="news-link">美国国务卿鲁比奥：目前美国必须评估的是，俄罗斯实际上并不真正想要和平。</a> [22] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053744431800" target="_blank" class="news-link">美国官员表示，美国参议院委员会将于下周举行听证会，讨论政府停摆对航空安全的影响。</a> [23] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053532693800" target="_blank" class="news-link">美国至11月7日当周API投产原油量 50.2万桶/日，前值-1.8万桶/日。</a> [24] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053444305800" target="_blank" class="news-link">美国至11月7日当周API成品油进口 -15.7万桶/日，前值2.8万桶/日。</a> [25] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053428225800" target="_blank" class="news-link">美国至11月7日当周API汽油库存 -138.5万桶，前值-565.3万桶。</a> [26] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053417098800" target="_blank" class="news-link">美国至11月7日当周API原油库存 130万桶，前值652.1万桶。</a> [27] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113052837726800" target="_blank" class="news-link">为节省成本 美国铸币局停止生产一美分硬币</a> [30] <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113054057376800" target="_blank" class="news-link">思科(CSCO.O)CEO：预计到2026财年下半年，思科在主权、新型云计算和企业客户领域的AI机遇将加速增长。</a> [18] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053804104800" target="_blank" class="news-link">思科(CSCO.O)CEO：预计2026财年将从超大规模企业获得约30亿美元的人工智能基础设施收入。</a> [20] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113053748051800" target="_blank" class="news-link">思科(CSCO.O)CEO：第一季度来自超大规模企业的AI基础设施订单总额达13亿美元。</a> [21] <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113060235382800" target="_blank" class="news-link">微软将利用OpenAI定制芯片技术助力内部研发工作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003648" target="_blank" class="news-link">微软将利用OpenAI定制芯片技术助力内部研发工作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003649" target="_blank" class="news-link">港股基金规模超万亿元，科技板块成聚集地</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003624" target="_blank" class="news-link">标普500指数收涨4.31点，涨幅0.06%，报6850.92点。 道琼斯工业平均指数收涨326.86点，涨幅0.68%，报48254.82点。 纳斯达克综合指数（纳指）收跌61.844点，跌幅0.26%，报23406.457点。 纳斯达克100指数收跌16.158点，跌幅0.06%，报25517.328点。 纳斯达克科技市值加权指数收跌0.15%，报2345.5398点。 纳斯达克生物科技指数收涨0.20%，报5534.12点。 罗素2000指数收跌0.30%，报2450.797点。 费城半导体指数收涨1.47%，报7082.126点。 费城证交所KBW银行指数收涨1.18%，报154.04点。 道琼斯KBW地区银行指数收涨0.02%，报118.23点。 恐慌指数VIX收涨1.39%，报17.52。</a> [19]</div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251113/1068359526.html" target="_blank" class="news-link">G7外长对中国核武器库扩大表示不安</a> <font color='red'><strong>[1]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
