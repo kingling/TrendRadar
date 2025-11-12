@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2025-11-13 06:39:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">7.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759267" target="_blank" class="news-link">思科Q1财季营收同比增长8%，AI基础订单大幅增长，上调全年业绩指引，股价盘后涨超7% | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759266" target="_blank" class="news-link">AI热潮背后的隐忧：到2028年，美国电力缺口或相当于44座核电站</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003654" target="_blank" class="news-link">“纸片人”风生水起，AI撬动，漫剧产业规模狂飙</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113062944168800" target="_blank" class="news-link">瑞士经济部发言人表示，瑞士经济部长Guy Parmelin和国务秘书Helene Budliger Artieda将前往华盛顿，就完成与美国的贸易协议进行进一步会谈，</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113062840962800" target="_blank" class="news-link">美国上诉法院暂时阻止了特朗普政府的命令，该命令要求达美航空和墨西哥航空公司于1月1日前终止合资企业。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2198992" target="_blank" class="news-link">美股收盘：道指再创历史新高 AI热潮降温AMD逆势飙升9%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003624" target="_blank" class="news-link">标普500指数收涨4.31点，涨幅0.06%，报6850.92点。 道琼斯工业平均指数收涨326.86点，涨幅0.68%，报48254.82点，继续创收盘历史新高，最近四个交易日累计反弹2.86%。 纳斯达克综合指数（纳指）收跌61.844点，跌幅0.26%，报23406.457点。 纳斯达克100指数收跌16.158点，跌幅0.06%，报25517.328点。 纳斯达克科技市值加权指数收跌0.15%，报2345.5398点。 纳斯达克生物科技指数收涨0.20%，报5534.12点。 罗素2000指数收跌0.30%，报2450.797点。 费城半导体指数收涨1.47%，报7082.126点。 费城证交所KBW银行指数收涨1.18%，报154.04点。 道琼斯KBW地区银行指数收涨0.02%，报118.23点。 恐慌指数VIX收涨1.39%，报17.52。</a> [28]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
