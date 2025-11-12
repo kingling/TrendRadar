@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-11-12 13:42:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">29</td>
+                <td class="percentage">28.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112133152880800" target="_blank" class="news-link">韩国央行行长：货币政策行动取决于数据表现</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112132652634800" target="_blank" class="news-link">日本首相表示“强烈希望”日本央行实现薪资驱动型通胀</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003185" target="_blank" class="news-link">美元兑日元短线走低，日内涨幅收窄至0.3%，此前日本财务大臣称看到汇率单边快速波动。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3003184" target="_blank" class="news-link">日本财务大臣片山皋月：日元疲软在一定程度上加剧了成本驱动型通胀。 对汇率水准不予置评。 近期出现单边剧烈的汇率波动。 汇率稳定波动并反映基本面至关重要。 以高度紧迫感密切关注汇率走势。 不否认弱势日元的弊大于利。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112132101084800" target="_blank" class="news-link">日本财务大臣片山皋月：不会否认日元疲软的弊端大于优势。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112132033629800" target="_blank" class="news-link">日本财务大臣片山皋月：将以高度的紧迫感，密切监测外汇市场是否存在过度波动和无序走势。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131953875800" target="_blank" class="news-link">日本财务大臣片山皋月：近期看到单边且迅速的波动，汇率以稳定的方式变动并反映基本面至关重要。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768347_100_1" target="_blank" class="news-link">韩国央行行长李昌镛：包括政策方向在内的政策动向将取决于数据表现。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768346_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：不否认弱势日元的弊大于利。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768342_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：将以高度的紧迫感，严密监控外汇市场过度波动和无序动向。</a> <font color='red'><strong>[8 - 28]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768340_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：货币以稳定的方式波动并反映基本面至关重要。</a> <font color='red'><strong>[9 - 29]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768339_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：近期观察到单边且快速的市场走势。</a> <font color='red'><strong>[10 - 30]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768338_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：不对外汇水平发表评论。</a> [11] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131932369800" target="_blank" class="news-link">日本财务大臣片山皋月：不对外汇水平发表评论。</a> [12] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768337_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：日元贬值在一定程度上推升了成本驱动型通胀。</a> [12] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131926771800" target="_blank" class="news-link">日本财务大臣片山皋月：日元疲软在一定程度上推动了成本驱动型通胀。</a> [13] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768330_100_1" target="_blank" class="news-link">日本首相高市早苗：政府的职责是创造一个企业能持续以超过通胀的速度上调工资的环境。</a> [13] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131542382800" target="_blank" class="news-link">日本首相高市早苗：政府的职责是营造一种环境，使企业能够继续以超过通胀的速度提高工资。</a> [14] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768327_100_1" target="_blank" class="news-link">日本首相高市早苗：若政策失误，日本或将再度陷入通缩，这将对消费、工资增长和资本支出造成冲击。</a> [14] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131221881800" target="_blank" class="news-link">日本首相高市早苗：如果政策失误，日本将有重新陷入通货紧缩的风险，这将损害消费、工资增长和资本支出。</a> [15] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768324_100_1" target="_blank" class="news-link">日本首相高市早苗：将与日本央行密切合作，确保日本实现由工资增长推动的通胀。</a> [15] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131118647800" target="_blank" class="news-link">日本首相高市早苗：希望日本央行实施政策，使日本能够通过工资增长可持续地实现其价格目标。</a> [16] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768321_100_1" target="_blank" class="news-link">日本首相高市早苗：近期通胀受食品价格推动，或将对经济造成冲击。</a> [16] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131112395800" target="_blank" class="news-link">日本首相高市早苗：将与日本央行密切合作，确保日本出现由工资推动的通货膨胀。</a> [17] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768307_100_1" target="_blank" class="news-link">消息人士：韩国将继续支持联合国关于朝鲜人权问题的决议。</a> [17] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131059535800" target="_blank" class="news-link">日本首相高市早苗：我们还不能说日本已经摆脱了通货紧缩。</a> [18] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3768291_100_1" target="_blank" class="news-link">日本央行将在11月13日当天以固定利率向所有办事处提供1000亿日元的资金。</a> [18] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112131039866800" target="_blank" class="news-link">日本首相高市早苗：近期通胀由食品价格推动，可能损害经济。</a> [19] <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112124431081800" target="_blank" class="news-link">俄罗斯禁止30名日本公民入境 回应日方制裁</a> [24] <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1172245" target="_blank" class="news-link">一个 AI 音频分析工具 Describe Music——免费体验 300 秒，欢迎试用反馈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%AD%99%E7%87%95%E5%A7%BF%E4%B8%A4%E5%B9%B4%E5%89%8D%E5%B0%B1%E9%A2%84%E8%A8%80%E4%BA%86AI&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26dgr%3D0%26cate%3D5001%26pos%3D26%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D27%26realpos%3D27%26lcate%3D5001%26q%3D%25E5%25AD%2599%25E7%2587%2595%25E5%25A7%25BF%25E4%25B8%25A4%25E5%25B9%25B4%25E5%2589%258D%25E5%25B0%25B1%25E9%25A2%2584%25E8%25A8%2580%25E4%25BA%2586AI%26flag%3D1%26display_time%3D1762926127%26pre_seqid%3D176292612753102458613&amp;launchid=10000360-page_H5" target="_blank" class="news-link">孙燕姿两年前就预言了AI</a> [27] <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759197" target="_blank" class="news-link">总投资逾200亿美元，世界级铁矿西芒杜铁矿正式投产，中国在全球铁矿定价中获得更大话语权</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571671099256081966/" target="_blank" class="news-link">唐驳虎：中国把控进口大豆市场节奏</a> [19] <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/896/855.htm" target="_blank" class="news-link">“雷军千万年薪要挖”的 DeepSeek 罗福莉官宣加入小米 Xiaomi MiMo 大模型团队</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116184" target="_blank" class="news-link">港股异动丨巨星传奇直线拉升大涨20%，与宇树科技成立合资公司，涉消费级IP机器人、IP衍生产品</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7569960869959516206" target="_blank" class="news-link">从零搭建：json-server+Bootstrap+OpenAI 全栈 AI 小项目</a> [29] <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9C%89%E5%93%AA%E4%BA%9B%E4%BC%98%E5%8A%BF" target="_blank" class="news-link">人形机器人有哪些优势</a> [28] <font color='grey'>- 13时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
