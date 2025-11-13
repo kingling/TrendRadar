@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2025-11-13 19:17:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">5.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004139" target="_blank" class="news-link">美政府结束“停摆”，美国驻华大使馆：账号已恢复正常运行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251113/1068371728.html" target="_blank" class="news-link">俄总统新闻秘书：一旦美国进行核试验长期以来的限制将中断</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oFjKnw6qXT" target="_blank" class="news-link">日本自卫队计划恢复“大佐军衔”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004135" target="_blank" class="news-link">日产与本田据悉正洽谈在美国联合开发产品。（日经新闻）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%BA%E4%BD%95%E4%BC%9A%E5%8F%8D%E5%A4%8D%E5%81%9C%E6%91%86" target="_blank" class="news-link">美国政府为何会反复停摆</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113183552316800" target="_blank" class="news-link">受美国需求减弱和供应过剩前景影响 油价前景堪忧</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004110" target="_blank" class="news-link">俄罗斯警告说美国核言论极具危险性</a> [22] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">6</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113184640966800" target="_blank" class="news-link">谷歌：欧盟的调查可能会影响搜索结果的质量。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113184617045800" target="_blank" class="news-link">欧盟针对谷歌启动《数字市场法案》下的新调查。欧盟正在评估新闻媒体及其他网站是否在谷歌搜索中被降级。欧盟委员会致力于在12个月内完成调查。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251113184521825800" target="_blank" class="news-link">欧盟正在调查谷歌的网站声誉政策是否损害了出版商的利益。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3772038_100_1" target="_blank" class="news-link">谷歌公司：欧盟调查误导且毫无根据，其反垃圾邮件政策已获德国法院确认有效。</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3772037_100_1" target="_blank" class="news-link">欧盟监管机构：谷歌的政策似乎影响了出版商以常见合法方式通过网站和内容创收。</a> <font color='red'><strong>[6 - 27]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3772009_100_1" target="_blank" class="news-link">德国赫伯罗特航运CEO：我们尚未修订Gemini合作相关的预计节约效益，仍为3.5亿美元或4亿美元，预计自2026年起开始交付。</a> [11] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251113/1068372268.html" target="_blank" class="news-link">中国外交部：如日方胆敢武力介入台海局势，中方必将迎头痛击</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/897/255.htm" target="_blank" class="news-link">海南移动建成行业首个全自主可控营业厅，核心业务系统 100% 国产化替代</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5117320" target="_blank" class="news-link">美高梅中国(02282.HK)11月13日耗资495万港元回购30万股</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004128" target="_blank" class="news-link">合富中国：如公司股价进一步异常上涨，公司可能申请停牌核查</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004118" target="_blank" class="news-link">商务部：正在加快推进中国—东盟自贸区3.0版升级议定书的国内核准工作</a> [16] <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00857" target="_blank" class="news-link">中国石油股份</a> [24] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">5</td>
+                <td class="percentage">3.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004140" target="_blank" class="news-link">佛塑科技：拟与紫金矿业下属子公司紫金锂元、厦门紫金以及广新研究院共同出资设立项目公司，在福建省龙岩市上杭工业区蛟洋新材料产业园区投资建设电池级硫化锂中试平台项目。本项目计划投资总额为1.13亿元（含增值税），建设100吨/年硫化锂生产线，主要研发、生产、经营高纯度电池级硫化锂产品。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/13/ebbeb07271dc44f698c1a9878f1c022b.html" target="_blank" class="news-link">《天工开物》赋能古今 各界共绘科技文化新蓝图</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5117316" target="_blank" class="news-link">浩通科技(301026.SZ)：股东解除一致行动关系</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5117315" target="_blank" class="news-link">泰和科技(300801.SZ)：VC项目一期设计产能为1万吨/每年，目前正在技术改造</a> [11] <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004112" target="_blank" class="news-link">剑桥科技：部分1.6T光模块产品已进入小批量供货阶段，预计至明年一季度可实现大量发货</a> [20] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">2</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3759294" target="_blank" class="news-link">对标ChatGPT！阿里“通义千问”全面转向，进军C端市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759294" target="_blank" class="news-link">对标ChatGPT！阿里“通义千问”全面转向，进军C端市场</a> [18] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">比亚迪 王传福</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004132" target="_blank" class="news-link">比亚迪：比亚迪电子业务已开始大规模应用AMR智能物流机器人</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oFgqnUl7nU" target="_blank" class="news-link">猪队友？王义川质疑英伟达案涉图利，遭同党王世坚打脸</a> [12] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3004119" target="_blank" class="news-link">国务院发展研究中心原副主任刘世锦：发展新质生产力要创造好的宏观环境</a> [15] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
