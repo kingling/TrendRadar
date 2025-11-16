@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-11-16 23:16:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1657488.html" target="_blank" class="news-link">中国文旅部：郑重提醒中国游客近期避免赴日旅游</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1657485.html" target="_blank" class="news-link">美海军高官：韩国部署核动力潜艇应制衡中国</a> [11] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%A0%B4%E8%A7%A370%E5%B9%B4%E5%AE%87%E5%AE%99%E4%B9%8B%E8%B0%9C" target="_blank" class="news-link">中国科学家破解70年宇宙之谜</a> [30] <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E5%B8%82%E8%8B%A5%E7%BB%A7%E7%BB%AD%E9%93%A4%E8%80%8C%E8%B5%B0%E9%99%A9+%E6%97%A5%E6%9C%AC%E5%B0%86%E4%B8%87%E5%8A%AB%E4%B8%8D%E5%A4%8D" target="_blank" class="news-link">高市若继续铤而走险 日本将万劫不复</a> [12] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573318897462414884/" target="_blank" class="news-link">韩国改“韩日中”称谓顺序有何意图</a> [22] <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1657493.html" target="_blank" class="news-link">嫦娥六号采回样品发现月球也会“生锈”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2307712" target="_blank" class="news-link">嫦娥六号月球样品研究取得新突破</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/897/874.htm" target="_blank" class="news-link">消息称东风猛士 M817 Hero 大型 SUV 本月 21 日上市，现款标配鸿蒙座舱 5 + 华为乾崑 ADS 4</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1657494.html" target="_blank" class="news-link">宇树科技完成IPO辅导 拟首次公开发行股票上市</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1657490.html" target="_blank" class="news-link">台国安局检测大陆AI大模型：存在资讯安全风险</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
