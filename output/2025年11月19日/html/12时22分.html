@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2025-11-19 12:22:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%9A%E4%BD%8D%E6%97%A5%E6%9C%AC%E7%9F%A5%E5%90%8D%E8%89%BA%E4%BA%BA%E8%A1%A8%E6%80%81" target="_blank" class="news-link">多位日本知名艺人表态</a> [16] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=72%E5%B2%81%E9%9F%A9%E5%9B%BD%E5%89%8D%E6%80%BB%E7%BB%9F%E6%96%87%E5%9C%A8%E5%AF%85%E8%BD%AC%E5%9E%8B%E5%B8%A6%E8%B4%A7%E5%8D%9A%E4%B8%BB" target="_blank" class="news-link">72岁韩国前总统文在寅转型带货博主</a> [29] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/515.htm" target="_blank" class="news-link">大疆辟谣“投资者活动”传闻：只是 Avata 360 无人机的内部体验会</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/513.htm" target="_blank" class="news-link">谷歌 Gemini 3.0 Pro 模型发布即登顶 LMArena，奥尔特曼、马斯克齐送贺电</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/514.htm" target="_blank" class="news-link">群联推出 PCIe 5.0 企业级 SSD 新品 X201 / D201，核显 AI 推理加速方案同步亮相</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/517.htm" target="_blank" class="news-link">被 Figure CEO 质疑机器人量产视频造假，优必选发布一镜到底视频回应“他们应多来中国看看”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
