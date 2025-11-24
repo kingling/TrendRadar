@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-11-24 21:35:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575985049548472361/" target="_blank" class="news-link">记者：美国缺席难挡G20团结势头</a> [18] <font color='grey'>- 21时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576266792130055723/" target="_blank" class="news-link">G20“破例”让美国“破防”</a> [23] <font color='grey'>- 21时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575689764909809706/" target="_blank" class="news-link">郭正亮说日本历史上被美俄打怕了</a> [28] <font color='grey'>- 21时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%83%AD%E6%AD%A3%E4%BA%AE%E7%A7%B0%E6%97%A5%E6%9C%AC%E5%8E%86%E5%8F%B2%E4%B8%8A%E8%A2%AB%E7%BE%8E%E4%BF%84%E6%89%93%E6%80%95%E4%BA%86" target="_blank" class="news-link">郭正亮称日本历史上被美俄打怕了</a> [28] <font color='grey'>- 21时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/881.htm" target="_blank" class="news-link">马斯克畅想 20 年后 AI 世界：工作像“玩游戏”，金钱恐将消失</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/873.htm" target="_blank" class="news-link">荣耀亲选萤蜂 AI 投影仪 Air 发布：海思 352 芯片、隔空指向遥控、280CVIA 亮度，599 元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/877.htm" target="_blank" class="news-link">微软预告升级 Win10/Win11 版 Copilot AI，唤醒到关闭全语音控制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/876.htm" target="_blank" class="news-link">全面转向 Gemini，谷歌明年 3 月停用 Google Assistant 语音助手</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/872.htm" target="_blank" class="news-link">阿维塔科技与福耀科技大学签署战略合作协议，科研 + 就业一把抓</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
