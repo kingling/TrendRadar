@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 33</p><p>生成时间: 2025-11-24 13:44:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">12.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202511/2458096.html" target="_blank" class="news-link">中国体育局与粤港澳签署加强体育合作促进融合发展协议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/2458095.html" target="_blank" class="news-link">IMF新副总裁卡茨传12月赴华 参加中国经济年度评估</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/2458094.html" target="_blank" class="news-link">中国媒体：12条中日航线取消全部航班</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时44分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575185846568632346/" target="_blank" class="news-link">媒体：中国反制措施重挫日本经济</a> [20] <font color='grey'>- 13时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oXaTKHpxhq" target="_blank" class="news-link">日本三名前首相接连批评高市早苗谬论</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时44分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oXZCEHDeMJ" target="_blank" class="news-link">李家超：香港特区政府支持国家对日本的外交政策</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BB%98%E8%8C%A8%EF%BC%9A%E7%BE%8E%E5%9B%BD%E7%BC%BA%E5%B8%AD%E4%BA%86%E6%AD%A3%E5%BD%A2%E6%88%90%E7%9A%84%E4%B8%96%E7%95%8C%E6%96%B0%E7%A7%A9%E5%BA%8F" target="_blank" class="news-link">默茨：美国缺席了正形成的世界新秩序</a> [27] <font color='grey'>- 13时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/728.htm" target="_blank" class="news-link">工信部公示人形机器人标准化技术委员会委员名单：宇树王兴兴、智元彭志辉，还有小米、华为、中兴、小鹏等人员</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
