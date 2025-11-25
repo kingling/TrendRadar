@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2025-11-25 09:24:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">7.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oYlvfjfQLa" target="_blank" class="news-link">中日关系持续紧张，日本多方感受压力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oYZXpCbgH8" target="_blank" class="news-link">学美国？日本要设“政府效率部”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576255085949599807/" target="_blank" class="news-link">媒体：日本导弹上岛需引起高度警惕</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2316939" target="_blank" class="news-link">韩国演员李顺载去世</a> [11] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%8F%88%E8%BF%88%E5%87%BA%E5%87%B6%E9%99%A9%E4%B8%80%E6%AD%A5" target="_blank" class="news-link">日本又迈出凶险一步</a> [12] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%BC%94%E5%91%98%E2%80%9C%E5%9B%BD%E6%B0%91%E7%88%B7%E7%88%B7%E2%80%9D%E6%9D%8E%E9%A1%BA%E8%BD%BD%E5%8E%BB%E4%B8%96" target="_blank" class="news-link">韩国演员“国民爷爷”李顺载去世</a> [15] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/2558149.html" target="_blank" class="news-link">国内处境脆弱人民反对“投降” 泽连斯基对美国方案预料不会让步</a> [17] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%B8%82%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%B8%82%E6%B0%91%E9%9B%86%E4%BC%9A%E6%8A%97%E8%AE%AE" target="_blank" class="news-link">日本熊本市大规模市民集会抗议</a> [22] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%97%85%E6%B8%B8%E4%B8%9A%E9%81%AD%E9%87%8D%E5%88%9B+%E9%85%92%E5%BA%97%E8%80%81%E6%9D%BF%E8%AF%89%E8%8B%A6" target="_blank" class="news-link">日本旅游业遭重创 酒店老板诉苦</a> [25] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/2558165.html" target="_blank" class="news-link">中国代表：实现加沙地带持久停火是优先任务</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32030391" target="_blank" class="news-link">高市早苗表示日本仍愿与中国对话，外交部回应</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1946648003952742624" target="_blank" class="news-link">中国科幻的「硬核」特质体现在哪里？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%86%9B%E8%A3%85%E8%AE%BE%E8%AE%A1%E4%BB%A4%E4%BA%BA%E6%B3%AA%E7%9B%AE" target="_blank" class="news-link">中国军装设计令人泪目</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/2558151.html" target="_blank" class="news-link">中国国投证券首席经济学家高善文离职 社媒账号曾被屏蔽</a> [15] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/926.htm" target="_blank" class="news-link">多颗卫星刷新宇宙认知：中国科学院空间科学先导专项发布最新成果</a> [18] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/917.htm" target="_blank" class="news-link">Omdia 报告 2025Q3 中国电视出货量同比下降 12.2%</a> [27] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635918769.html" target="_blank" class="news-link">中国人为什么喜欢拿一辈子的积蓄去买一套房？好奇一下</a> [28] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/933.htm" target="_blank" class="news-link">手机 / PC 无缝接力：微软 Win11 推“跨设备继续”，三星、荣耀、华为、OPPO 和 vivo 首批支持</a> [12] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/923.htm" target="_blank" class="news-link">华为 Pura 80 系列、Mate 70 Air、XTs 被曝将 OTA 支持星闪音频，但体验略逊于 Mate 80、X7 系列</a> [21] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/921.htm" target="_blank" class="news-link">科技昨夜今晨 1125：华为 Mate 80/X7 系列机型今日线上发布；缅甸 KK 电诈园区被爆破拆除；2699 元起荣耀 500 系列手机发布...</a> [23] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/919.htm" target="_blank" class="news-link">微信鸿蒙版 App 获 8.0.13.16 邀测升级：通讯录新增我的企业，支持平板自动登录</a> [25]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">4</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2058178-1-1.html" target="_blank" class="news-link">微软首款专为电脑操作设计的开源智能体小模型 Fara-7B 发布：支持 Win11 端侧运行，性能达同级最强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/942.htm" target="_blank" class="news-link">微星全线 Claw 掌机设备支持微软 Xbox 全屏体验，内存占用降低 5%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/939.htm" target="_blank" class="news-link">微软 PowerToys 将推原生显示器管理工具，直接在 Win11 中调亮度、改色温</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/924.htm" target="_blank" class="news-link">微软联手 CROCS 卡骆驰推出 Xbox“洞洞鞋”，还有游戏主题配饰</a> [20] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/940.htm" target="_blank" class="news-link">OpenAI 推出购物研究工具，ChatGPT 变身更懂你的 AI 购物小助手</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/938.htm" target="_blank" class="news-link">亚马逊 AWS 宣布斥 500 亿美元巨资为美国政府新建 AI / HPC 设施</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202511/2558158.html" target="_blank" class="news-link">刘汶錝：当一名女子嫁给AI：孤独时代的婚姻变奏</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1976223014631733240" target="_blank" class="news-link">Sam Altman 称谷歌复苏将致 OpenAI 走入「艰难时期」，如何看待两家 AI 巨头的竞争？</a> [11] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/934.htm" target="_blank" class="news-link">2.64 亿元，优必选刷新人形机器人订单金额纪录</a> [11] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
