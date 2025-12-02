@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-12-02 23:22:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">11.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/992.htm" target="_blank" class="news-link">消息称华为东风新品牌“奕境”首车预计明年 Q3 推出，增程纯电双动力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/988.htm" target="_blank" class="news-link">华为乾崑伙伴品牌 11 月总销量超 18 万台，环比增长 80%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/987.htm" target="_blank" class="news-link">吉利系 AI 终端进展曝光：首月速成 200 人团队，挖遍华为小米荣耀</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579171504584134154/" target="_blank" class="news-link">三星三折叠被华为“卡脖子”了吗</a> [29] <font color='grey'>- 23时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">8.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0258828.html" target="_blank" class="news-link">路透社：中国发放首批稀土出口通用许可证</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0258827.html" target="_blank" class="news-link">中国将对避孕药品征收增值税</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579207548243283475/" target="_blank" class="news-link">国产六代机会配备机炮吗</a> [30] <font color='grey'>- 23时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">5.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/993.htm" target="_blank" class="news-link">米哈游蔡浩宇发布“游戏版 ChatGPT”：AI 聊天软件 AnuNeko 上线，“攻击力强到没边”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202512/0258825.html" target="_blank" class="news-link">阿里国际站在台推出全自动陌生开发AI虚拟机器人应用服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%88%98%E4%BA%89%E5%87%86%E5%A4%87%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">日本战争准备曝光</a> [11] <font color='grey'>- 23时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E8%87%AA%E5%8D%AB%E9%98%9F%E8%A2%AB%E6%9B%9D%E6%AD%A3%E5%9C%A8%E5%90%91%E8%A5%BF%E5%8D%97%E8%BD%AC%E7%A7%BB%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">日本自卫队被曝正在向西南转移</a> [18] <font color='grey'>- 23时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
