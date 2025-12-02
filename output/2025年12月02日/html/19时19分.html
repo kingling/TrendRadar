@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-12-02 19:19:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">11.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD8%E6%AF%940%E7%BE%8E%E5%9B%BD%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">韩国8比0美国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347670&amp;amp;topic_name=%E6%83%A8%E9%81%AD%E9%9F%A9%E5%9B%BD%E5%8F%8C%E6%9D%80%21%E7%94%B7%E7%AF%AE%E6%88%98%E7%8A%AF%E7%8B%82%E5%9D%91%E5%BC%95%E4%BC%97%E6%80%92" target="_blank" class="news-link">惨遭韩国双杀!男篮战犯狂坑引众怒</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578090701159333930/" target="_blank" class="news-link">外交部：日本不要妄想蒙混过关</a> [19] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%86%9B%E4%BA%8B%E5%87%86%E5%A4%87%E6%9B%9D%E5%85%89%EF%BC%9A%E7%A0%94%E5%8F%91%E2%80%9C%E4%B8%87%E8%83%BD%E8%A1%80%E6%B5%86%E2%80%9D" target="_blank" class="news-link">日本军事准备曝光：研发“万能血浆”</a> [21] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/938.htm" target="_blank" class="news-link">微软确认 Win11 两项已知问题：深色模式下文件资源管理器闪烁、登录界面密码图标缺失</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/937.htm" target="_blank" class="news-link">英特尔 Arc 独立显卡市场份额首次突破 1%，AMD 与英伟达格局微调</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2324368" target="_blank" class="news-link">中国经济持续向好脉动强劲</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
