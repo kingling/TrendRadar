@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2025-12-02 11:05:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">7.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/790.htm" target="_blank" class="news-link">研究警告：AI 伪造的动物视频正在误导孩子，破坏自然认知</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%91%E8%AD%A6%E4%BE%A6%E7%A0%B4AI%E6%8D%A2%E8%84%B8%E4%BE%B5%E5%85%A5%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A1%88%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">网警侦破AI换脸侵入计算机案</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578802867742461503/" target="_blank" class="news-link">网警破获通过AI换脸非法侵入系统案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BD%91%E8%AD%A6%E7%A0%B4%E8%8E%B7%E2%80%9CAI%E6%8D%A2%E8%84%B8%E2%80%9D%E4%BE%B5%E5%85%A5%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A1%88" target="_blank" class="news-link">网警破获“AI换脸”侵入计算机案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2323802" target="_blank" class="news-link">网警破获AI换脸非法侵入案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BD%91%E8%AD%A6%E7%A0%B4%E8%8E%B7AI%E6%8D%A2%E8%84%B8%E9%9D%9E%E6%B3%95%E4%BE%B5%E5%85%A5%E7%B3%BB%E7%BB%9F%E6%A1%88" target="_blank" class="news-link">网警破获AI换脸非法侵入系统案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/783.htm" target="_blank" class="news-link">TGA 2025 玩家之声最终入围名单公布，《Arc Raiders》《原神》《双影奇境》等 30 款游戏提名</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/762.htm" target="_blank" class="news-link">9999 元，技嘉 X870E AORUS XTREME X3D AI TOP 旗舰主板上市</a> [16] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">6.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23G7%E5%87%AD%E4%BB%80%E4%B9%88%E5%AF%B9%E4%B8%AD%E5%9B%BD%E6%8F%903%E4%B8%AA%E4%B8%8D%E8%AE%B8%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">G7凭什么对中国提3个不许</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9B%9D%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E8%BE%93%E9%9F%A9%E5%9B%BD%E5%90%8E%E5%BC%80%E4%BC%9A2%E5%B0%8F%E6%97%B6%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">曝中国男篮输韩国后开会2小时</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%9E%E7%AD%94%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%85%B3%E4%BA%8E%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%97%AE%E9%A2%98" target="_blank" class="news-link">回答外国人关于中国的问题</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0258768.html" target="_blank" class="news-link">中国海警驱离钓鱼岛日本渔船</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0258766.html" target="_blank" class="news-link">中国再致函联合国秘书长 指日本回避关键问题倒打一耙</a> [12] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/766.htm" target="_blank" class="news-link">马斯克称中国人几乎离不开微信，X 目标打造成微信升级版</a> [13] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32084203" target="_blank" class="news-link">日渔船非法进入我钓鱼岛领海，中国海警依法驱离</a> [20] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">5.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0258777.html" target="_blank" class="news-link">解放军报：若日本一意孤行 将面临比80年前更彻底的失败</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oka4PzaLR8" target="_blank" class="news-link">日本经团联、议员团接连请求访华</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0258775.html" target="_blank" class="news-link">美国制造业活动连续九个月萎缩</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%BB%8F%E5%9B%A2%E8%81%94%E3%80%81%E8%AE%AE%E5%91%98%E5%9B%A2%E6%8E%A5%E8%BF%9E%E8%AF%B7%E6%B1%82%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">日本经团联、议员团接连请求访华</a> [18] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2322913" target="_blank" class="news-link">高市宣称日本又回来了</a> [29] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E4%B8%A4%E4%B8%AA%E5%9B%A2%E4%BD%93%E8%AF%B7%E6%B1%82%E8%AE%BF%E5%8D%8E%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">日本两个团体请求访华</a> [30] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">3.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347652&amp;amp;topic_name=%E8%87%AA%E5%8D%AB%E9%98%9F%E7%94%A8%E5%8D%8E%E4%B8%BA%2C%E7%BE%8E%E6%97%A5%E5%85%84%E5%BC%9F%E6%83%85%E5%BD%93%E5%9C%BA%E6%BC%8F%E9%A3%8E" target="_blank" class="news-link">自卫队用华为,美日兄弟情当场漏风</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/788.htm" target="_blank" class="news-link">鸿蒙智行：初代纯电问界 M5 汽车行驶超 7 万公里，仍能满足国标涉水、底部撞击、火烧要求</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347650&amp;amp;topic_name=%E8%B0%81%E4%B9%B0%E8%B0%81%E5%90%8E%E6%82%94%3F%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%9C%BA%E7%BA%BF%E4%B8%8B%E4%BD%93%E9%AA%8C%E6%8B%89%E9%97%B8" target="_blank" class="news-link">谁买谁后悔?华为新机线下体验拉闸</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/764.htm" target="_blank" class="news-link">小鹏 X9 超级增程全球首发华为 DriveONE 下一代增程发电机，技术分享会定档 12 月 2 日</a> [15] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">3</td>
+                <td class="percentage">2.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/785.htm" target="_blank" class="news-link">微软承认部分 Win10/Win11 新版 Outlook 无法打开 Excel 附件</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/772.htm" target="_blank" class="news-link">微软 Dragon Copilot 为护士减负：让其只管救人，写病历交给 AI</a> [11] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/758.htm" target="_blank" class="news-link">代言微软 AI 时代：新宠 Zava 上位，“张三李四”公司将谢幕</a> [17] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E9%A6%96%E5%AF%8C%E5%9B%9E%E5%BA%94%E6%B8%85%E4%BB%93%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BC%9A%E5%93%AD%E7%9D%80%E5%8D%96%E7%9A%84" target="_blank" class="news-link">日本首富回应清仓英伟达：哭着卖的</a> [20] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579049128764640818/" target="_blank" class="news-link">周鸿祎：科技强国不是能做出最贵模型</a> [28] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
