@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 140</p><p>生成时间: 2025-12-06 12:21:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">7.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0659125.html" target="_blank" class="news-link">中国多地公告名单成绩被曝照搬人名文库名字</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347758&amp;amp;topic_name=%E4%B8%AD%E5%9B%BD%E7%99%BE%E8%88%B0%E9%BD%90%E5%8F%91%2C%E6%97%A5%E6%9C%AC%E5%90%93%E5%82%BB%E4%BA%86" target="_blank" class="news-link">中国百舰齐发,日本吓傻了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0659123.html" target="_blank" class="news-link">中国人民保险副总裁于泽被查</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202512/0659122.html" target="_blank" class="news-link">中国商务部长：未来五年扩大进口 签署更多贸易协定</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%B5%B7%E5%AE%B6%E9%81%AD%E7%A0%B4%E5%9D%8F%E6%80%A7%E6%B4%97%E5%8A%AB+%E4%B8%AD%E4%BD%BF%E9%A6%86%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">中国航海家遭破坏性洗劫 中使馆回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0659119.html" target="_blank" class="news-link">马克龙西装上阵与中国乒乓球运动员切磋球技</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E5%8D%9A%E4%B8%BB%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%9C%8B%E7%97%85%E8%A2%AB%E6%A3%80%E6%B5%8B%E8%B4%B9%E9%9C%87%E6%83%8A&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">美国博主在中国看病被检测费震惊</a> [14] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580047280057909311/" target="_blank" class="news-link">中国人保集团副总裁于泽被查</a> [21] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/636091206.html" target="_blank" class="news-link">易建联真的是中国男篮的遮羞布了。</a> [21] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580536462345928742/" target="_blank" class="news-link">新任中国驻菲律宾大使井泉抵菲履新</a> [26] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9D%9E%E6%B4%B2%E7%81%AB%E5%B1%B1%E7%81%B0%E4%BC%9A%E5%BD%B1%E5%93%8D%E4%B8%AD%E5%9B%BD%E5%90%97" target="_blank" class="news-link">非洲火山灰会影响中国吗</a> [28] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">6.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%AE%B6%E6%83%85%E6%8A%A5%E5%B1%80%E8%A6%81%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">日本国家情报局要来了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8orLp91PWc9" target="_blank" class="news-link">“就像一份极右翼宣传册”，美国新版国安战略惹怒欧洲</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0659121.html" target="_blank" class="news-link">日本代表再致函联合国称完全无法接受中方主张</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/905.htm" target="_blank" class="news-link">韩国多平台账户在淘宝等电商被公开售卖，韩国警方介入请求删除</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0659116.html" target="_blank" class="news-link">南京大屠杀死难者公祭日前 日本驻华使馆发安全警示</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32114107" target="_blank" class="news-link">拥抱、专车、称赞：俄乌冲突后普京首访印度，美国压力下莫迪如何走钢丝？</a> [13] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580547413033156614/" target="_blank" class="news-link">专家：美国对日本右翼更加警惕</a> [14] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579635100859777067/" target="_blank" class="news-link">苑举正：一定要认清日本的真面目</a> [19] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580554022147329572/" target="_blank" class="news-link">美国施压委内瑞拉的真实意图是什么</a> [24] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">2.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580548272922562057/" target="_blank" class="news-link">华为Mate X7一机难求</a> [12] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580556436975914559/" target="_blank" class="news-link">华为Mate X7藏了多少秘密</a> [15] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/893.htm" target="_blank" class="news-link">英伟达 CEO 黄仁勋：华为是世界上最强大的科技公司之一，值得所有人尊重</a> [18] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">3</td>
+                <td class="percentage">2.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/892.htm" target="_blank" class="news-link">微软承认部分用户无法下载 Microsoft 365 桌面应用，现已修复</a> [19] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/889.htm" target="_blank" class="news-link">消息称微软正洽谈与博通合作定制芯片，Meta 计划 2027 年推出 Marvell 合作芯片</a> [21] <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/888.htm" target="_blank" class="news-link">微软发布 Edge 143 稳定版：PDF 注释支持撤销重做，Mac 版移除“迷你菜单”</a> [22] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">AMD</td>
+                <td class="count">2</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/912.htm" target="_blank" class="news-link">AMD 锐龙 AI Max“Refresh”版处理器首曝，内存支持突破 8533 MT/s</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/906.htm" target="_blank" class="news-link">AMD Ryzen AI 9 HX 470 处理器跑分曝光，3.1GHz 史上最强核显</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1979223676378447995" target="_blank" class="news-link">OpenAI 暂停广告业务，全力「死磕」谷歌 Gemini，这一战略调整将如何影响 AI 行业格局？</a> [20] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/902/896.htm" target="_blank" class="news-link">《辐射》之父 Tim Cain 全职回归，为黑曜石打造“神秘游戏项目”</a> [15] <font color='grey'>- 12时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
