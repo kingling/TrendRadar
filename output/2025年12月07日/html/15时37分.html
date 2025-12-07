@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-12-07 15:37:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">8.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ot8kPxjfzR" target="_blank" class="news-link">辽宁舰远海训练，遭日本飞机抵近滋扰，海军发声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E6%9E%90%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E9%80%A0%E8%88%B0%E5%9B%B0%E5%B1%80" target="_blank" class="news-link">解析美国海军造舰困局</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%BB%E6%97%A5%E7%BE%8E%E5%86%9B%E7%8C%A5%E4%BA%B5%E5%B0%91%E5%A5%B3+%E6%97%A5%E6%9C%AC%E6%94%BF%E5%BA%9C%E4%B9%9F%E6%98%AF%E5%B8%AE%E5%87%B6" target="_blank" class="news-link">驻日美军猥亵少女 日本政府也是帮凶</a> [30] <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8otAs3VHTqq" target="_blank" class="news-link">日方装可怜：中国稀土审批“卡”着我们…</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580643007025774602/" target="_blank" class="news-link">国际人士：高市错误言论侵犯中国主权</a> [26] <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/095.htm" target="_blank" class="news-link">到手价 231.11 元：鸿蒙智选海雀智能摄像头 5i 4K 版开启预售，支持 360° 旋转、10 米红外夜视</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/096.htm" target="_blank" class="news-link">8 年首次大突破：谷歌祭出 Transformer 杀手，掌门人划出 AGI 死线</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/099.htm" target="_blank" class="news-link">神秘模型 Grok 4.20 AI 炒股夺冠：只有它赚钱，吊打 Gemini 3 和 GPT-5.1</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/093.htm" target="_blank" class="news-link">美的“美罗 U”首曝，行业首创六臂轮足式人形机器人</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
