@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2025-12-08 15:23:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉</td>
+                <td class="count">3</td>
+                <td class="percentage">4.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/296.htm" target="_blank" class="news-link">33.95 万元，特斯拉 Model 3 高性能版预计交付日期更新为 2026 年 2 月</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/285.htm" target="_blank" class="news-link">特斯拉 Optimus 人形机器人演示时摔倒，手忙脚乱“摘头显”露了馅</a> [11] <font color='grey'>- 15时23分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1980922285369094626" target="_blank" class="news-link">「马斯克兵败印度」特斯拉 2 个月只卖出 100 多辆，印度市场有何商业特点，什么商品在印度才会有竞争力？</a> [16] <font color='grey'>- 15时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/297.htm" target="_blank" class="news-link">机器人集体到香港户外自主极限挑战，四足比人形强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时23分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1980958049217766181" target="_blank" class="news-link">众擎 T800 人形机器人对战自家 CEO，一脚将其踹倒在地，机器人完成这一动作有哪些技术亮点？</a> [17] <font color='grey'>- 15时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0859296.html" target="_blank" class="news-link">俄波罗的海天然气设施受制裁后首度向中国供气</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580552125470982187/" target="_blank" class="news-link">马克龙：中国应伸出援手投资欧洲</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0859290.html" target="_blank" class="news-link">日本三季度GDP修正后降幅扩大</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E7%9A%84%E5%92%96%E5%95%A1%E5%B7%B2%E7%BB%8F%E8%BF%9B%E5%8C%96%E5%88%B0%E8%BF%99%E7%A7%8D%E7%A8%8B%E5%BA%A6%E4%BA%86%E5%90%97%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">韩国的咖啡已经进化到这种程度了吗</a> [13] <font color='grey'>- 15时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/287.htm" target="_blank" class="news-link">谷歌 Android 系统 NFC 碰一碰联系人共享功能现身，类似苹果 NameDrop</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
