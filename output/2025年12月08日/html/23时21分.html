@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2025-12-08 23:21:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">12</td>
+                <td class="percentage">26.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7580579086411087878/" target="_blank" class="news-link">日本发生7.5级地震</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E9%99%84%E8%BF%91%E6%B5%B7%E5%9F%9F%E5%8F%91%E7%94%9F7.5%E7%BA%A7%E5%9C%B0%E9%9C%87" target="_blank" class="news-link">日本附近海域发生7.5级地震</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2330927" target="_blank" class="news-link">日本发生7.5级地震</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%8F%91%E7%94%9F7.5%E7%BA%A7%E5%9C%B0%E9%9C%87" target="_blank" class="news-link">日本发生7.5级地震</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%8F%91%E5%B8%83%E8%AD%A6%E6%8A%A5%EF%BC%9A%E9%A2%84%E8%AE%A1%E5%B0%86%E5%87%BA%E7%8E%B0%E6%9C%80%E9%AB%983%E7%B1%B3%E6%B5%B7%E5%95%B8" target="_blank" class="news-link">日本发布警报：预计将出现最高3米海啸</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E8%BF%91%E6%B5%B77.5%E7%BA%A7%E5%BC%BA%E9%9C%87%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">日本近海7.5级强震</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%8F%91%E6%B5%B7%E5%95%B8%E9%A2%84%E8%AD%A6" target="_blank" class="news-link">日本发海啸预警</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ovUo26Y4N0" target="_blank" class="news-link">日本本州东部附近海域发生7.5级地震</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0859327.html" target="_blank" class="news-link">下午察：中日关系遇冷 日本寿司大热？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%8F%91%E6%B5%B7%E5%95%B8%E9%A2%84%E8%AD%A6%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">日本发海啸预警</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1981489756069126646" target="_blank" class="news-link">12 月 8 日日本本州东部附近海域接连发生 7.5、5.6 级地震，气象厅布海啸警报，目前情况如何？</a> [13] <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2330931" target="_blank" class="news-link">日本强震后发布海啸预警</a> [20] <font color='grey'>- 23时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0859330.html" target="_blank" class="news-link">中美贸易协议推动下 中国11月大豆进口量创四年新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0859329.html" target="_blank" class="news-link">俄波罗的海天然气设施受制裁后首次向中国供气</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%A9%BB%E6%9F%AC%E5%9F%94%E5%AF%A8%E4%BD%BF%E9%A6%86%E5%8F%91%E5%AE%89%E5%85%A8%E6%8F%90%E9%86%92%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中国驻柬埔寨使馆发安全提醒</a> [20] <font color='grey'>- 23时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">4.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/424.htm" target="_blank" class="news-link">跨越比特与原子，小鹏汽车下一个十年的「物理 AI」路线图</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/422.htm" target="_blank" class="news-link">中国电信公布 2026 终端技术重点：AI 终端、eSIM 领衔 7 大方向</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
