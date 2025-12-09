@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-12-09 12:48:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0959368.html" target="_blank" class="news-link">中国华融国际原总经理白天辉被执行死刑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2331130" target="_blank" class="news-link">驻南非使馆提醒中国公民加强防范</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0959367.html" target="_blank" class="news-link">美国或禁止中国电信企业接入美国网络</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1981421077650511816" target="_blank" class="news-link">吉利副总裁陈政痛批部分车企拉低中国车设计高度，汽车行业设计存在哪些乱象？</a> [12] <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7581410509133021225/" target="_blank" class="news-link">《阿凡达3》举行中国首映礼</a> [14] <font color='grey'>- 12时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/534.htm" target="_blank" class="news-link">美国一公司寻求获得 Twitter 商标，此前已被马斯克 X 公司“放弃”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%BC%BA%E9%9C%87%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E4%B8%80%E8%B7%AF%E5%B0%8F%E8%B7%91%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">日本强震高市早苗一路小跑</a> [16] <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7581078528985759750/" target="_blank" class="news-link">日本强震 高市“神色慌张”一路小跑</a> [20] <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7581272716897108011/" target="_blank" class="news-link">台退将：日本才是率先挑衅的一方</a> [26] <font color='grey'>- 12时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%8F%91%E7%94%9F7.5%E7%BA%A7%E5%BC%BA%E9%9C%87%E5%90%8E+%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">日本发生7.5级强震后 高市早苗发声</a> [26] <font color='grey'>- 12时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32130774" target="_blank" class="news-link">AI手机挑战大厂生态，谁会打赢这场“护城河”攻防战？</a> [20] <font color='grey'>- 12时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
