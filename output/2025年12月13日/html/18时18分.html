@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-12-13 18:18:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/1359720.html" target="_blank" class="news-link">中国提出明年力争基本实现政策范围内分娩个人无自付</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/1359719.html" target="_blank" class="news-link">中国选手首获霹雳舞世锦赛冠军 连胜三位日本选手</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/1359718.html" target="_blank" class="news-link">中国财政部：用好用足各类政府债券资金 发行超长期特别国债</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/13/8da123bbaad34d61a03e1fc6ef9b3a08.html" target="_blank" class="news-link">新加坡媒体：中国工厂成为热门旅游打卡地</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7582842830327185471/" target="_blank" class="news-link">日媒：中国游客消失重创日本旅游业</a> [29] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/13/94e35f1894244d6db18f19af7b276b9d.html" target="_blank" class="news-link">英媒社论：中国正在引领全球人工智能治理</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/769.htm" target="_blank" class="news-link">供应紧张与 AI 需求推动铜价一路猛涨，每吨接近 1.2 万美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/766.htm" target="_blank" class="news-link">国家发改委：加快出台实施“人工智能 +”消费等领域提振消费的政策</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/761.htm" target="_blank" class="news-link">AI 员工因一句「周末好吗」狂聊 200 条，烧掉 30 刀停不下来</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/1359722.html" target="_blank" class="news-link">韩国瑜婉拒茶叙邀请 赖清德：韩有难言之隐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7582883586828173363/" target="_blank" class="news-link">郑丽文讽赖清德邀茶叙被韩国瑜拒绝</a> [24] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/760.htm" target="_blank" class="news-link">GPT-5.2 被曝作弊：偷袭谷歌竟靠拉爆 token 刷高分，不如 Gemini 3</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/765.htm" target="_blank" class="news-link">脑虎科技：国内首款“三全”脑机接口产品成功完成首例临床试验</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/771.htm" target="_blank" class="news-link">科学家发现宇宙中最大的旋转结构之一，规模达数百万光年</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
