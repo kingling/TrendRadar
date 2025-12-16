@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2025-12-16 16:28:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/402.htm" target="_blank" class="news-link">HTC 首款 AI 智能眼镜 VIVE Eagle 登陆香港市场，定价 5999 港币</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/400.htm" target="_blank" class="news-link">AI 法官判人死刑，星爵 2026 科幻电影《极限审判》内地定档明年 1 月 23 日</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/391.htm" target="_blank" class="news-link">技嘉正式发布 AORUS RTX 5060 Ti AI BOX 外置显卡坞，雷电 5 接口</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/390.htm" target="_blank" class="news-link">AI 重置漫威《复仇者联盟 5：毁灭日》贴片预告，实现 4K 高清画质</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8p8IQ6X5xqq" target="_blank" class="news-link">日方称“中国20年间军费增加7倍”，外交部回应</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584190038892809764/" target="_blank" class="news-link">菲方人员持长刀挑衅中国海警画面公开</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/389.htm" target="_blank" class="news-link">165Hz 只是开始：消息称三星 185Hz 物料现身供应链，国产屏后面也会跟</a> [11] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584328866953448969/" target="_blank" class="news-link">泰柬战场上中国轻武器集中亮相</a> [27] <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/395.htm" target="_blank" class="news-link">华为 MatePad Mini 小平板获 HarmonyOS 6.0.0.120SP6 升级，新增应用中心、锁屏动态壁纸等功能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/388.htm" target="_blank" class="news-link">华为 MatePad Air 2024 等 3 款设备开启鸿蒙 HarmonyOS 6 花粉 Beta 版升级尝鲜</a> [12] <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1983957113387622537" target="_blank" class="news-link">扫地机器人鼻祖 iRobot 申请破产，中国公司将获其 100% 股权，它衰落的原因是什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8p7rsJuVaSP" target="_blank" class="news-link">一文读懂：日本涉台立场“三阶段演进”戏码的背后</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
