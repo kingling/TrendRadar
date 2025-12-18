@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 44</p><p>生成时间: 2025-12-18 17:26:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32203238" target="_blank" class="news-link">日本拟在冲绳部署雷达监视中方航母、飞机，外交部回应</a> [20] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584520829791453238/" target="_blank" class="news-link">中方回应日本拟部署雷达监视中方航母</a> [27] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584313421496352809/" target="_blank" class="news-link">吕礼诗：日本F2战机挂弹是在演戏</a> [30] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/081.htm" target="_blank" class="news-link">日立自研人形机器人亮相，将上岗工厂代替人类“布线安装”等作业</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/067.htm" target="_blank" class="news-link">逐际动力 TRON 2 具身机器人发布：可变化三种形态，4.98 万起</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/070.htm" target="_blank" class="news-link">国产 scaleX 万卡超集群真机首次亮相，中科曙光打造</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8pBb5wCNA7e" target="_blank" class="news-link">日议员盯上中国台湾大熊猫，帅化民怒呛：当我们“藩属国”？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584012466800525363/" target="_blank" class="news-link">字节豆包大模型重磅升级</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/066.htm" target="_blank" class="news-link">为拿下市场和训练数据，OpenAI、谷歌在印度争相推出免费服务</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/065.htm" target="_blank" class="news-link">中国气象局：未来十年将在一批关键核心技术上实现突破，建成数值 + AI 地球系统预报体系</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
