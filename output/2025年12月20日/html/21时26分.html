@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2025-12-20 21:26:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">7.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2060273.html" target="_blank" class="news-link">美国贸易代表批评欧盟印度谈判持久 或拖到明年</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2060271.html" target="_blank" class="news-link">俄罗斯特使德米特里耶夫前往美国 将参加俄乌会谈</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2060270.html" target="_blank" class="news-link">美国空袭叙利亚 至少五名“伊斯兰国”成员被打死</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/20/b5d80e297b1c4fc39a45ab5d317d1420.html" target="_blank" class="news-link">鲁比奥：欧洲正在切断与美国的文化联系</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/20/a98bf2c390d040fd9f39133f99fe7989.html" target="_blank" class="news-link">日本首次与中亚五国开峰会</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%BF%99%E6%98%AF%E4%B8%AD%E5%9B%BD%E9%9D%92%E5%B9%B4%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">这是中国青年</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2342126" target="_blank" class="news-link">中国风电领跑全球</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/20/466fa7b3758348519fd35c3ea3b83bac.html" target="_blank" class="news-link">中国特使访柬推动柬泰停火</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=2025%E5%9B%BD%E4%BA%A7%E5%89%A7%E5%A5%B3%E6%80%A7%E8%A7%92%E8%89%B2%E7%9B%98%E7%82%B9" target="_blank" class="news-link">2025国产剧女性角色盘点</a> [16] <font color='grey'>- 21时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">4.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/603.htm" target="_blank" class="news-link">【视频】2025 华为花粉年会：感受科技魅力，体验趣味互动</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%A7%B0%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%89%8B%E6%9C%BA%E5%85%85%E7%94%B5%E6%97%B6%E7%94%B5%E6%B1%A0%E7%88%86%E4%BA%86" target="_blank" class="news-link">男子称华为新手机充电时电池爆了</a> [25] <font color='grey'>- 21时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E6%8A%98%E5%8F%A0%E5%B1%8F%E7%A7%92%E5%8F%98%E8%88%9E%E5%8F%B0%E4%B8%BB%E6%8C%81%E6%89%8B%E5%8D%A1%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">华为折叠屏秒变舞台主持手卡</a> [29] <font color='grey'>- 21时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
