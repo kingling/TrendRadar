@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-12-20 12:25:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2060240.html" target="_blank" class="news-link">中国公安侦破由美通报涉洗钱案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/510.htm" target="_blank" class="news-link">摩尔线程游戏显卡三年发布 36 版驱动：性能提升至 3.4 倍，中国 Top 50 热门游戏 100% 兼容</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BDUP%E4%B8%BB%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%BB%99%E8%80%81%E5%A4%96%E6%BC%94%E7%9F%AD%E5%89%A7" target="_blank" class="news-link">美国UP主在中国给老外演短剧</a> [30] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7585536096348553235/" target="_blank" class="news-link">马斯克点赞王力宏伴舞机器人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E7%82%B9%E8%B5%9E%E7%8E%8B%E5%8A%9B%E5%AE%8F%E4%BC%B4%E8%88%9E%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">马斯克点赞王力宏伴舞机器人</a> [26] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%86%B0%E5%86%B0Mate80%E6%8E%A2%E7%8F%AD%E9%B8%BF%E8%92%99%E7%9B%9B%E5%85%B8%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">王冰冰Mate80探班鸿蒙盛典</a> [19] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/511.htm" target="_blank" class="news-link">特斯拉专利给摄像头装“电动墨镜”，提升自动驾驶可靠性</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/512.htm" target="_blank" class="news-link">9999 元：摩尔线程推出 MTT AIBOOK 算力本，集成长江智能 SoC 芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1985346277517595512" target="_blank" class="news-link">美国肯尼迪中心更名「特朗普 - 肯尼迪中心」，此举会对美国政治和文化产生哪些影响？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
