@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-12-21 12:54:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9F%AC%E6%96%B9%E5%9B%9E%E5%BA%94%E4%B8%AD%E5%9B%BD%E7%89%B9%E4%BD%BF%E8%B0%83%E5%81%9C%E6%B3%B0%E6%9F%AC%E8%BE%B9%E5%A2%83%E4%BA%A4%E7%81%AB" target="_blank" class="news-link">柬方回应中国特使调停泰柬边境交火</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586143477365493257/" target="_blank" class="news-link">中国唯一自贸港为何选择海南</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%80%81%E5%A4%96%E5%88%9A%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%97%B6vs%E6%9D%A5%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%B9%B4%E5%90%8E&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">老外刚来中国时vs来中国一年后</a> [30] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BA%8C%E6%88%98%E6%97%A5%E6%9C%AC%E9%9B%86%E4%B8%AD%E8%90%A5%E5%A5%B3%E6%80%A7%E9%81%AD%E9%81%87%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">二战日本集中营女性遭遇曝光</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%9F%B3%E7%A0%B4%E8%8C%82%E5%8F%8D%E5%AF%B9%E6%97%A5%E6%9C%AC%E6%8B%A5%E6%A0%B8%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">石破茂反对日本拥核</a> [20] <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7585795815386385958/" target="_blank" class="news-link">评论员：警惕日本扩军备战</a> [25] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/693.htm" target="_blank" class="news-link">华为鸿蒙系统开发者人数突破 1000 万，用户日均下载、更新应用超 8800 万次</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32220528" target="_blank" class="news-link">宇树人形机器人“火力全开”助演王力宏演唱会，马斯克点赞称印象深刻</a> [15] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/691.htm" target="_blank" class="news-link">因使用生成式 AI 技术，独立游戏大奖撤销《光与影：33 号远征队》年度最佳游戏奖</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8%E6%A0%BC%E6%96%97%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E4%B8%AD%E5%A4%BA%E5%86%A0" target="_blank" class="news-link">中国机器人在格斗机器人大赛中夺冠</a> [22] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BB%84%E9%98%BF%E7%81%AB%E4%BB%BB%E7%A6%8F%E8%80%80%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%85%9A%E5%A7%94%E4%B9%A6%E8%AE%B0" target="_blank" class="news-link">黄阿火任福耀科技大学党委书记</a> [19] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/692.htm" target="_blank" class="news-link">SpaceX 怒斥“星舰飞船 1 月爆炸事件危及航班安全”报道：误导公众</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
