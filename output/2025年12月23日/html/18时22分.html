@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2025-12-23 18:22:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">9.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pK4zMZ962y" target="_blank" class="news-link">日本一座报废核反应堆泄漏，数人疑遭辐射</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2345463" target="_blank" class="news-link">日本核反应堆含放射性水泄漏</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586443364464787492/" target="_blank" class="news-link">日本一核反应堆发生放射性水泄漏</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%A0%B8%E5%8F%8D%E5%BA%94%E5%A0%86%E5%8F%91%E7%94%9F%E5%90%AB%E6%94%BE%E5%B0%84%E6%80%A7%E6%B0%B4%E6%B3%84%E6%BC%8F" target="_blank" class="news-link">日本核反应堆发生含放射性水泄漏</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586297427259949066/" target="_blank" class="news-link">“中亚+日本”峰会之外的外交博弈</a> [25] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360487.html" target="_blank" class="news-link">中国再度未能完成可重复使用火箭回收任务</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360484.html" target="_blank" class="news-link">中日紧张持续 中国航司恢复盈利希望减弱</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%8F%E5%8F%91%E5%B0%843%E6%9E%9A%E7%81%AB%E7%AE%AD%E5%B0%B1%E6%9C%891%E6%9E%9A%E6%9D%A5%E8%87%AA%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">每发射3枚火箭就有1枚来自中国</a> [26] <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586934664225361427/" target="_blank" class="news-link">中国垃圾焚烧厂赴东南亚“找垃圾”</a> [30] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360486.html" target="_blank" class="news-link">大疆列入受管制清单 中国批美无理打压中企</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">京东</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%AC%E4%B8%9C%E5%B7%B4%E9%BB%8E%E4%BB%93%E5%BA%93%E9%81%AD%E7%9B%97%E7%AA%83%E6%8D%9F%E5%A4%B1%E8%B6%853%E4%BA%BF%E5%85%83" target="_blank" class="news-link">京东巴黎仓库遭盗窃损失超3亿元</a> [16] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/373.htm" target="_blank" class="news-link">腾讯 QQ 音乐迎 20 周年上线 20.0 版本客户端，引入“NAC 音质”及 AI Agent 功能</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
