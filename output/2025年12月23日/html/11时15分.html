@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2025-12-23 11:15:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">9</td>
+                <td class="percentage">6.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360458.html" target="_blank" class="news-link">中国文物局调查南京博物院馆藏古画流失风波</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1985418772211843078" target="_blank" class="news-link">电视剧《反人类暴行》豆瓣开分 8.5，为 2025 国产剧最高开分，符合你的预期吗？你对该剧有哪些评价？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7585809352938864694/" target="_blank" class="news-link">郑丽文激动发声：我们是中国人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360455.html" target="_blank" class="news-link">中国商务部促荷兰政府立即撤销接管安世行政令</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2344991" target="_blank" class="news-link">中国古建令人惊叹</a> [12] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2360447.html" target="_blank" class="news-link">欧盟批中国征反补贴税保证金做法不合理</a> [13] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9B%98%E7%82%B9%E5%B9%B4%E5%BA%A6%E5%8D%81%E5%A4%A7%E5%9B%BD%E4%BA%A7%E5%A5%BD%E5%89%A7" target="_blank" class="news-link">盘点年度十大国产好剧</a> [15] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=98%25%E4%B8%AD%E5%9B%BD%E4%BA%BF%E4%B8%87%E5%AF%8C%E8%B1%AA%E9%83%BD%E6%98%AF%E7%99%BD%E6%89%8B%E8%B5%B7%E5%AE%B6" target="_blank" class="news-link">98%中国亿万富豪都是白手起家</a> [24] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E3%80%8B%E8%BF%91%E5%8D%8A%E7%A5%A8%E6%88%BF%E6%9D%A5%E8%87%AA%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">《疯狂动物城2》近半票房来自中国</a> [25] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">6.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/167.htm" target="_blank" class="news-link">奔驰为柴油车排放作弊买单：与美国多州达成 1.496 亿美元和解协议</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2360453.html" target="_blank" class="news-link">停电致美国标准时间出现4.8微秒误差</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2360451.html" target="_blank" class="news-link">马杜罗致信多国元首 谴责美国把能源当“政治胁迫工具”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E9%A6%96%E4%B8%AA%E5%95%86%E4%B8%9A%E8%BF%90%E8%BD%BD%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84%E5%A4%B1%E8%B4%A5" target="_blank" class="news-link">韩国首个商业运载火箭发射失败</a> [11] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2360449.html" target="_blank" class="news-link">为体现“美国优先” 特朗普政府召回近30名驻外外交官</a> [11] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/152.htm" target="_blank" class="news-link">目标油耗降 30%：美国宇航局携手波音验证未来飞机技术，10 个“关节”定乾坤</a> [12] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/143.htm" target="_blank" class="news-link">韩国首枚商业运载火箭发射失败，升空 1 分钟后起火爆炸</a> [18] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32234610" target="_blank" class="news-link">人民日报钟声：日本的“军费账”算丢了历史责任与公道人心</a> [19] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586368106948493362/" target="_blank" class="news-link">马杜罗：特朗普最好把精力放在美国</a> [20] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">3</td>
+                <td class="percentage">2.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pJTiSOSnTB" target="_blank" class="news-link">“英伟达想春节前对华出货，还得看中方意思”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/161.htm" target="_blank" class="news-link">云游戏也涨价？英伟达 GeForce Now 明年起设每月 100 小时上限</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%91%8A%E7%9F%A5%E4%B8%AD%E5%9B%BD%E5%AE%A2%E6%88%B7%EF%BC%9A%E6%98%A5%E8%8A%82%E5%89%8D%E5%AF%B9%E5%8D%8E%E5%87%BA%E8%B4%A7" target="_blank" class="news-link">英伟达告知中国客户：春节前对华出货</a> [27] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202512/2360457.html" target="_blank" class="news-link">中国AI初创公司MiniMax智谱港股IPO获证监会备案</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/164.htm" target="_blank" class="news-link">钉钉发布企业级 AI 硬件 DingTalk Real，提供紧急拔电功能以防失控</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/justlovemaki/AIClient-2-API" target="_blank" class="news-link">justlovemaki / AIClient-2-API</a> [17]</div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">2.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/23/91a443a485a54e15ab499b415c072b80.html" target="_blank" class="news-link">闻泰科技与安世荷兰举行首轮协商，同意继续保持沟通</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202512/2360454.html" target="_blank" class="news-link">闻泰科技董事长：安世半导体纠纷恐引发全球晶片行业动荡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1974931646080836522" target="_blank" class="news-link">作为一名科技从业者，如何总结你的 2025？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/151.htm" target="_blank" class="news-link">华为随行 WiFi X 新品曝光：提供大上行能力，已现身智慧生活 App</a> [13] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/131.htm" target="_blank" class="news-link">华为非凡大师品牌主题曲官宣 12 月 29 日上线</a> [25] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">字节</td>
+                <td class="count">2</td>
+                <td class="percentage">1.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/138.htm" target="_blank" class="news-link">消息称字节跳动计划斥资 1600 亿元大举投资人工智能，850 亿元砸向 AI 处理器</a> [21] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/129.htm" target="_blank" class="news-link">ColorOS 姜昱辰否认网传“OPPO 拒绝与字节合作豆包手机”</a> [27] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/147.htm" target="_blank" class="news-link">扫码需谨慎：新型钓鱼攻击正利用“设备代码”劫持微软 365 账户</a> [15] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/132.htm" target="_blank" class="news-link">部分 Win11 用户反馈安装微软 12 月更新后电脑变卡</a> [24] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/160.htm" target="_blank" class="news-link">美国 FCC 将所有非美国制造的无人机列入“受管制清单”，大疆回应</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/134.htm" target="_blank" class="news-link">龙芯首款 GPU 芯片 9A1000 对标 AMD RX 550，下一代 9A2000 图形性能达 4 倍</a> [23] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
