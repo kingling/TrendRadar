@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-12-24 15:44:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/636.htm" target="_blank" class="news-link">红魔姜超回应 11 Air 新机“爆水管”：确实很强，大家敬请期待</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/634.htm" target="_blank" class="news-link">广西面向各学段加强人工智能教育，今年全区本科高校所有新生迎来 AI 通识课</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/626.htm" target="_blank" class="news-link">Steam 新一周销量榜：全球榜《ARC Raiders》守擂成功、《怪物猎人：荒野》进入前十</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%9A%E4%B8%BB%E7%94%A8AI%E5%B0%86%E5%8F%A4%E7%94%BB%E4%B8%AD%E7%9A%84%E5%B0%8F%E5%AD%A9%E2%80%9C%E5%A4%8D%E6%B4%BB%E2%80%9D%E4%BA%86" target="_blank" class="news-link">博主用AI将古画中的小孩“复活”了</a> [29] <font color='grey'>- 15时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/2460560.html" target="_blank" class="news-link">下午察：当美国圣诞褪去中国身影</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2460559.html" target="_blank" class="news-link">中国未满月婴孩治疗黄疸期间死亡 涉事人员停职</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2460558.html" target="_blank" class="news-link">新法引发“哪位少爷吸了”争议 中国官方：法律面前一律平等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2460556.html" target="_blank" class="news-link">中国足协纪律委员会原主任王小平受贿案二审维持原判</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/631.htm" target="_blank" class="news-link">英伟达官宣国产 3A 大作《影之刃零》首发支持光追及 DLSS 4 多帧生成技术，游戏明年 9 月发售</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/627.htm" target="_blank" class="news-link">消息称三星 HBM4 芯片在英伟达测试中获得最高评分，明年供货可期</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">京东</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348336&amp;amp;topic_name=%E5%86%85%E9%AC%BC%E9%87%8C%E5%BA%94%E5%A4%96%E5%90%88%2C%E4%BA%AC%E4%B8%9C%E7%97%9B%E5%A4%B1%E4%BA%BF%E5%85%83%E5%95%86%E5%93%81" target="_blank" class="news-link">内鬼里应外合,京东痛失亿元商品</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586511935442305067/" target="_blank" class="news-link">美国社会“斩杀线”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
