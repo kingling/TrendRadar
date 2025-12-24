@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-12-24 12:54:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">15.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/573.htm" target="_blank" class="news-link">全球航天进入“周更发射时代”：今年突破 320 次创纪录，中国 87 次</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202512/2460542.html" target="_blank" class="news-link">中国大陆公安悬赏追捕两名台湾居民</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/571.htm" target="_blank" class="news-link">西游、哪吒、宝莲灯，多部神话题材国产动画电影备案立项</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7587249656829054483/" target="_blank" class="news-link">美为何此时全面收紧对中国无人机限制</a> [12] <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%BB%88%E4%BA%8E%E5%AF%B9%E9%B1%BC%E5%88%BA%E2%80%9C%E4%B8%8B%E6%89%8B%E2%80%9D%E4%BA%86" target="_blank" class="news-link">中国人终于对鱼刺“下手”了</a> [16] <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B0%B7%E8%BE%A3%E6%96%AF%E5%A6%84%E7%A7%B0%E4%B8%8D%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA+%E5%9B%BD%E5%8F%B0%E5%8A%9E%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">谷辣斯妄称不是中国人 国台办回应</a> [17] <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586822955934728218/" target="_blank" class="news-link">洪秀柱赞郑丽文表达我是中国人立场</a> [18] <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586461728670531603/" target="_blank" class="news-link">樊振东获赞中国给欧洲乒坛的最大馈赠</a> [26] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/568.htm" target="_blank" class="news-link">微软 AI CEO 苏莱曼：AI 聊天机器人是人类宣泄情绪、“自我排毒”的有力工具</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1986826913436680279" target="_blank" class="news-link">如何看待微软 Galen Hunt 宣称要用 AI+ 算法对所有 C/C++ 程序重新为 Rust 程序？</a> [12] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BE%B7%E5%8D%8E%E4%B8%BA%E9%9D%9E%E5%87%A1%E5%A4%A7%E5%B8%88%E7%8C%AE%E5%94%B1%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">刘德华为非凡大师献唱</a> [28] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/575.htm" target="_blank" class="news-link">11 月特斯拉欧洲销量 22801 辆同比下跌 11.8%，比亚迪 21133 辆同比大增 221.8%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/566.htm" target="_blank" class="news-link">字节跳动发布新一代形式化数学推理专用模型 Seed Prover 1.5</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/567.htm" target="_blank" class="news-link">AI 复刻漫威《复仇者联盟 5：毁灭之日》第二支贴片预告：声音、画质全修复</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E6%96%A9%E6%9D%80%E7%BA%BF&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">美国斩杀线</a> [25] <font color='grey'>- 12时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
