@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-12-26 19:18:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/316.htm" target="_blank" class="news-link">国产抗日谍战题材 FPS 游戏《抵抗者》2025 实机演示公布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2660722.html" target="_blank" class="news-link">西安至延安高速铁路正式开通 中国高铁总运营里程突破5万公里</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/314.htm" target="_blank" class="news-link">闻泰科技董事长杨沐：必须收回安世半导体股权和控制权，将在明年 1 月荷兰听证会积极维权</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7587741593822838803/" target="_blank" class="news-link">国防科技大学学生到橘子洲头宣誓</a> [30] <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/311.htm" target="_blank" class="news-link">QQ 鸿蒙版 App 获 9.2.0 邀测升级，新增登录设备管理等功能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/315.htm" target="_blank" class="news-link">我国首部 AI 大模型系列国家标准实施，明确性能、安全与服务能力要求</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%B0%E5%BA%A6%E7%9A%84%E7%99%BB%E6%9C%88%E8%AE%A1%E5%88%92%E5%8F%AF%E8%A1%8C%E5%90%97" target="_blank" class="news-link">印度的登月计划可行吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
