@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2025-12-29 18:22:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">9.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pTt4m9VzD1" target="_blank" class="news-link">“兹事体大”，德国工业衰退，德最大工会又扯中国…</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202512/2960946.html" target="_blank" class="news-link">中国大陆巡查示意图 台岸外北东南三面有海警</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/952.htm" target="_blank" class="news-link">2026 年起数字人民币钱包余额计付利息，中国成全球首个为央行数字货币计息经济体</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/2960943.html" target="_blank" class="news-link">四艘中国海警局船被发现在钓鱼岛周边航行</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/939.htm" target="_blank" class="news-link">工信部等六部门公布 2025 年度国家绿色算力设施名单，中国移动 / 联通 / 电信、抖音、阿里、快手等入选</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">5.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/951.htm" target="_blank" class="news-link">防不胜防：“AI 作弊”泛滥，全球最大会计职业组织 ACCA 叫停线上考试</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/943.htm" target="_blank" class="news-link">2030 年近七千亿美元大市场，Counterpoint 预计消费者 GenAI 支出年均增长超 20%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7588750168670748713/" target="_blank" class="news-link">“AI教父”警告2026年将迎失业潮</a> [30] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pTqXnJ8tEC" target="_blank" class="news-link">被美国制裁后，欧盟前官员抱怨：咱们太软弱，必须站起来</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8pTtuF3FVUf" target="_blank" class="news-link">石破茂：我们没有充分认识到，日本在二战中做了什么</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/955.htm" target="_blank" class="news-link">吉祥航空：拟 41 亿美元购买 25 架空客 A320 系列飞机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
