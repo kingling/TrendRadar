@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 79</p><p>生成时间: 2025-12-30 15:22:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">6.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pVU137XJGw" target="_blank" class="news-link">韩国总统李在明将访华</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/3061017.html" target="_blank" class="news-link">日本首都圈确认发生高致病性禽流感疫情</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7589543094698118706/" target="_blank" class="news-link">韩国总统李在明将访华</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%B0%86%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">韩国总统李在明将访华</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%B0%86%E8%AE%BF%E5%8D%8E%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">韩国总统李在明将访华</a> [20] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">2.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/204.htm" target="_blank" class="news-link">IT之家鸿蒙版 7.0 发布：鸿蒙手表端上线，新增 Pura X 外屏支持</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/187.htm" target="_blank" class="news-link">IT之家手表版 App 正式上架：苹果 / 鸿蒙 / 安卓三平台齐发，支持与手机端互联</a> [13] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/206.htm" target="_blank" class="news-link">联想 moto X70 Air Pro AI 手机预热，有望搭载潜望长焦镜头</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/186.htm" target="_blank" class="news-link">前梦工厂 CEO 杰弗瑞・卡森伯格：就算 AI 泡沫破裂，市场仍会留下许多赢家</a> [15] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%BD%A6%E9%A1%B6%E7%BB%B4%E6%9D%83%E5%A5%B3%E8%BD%A6%E4%B8%BB%E8%A2%AB%E7%89%B9%E6%96%AF%E6%8B%89%E7%94%B3%E8%AF%B7%E9%99%90%E9%AB%98%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">车顶维权女车主被特斯拉申请限高</a> [23] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/191.htm" target="_blank" class="news-link">三星计划 2026 年为电视导入谷歌相册支持，以更大屏幕重温美好回忆</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/181.htm" target="_blank" class="news-link">1 元租个机器人，擎天租上线“1 元闪租”服务</a> [17] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/30/16dce28a2f4143c088219b38bf0b2d6b.html" target="_blank" class="news-link">日媒紧盯中国军演：认为“意在威慑高市政府”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/182.htm" target="_blank" class="news-link">风阻系数 0.15：福特 40 年前的“黑科技”概念车重现江湖</a> [16] <font color='grey'>- 15时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
