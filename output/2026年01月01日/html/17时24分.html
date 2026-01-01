@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2026-01-01 17:24:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/817.htm" target="_blank" class="news-link">台积电：美国批准向南京工厂供应芯片制造设备</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7590300558926286346/" target="_blank" class="news-link">如何看待日本防卫费或“14连增”</a> [18] <font color='grey'>- 17时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E8%A1%97%E5%A4%B4%E6%80%92%E5%90%BC%EF%BC%9A%E7%BE%8E%E5%9B%BD%E6%81%B6%E9%9C%B8%E6%BB%9A%E5%87%BA%E5%8F%B0%E6%B9%BE" target="_blank" class="news-link">台湾民众街头怒吼：美国恶霸滚出台湾</a> [18] <font color='grey'>- 17时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28348618&amp;amp;topic_name=AI%E9%AD%94%E6%94%B9%E7%BF%BB%E8%BD%A6%2C%E5%B9%BF%E7%94%B5%E5%87%BA%E6%89%8B%E6%95%91%E5%90%8D%E8%91%97" target="_blank" class="news-link">AI魔改翻车,广电出手救名著</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7590280567417998894/" target="_blank" class="news-link">分析：资本正在绕过“会用AI的人”</a> [27] <font color='grey'>- 17时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pYd7lW80WQ" target="_blank" class="news-link">美媒回顾中国六十年稀土发展历程，“注意：重点保密单位”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1989854261618705069" target="_blank" class="news-link">2025 年度中国电影总票房 518.32 亿，冠军为《哪吒 2》，如何评价这一成绩？你看了哪些电影？</a> [19] <font color='grey'>- 17时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/818.htm" target="_blank" class="news-link">DeepSeek 开年发布新论文：提出全新 mHC 架构，梁文锋现身作者名单</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
