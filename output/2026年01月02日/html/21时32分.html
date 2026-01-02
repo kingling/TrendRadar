@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-01-02 21:32:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">15.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/0261299.html" target="_blank" class="news-link">日本国会女议员创新高 高市早苗呼吁增设女厕</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/02/50b61a8bc66249b588aa72d74d672bfb.html" target="_blank" class="news-link">日媒：日本游客不雅行径在印度引发冲突</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/0261298.html" target="_blank" class="news-link">韩国客机起飞前冒烟 122人紧急疏散</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/979.htm" target="_blank" class="news-link">边开车边充电，美国佛罗里达州将启动无线充电高速公路测试</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/0261297.html" target="_blank" class="news-link">伊朗骚乱致三死13伤 特朗普暗示美国将干预</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/02/12bcd080925340dabe8f36f544b4e643.html" target="_blank" class="news-link">美官员透露：委内瑞拉已拘押至少5名美国公民</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/02/5107c982488c4a8fa700f33c1544bdfe.html" target="_blank" class="news-link">英媒：2025年美国股市跑输世界其他市场</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E6%9C%80%E6%96%B0%E6%B6%89%E5%8F%B0%E8%A1%A8%E6%80%81%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">韩国最新涉台表态</a> [23] <font color='grey'>- 21时32分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%B4%E5%8F%B0%E5%86%9B%E6%BC%94%E6%97%A5%E6%9C%AC%E8%BF%9C%E8%A7%82+%E8%B5%96%E5%B2%B3%E8%B0%A6%E5%98%B2%E8%AE%BD%E9%AB%98%E5%B8%82" target="_blank" class="news-link">围台军演日本远观 赖岳谦嘲讽高市</a> [30] <font color='grey'>- 21时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7590720464578694694/" target="_blank" class="news-link">特斯拉2026年面临更严峻考验</a> [28] <font color='grey'>- 21时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%90%B8%E5%BC%95%E5%A4%96%E8%B5%84%E9%9F%A7%E6%80%A7%E4%B8%8D%E5%87%8F%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">中国吸引外资韧性不减</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/0261296.html" target="_blank" class="news-link">知情者：加拿大要求印度航空调查飞行员酒后执勤行为</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
