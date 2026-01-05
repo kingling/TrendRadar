@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2026-01-05 20:43:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">7.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%89%AF%E6%80%BB%E7%BB%9F%E4%B8%87%E6%96%AF%E4%BD%8F%E6%89%80%E9%81%AD%E8%A2%AD%E5%87%BB" target="_blank" class="news-link">美国副总统万斯住所遭袭击</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/05/8c0aad5154004327aabc7927a65a9ed6.html" target="_blank" class="news-link">外媒：丹麦首相呼吁美国停止“威胁”格陵兰</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7590906845573873690/" target="_blank" class="news-link">美国副总统万斯住所遭袭击</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E9%AB%98%E8%A7%84%E6%A0%BC%E9%98%B5%E5%AE%B9%E8%AE%BF%E5%8D%8E%E6%9C%89%E4%BD%95%E6%B7%B1%E6%84%8F" target="_blank" class="news-link">韩国高规格阵容访华有何深意</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7590747785197928489/" target="_blank" class="news-link">6国发表联合声明谴责美国</a> [27] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/05/d612ec38ba554880a104ab83c61a25e5.html" target="_blank" class="news-link">德媒：人工智能浪潮推动亚洲繁荣</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/628.htm" target="_blank" class="news-link">豆包相关负责人否认“豆包 AI 眼镜”即将出货</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/627.htm" target="_blank" class="news-link">消息称荣耀“Air”新机整机不到 165g，拥有某些友商 Pro 级影像能力</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/629.htm" target="_blank" class="news-link">消息称微软 Win11“就近共享”将改版为“共享”，并新增关闭广告功能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/626.htm" target="_blank" class="news-link">微软：Win10/11 自带磁盘清理等工具，无需第三方软件</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/630.htm" target="_blank" class="news-link">上海超级工厂依旧是特斯拉全球最大出口中心：2025 年贡献特斯拉全球超一半交付量</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/0561537.html" target="_blank" class="news-link">周恩来逝世50周年前夕 中国多地举行纪念活动</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
