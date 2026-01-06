@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 32</p><p>生成时间: 2026-01-06 18:22:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8phJUzGqP1w" target="_blank" class="news-link">丹麦警告：美国若出兵，一切都将终结</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A6%81%E6%AD%A2%E4%B8%A4%E7%94%A8%E7%89%A9%E9%A1%B9%E5%AF%B9%E6%97%A5%E6%9C%AC%E5%86%9B%E4%BA%8B%E7%94%A8%E6%88%B7%E5%87%BA%E5%8F%A3" target="_blank" class="news-link">禁止两用物项对日本军事用户出口</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1991127934191235637" target="_blank" class="news-link">美国能直接抓捕委内瑞拉总统，现行国际危机处理机制还有效吗？联合国还能在国际冲突中发挥什么实际作用？</a> [11] <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1991807417319645333" target="_blank" class="news-link">委内瑞拉发布「搜捕美国侵略支持者」等多项紧急防御措施，这意味着什么？对现状能有何改变？</a> [12] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592123343231258158/" target="_blank" class="news-link">特斯拉为何甩出购车“王炸”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592040200079937030/" target="_blank" class="news-link">特斯拉在华招聘泄露了什么“天机”</a> [29] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592181956109061670/" target="_blank" class="news-link">从全球榜单看中国创新</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8F%91%E5%B1%95%E4%B8%AD%E5%9B%BD%E5%AE%B6%E8%A6%81%E8%AD%A6%E6%83%95%E7%BE%8E%E5%9B%BD%E8%BF%9C%E7%A8%8B%E6%AE%96%E6%B0%91%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">发展中国家要警惕美国远程殖民</a> [19] <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2061801-1-1.html" target="_blank" class="news-link">黄仁勋新年第一场演讲提了DeepSeek 推动了整个行业变革(mydrivers.com)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2061799-1-1.html" target="_blank" class="news-link">清华大学教授丘成桐：AI突破要靠数学 5到10年内中国将成数学强国(mydrivers.com)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/933.htm" target="_blank" class="news-link">智元发布 SOP 训练系统：让机器人在真实世界规模化部署与智能化运行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
