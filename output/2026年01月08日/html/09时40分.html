@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-01-08 09:40:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">5.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E4%B8%80%E5%8F%A3%E6%B0%94%E9%80%8066%E4%B8%AA%E7%BE%A4%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">美国一口气退66个群</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592747008662749210/" target="_blank" class="news-link">美国退出66个国际组织</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%80%80%E5%87%BA66%E4%B8%AA%E5%9B%BD%E9%99%85%E7%BB%84%E7%BB%87" target="_blank" class="news-link">美国退出66个国际组织</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%AF%B9%E6%A0%BC%E9%99%B5%E5%85%B0%E5%B2%9B%E6%94%B9%E5%8F%A3%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">美国对格陵兰岛改口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32340360" target="_blank" class="news-link">特朗普指示美国退出“不符合该国利益”的66个国际组织</a> [20] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592571551095754291/" target="_blank" class="news-link">为何说美国对印度的施压不会停止</a> [28] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/376.htm" target="_blank" class="news-link">高盛：数据中心成“电老虎”，美国 2030 年将面临电力危机</a> [29] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/0861745.html" target="_blank" class="news-link">中国启动“人工智能+制造”专项行动</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/0861739.html" target="_blank" class="news-link">黄贞祥：节日孤独遇上AI伴侣难成双</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592779381248888362/" target="_blank" class="news-link">马斯克：中国AI算力领先世界</a> [15] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/383.htm" target="_blank" class="news-link">福特拥抱智能化：AI 语音助手年内登场，L3 级自动驾驶 2028 年上路</a> [22] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/378.htm" target="_blank" class="news-link">SimilarWeb 报告 1 月全球网页端 AI 流量：ChatGPT 霸主地位动摇、Gemini 首破 20%</a> [27] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软</td>
+                <td class="count">3</td>
+                <td class="percentage">2.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/393.htm" target="_blank" class="news-link">微软承认 Win10/Win11 经典版 Outlook v2511 存在 BUG，导致无法打开加密邮件</a> [12] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/390.htm" target="_blank" class="news-link">微软 2025 年新 Surface Pro 12 英寸版用户反馈 Win11 误判，导致 SSD 强行“磨损”</a> [15] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/375.htm" target="_blank" class="news-link">微软 Win11 26H1 今春发布：骁龙 X2 系列平台独占，华硕等新机确认预装</a> [30] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">3</td>
+                <td class="percentage">2.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/0861747.html" target="_blank" class="news-link">美媒：中国要求部分科企暂停订购英伟达H200晶片</a> <font color='red'><strong>[2 - 3]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/385.htm" target="_blank" class="news-link">微星 CES 2026 推出“MPG 272QRF X36”27 英寸 2K 360Hz 显示器：配光线传感器、搭英伟达 G-SYNC 技术</a> [20] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/382.htm" target="_blank" class="news-link">消息称英伟达 2027 下半年推出 RTX 60 系列显卡，Rubin 架构</a> [23] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/0861738.html" target="_blank" class="news-link">评论：中国央行连续第14个月增持黄金</a> [11 - 12] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/0861736.html" target="_blank" class="news-link">加拿大总理卡尼将访问中国 时隔九年首次访华</a> [13] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2360055" target="_blank" class="news-link">中国出口管制戳中日本软肋了吗</a> [17] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/380.htm" target="_blank" class="news-link">科技昨夜今晨 0108：新一代小米 SU7 开启小订；realme 将回归 OPPO；比亚迪加推 4 款大电池 DM-i 车型...</a> [25] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/401.htm" target="_blank" class="news-link">AMD 苏姿丰：AI 既不是炒作也不是泡沫，到 2031 年将有 50 亿人使用</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/381.htm" target="_blank" class="news-link">为避免千亿资产受潜在“财富税”影响，谷歌联合创始人拉里・佩奇逃离加州</a> [24] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
