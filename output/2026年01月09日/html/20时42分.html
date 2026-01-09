@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 66</p><p>生成时间: 2026-01-09 20:42:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tailwindlabs/tailwindcss" target="_blank" class="news-link">tailwindlabs / tailwindcss</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/991.htm" target="_blank" class="news-link">Uber 优先配送并不优先？外卖平台存在“骑手斩杀线”？挑动千万网友情绪的“内部爆料”实为 AI 造谣式起号</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/987.htm" target="_blank" class="news-link">国家网信办：2025 年新增 446 款生成式人工智能服务完成备案</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592977127222968371/" target="_blank" class="news-link">中方沉痛哀悼前日本驻华大使丹羽逝世</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/09/9d34ed236fac4a88bfc3399f8200e3dd.html" target="_blank" class="news-link">最新民调：绝大多数美国人反对武力接管格陵兰岛</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1992707692716914111" target="_blank" class="news-link">如何评价新出版的 2025 版《美国膳食指南》？</a> [11] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BB%E7%89%B9%E6%96%AF%E6%8B%89%E4%BD%8E%E6%81%AF%E6%94%BF%E7%AD%96%E8%83%8C%E5%90%8E" target="_blank" class="news-link">解读特斯拉低息政策背后</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/988.htm" target="_blank" class="news-link">初创公司 Bolt Graphics 入局 GPU：采用 RISC-V 与自研架构，宣称其路径追踪性能 2.5 倍于英伟达 RTX 5090</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592759726648213545/" target="_blank" class="news-link">北平锋：台湾问题怎么解决中国人说了算</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
