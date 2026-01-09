@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2026-01-09 22:49:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">11.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pmUpxh5XnV" target="_blank" class="news-link">涉乌克兰，美国发出紧急警告</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%AE%A3%E7%A7%B0%E6%89%A3%E6%8A%BC%E4%B8%80%E8%89%98%E6%B2%B9%E8%BD%AE%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">美国宣称扣押一艘油轮</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时49分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pmOHLGzKfX" target="_blank" class="news-link">日本一医院遗失放射性物质</a> [12] <font color='grey'>- 22时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E4%B8%80%E5%8C%BB%E9%99%A2%E9%81%97%E5%A4%B1%E6%94%BE%E5%B0%84%E6%80%A7%E7%89%A9%E8%B4%A8%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">日本一医院遗失放射性物质</a> [30] <font color='grey'>- 22时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">8.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/0961896.html" target="_blank" class="news-link">下午察：“电诈之王”陈志的中国往事</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/015.htm" target="_blank" class="news-link">2025 年中国近海热含量达历史第二高，南海创历史新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/0961895.html" target="_blank" class="news-link">食品价格上涨金价冲高推动 中国去年12月通胀率创三年来最高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/014.htm" target="_blank" class="news-link">色情照片门东窗事发后，X 平台的 Grok AI 图像生成功能只向付费客户开放</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
