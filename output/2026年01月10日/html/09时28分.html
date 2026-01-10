@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2026-01-10 09:28:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">9</td>
+                <td class="percentage">7.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1061926.html" target="_blank" class="news-link">中国证监会对天普股份股票交易异常波动公告涉遗漏立案调查</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1061925.html" target="_blank" class="news-link">中国体育总局登山中心：严禁违规开展徒步穿越</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pnDfZXLnBS" target="_blank" class="news-link">委内瑞拉三次感谢中国，为什么？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1061920.html" target="_blank" class="news-link">珍妮弗·林德：中国如何在缺乏自由的情况下实现创新</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1061917.html" target="_blank" class="news-link">太子集团陈志引渡中国而非美国 分析：凸显柬对华深度依赖</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32350305" target="_blank" class="news-link">中国会从美国对委内瑞拉的打击中获得经验启示？外交部回应</a> [13] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202601/1061906.html" target="_blank" class="news-link">印尼捣毁国际网恋诈骗团伙 疑中国公司幕后操控</a> [21] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BB%8A%E5%A4%A9%E6%98%AF%E7%AC%AC6%E4%B8%AA%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%AD%A6%E5%AF%9F%E8%8A%82" target="_blank" class="news-link">今天是第6个中国人民警察节</a> [25] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%AC%AC%E5%85%AD%E4%B8%AA%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%AD%A6%E5%AF%9F%E8%8A%82" target="_blank" class="news-link">第六个中国人民警察节</a> [30] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">6.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%86%9B%E8%B4%B9%E4%B8%BA%E4%BD%95%E5%A2%9E%E8%87%B31.5%E4%B8%87%E4%BA%BF" target="_blank" class="news-link">美国军费为何增至1.5万亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7593460581873503807/" target="_blank" class="news-link">美国为何迫切想要格陵兰岛</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/040.htm" target="_blank" class="news-link">美国火星样本取回任务因资金问题被搁置，“毅力号”33 管样本滞留火星</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%B8%BA%E4%BD%95%E8%A6%81%E9%80%80%E5%87%BA66%E4%B8%AA%E5%9B%BD%E9%99%85%E7%BB%84%E7%BB%87" target="_blank" class="news-link">美国为何要退出66个国际组织</a> [11] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592495690917953582/" target="_blank" class="news-link">新华社：美国在破坏国际秩序歧途狂奔</a> [18] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1061909.html" target="_blank" class="news-link">法国批评美国无视国际规则</a> [18] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7593403744449265705/" target="_blank" class="news-link">长崎广岛要求日本政府坚持无核三原则</a> [26] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E5%86%8D%E6%94%BE%E9%A3%9E%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%85%A5%E4%BE%B5%E6%9C%9D%E9%B2%9C%E9%A2%86%E7%A9%BA%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">韩国再放飞无人机入侵朝鲜领空</a> [28] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/045.htm" target="_blank" class="news-link">“物理 AI”成 CES 2026 主角，报道称机器人进入寻常百姓家当仆人仍需时日</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/043.htm" target="_blank" class="news-link">OpenAI ChatGPT 被曝开辟求职新赛道：AI 打磨简历、规划职业路径等</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/042.htm" target="_blank" class="news-link">Anthropic 回应：网传“Claude AI 封号并报警”截图系伪造</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/035.htm" target="_blank" class="news-link">微软 2026 年首更：Win11 Dev / Beta 26220.7535 预览版发布，讲述人支持“看图说话”</a> [13] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/033.htm" target="_blank" class="news-link">微软 Win11 文件管理器将原生整合 Copilot AI 聊天</a> [15] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Deepseek%E6%88%96%E5%B0%86%E5%8F%91%E5%B8%83%E6%96%B0AI%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">Deepseek或将发布新AI模型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/046.htm" target="_blank" class="news-link">AMD 松口：FSR 最新功能不排除下放 RDNA 3 显卡的可能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/041.htm" target="_blank" class="news-link">科技昨夜今晨 0110：外卖平台将迎国务院双反办调查；职工医保个人账户共济范围拓展至全国；苹果 Apple Watch“房颤历史”获批...</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
