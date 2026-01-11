@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-01-11 09:48:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">4.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1161996.html" target="_blank" class="news-link">评论：系统化特许经营 正重塑中国商业版图</a> <font color='red'><strong>[9 - 10]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1161994.html" target="_blank" class="news-link">中国网信办起草新规禁止APP偷听偷拍</a> [11] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1161993.html" target="_blank" class="news-link">中国新年外交布局 料争取有限度合纵连横</a> [12] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202601/1161991.html" target="_blank" class="news-link">中国特稿：台军临近关键时刻 或被迫按下防卫“第一击”</a> [14] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1161989.html" target="_blank" class="news-link">日媒：中国国企通知日企停止新签稀土合同</a> [16] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1161986.html" target="_blank" class="news-link">美国撤回限制中国无人机进口计划</a> [19] <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pok3k5CfMh" target="_blank" class="news-link">金与正：韩国当局无法摆脱重大侵权挑衅的责任</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/208.htm" target="_blank" class="news-link">日本显卡库存告急：秋叶原商铺已普遍限购，RTX 5060 Ti 16GB 以上型号成“重灾区”</a> [11] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1161990.html" target="_blank" class="news-link">特朗普：美国要定格陵兰岛 以防中俄染指</a> [15] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1161987.html" target="_blank" class="news-link">朝鲜指韩国无人机侵入 专家：平壤要强化敌对立场</a> [18]</div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1161983.html" target="_blank" class="news-link">美国务院促在委内瑞拉美国公民“立即”撤离</a> [22] <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/220.htm" target="_blank" class="news-link">微软 Windows Media Player 播放器无法再抓取 CD 元数据</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2062099-1-1.html" target="_blank" class="news-link">微软正在测试，在文件资源管理器中整合原生的 Copilot 聊天界面</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%97%E5%A4%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AD%A6%E7%A7%91%E6%8E%92%E5%90%8D%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80" target="_blank" class="news-link">南大人工智能学科排名全球第一</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%A1%EF%BC%81%E5%8D%B0%E5%B0%BC%E6%9A%82%E6%97%B6%E5%B0%81%E7%A6%81%E9%A9%AC%E6%96%AF%E5%85%8B%E6%97%97%E4%B8%8BAI" target="_blank" class="news-link">全球首次！印尼暂时封禁马斯克旗下AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/211.htm" target="_blank" class="news-link">科技昨夜今晨 0111：DeepSeek V4 大模型被曝春节前后发布；苹果 20 周年版 iPhone 泄露；电视剧《三体：大史》登央视 2026 片单...</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/209.htm" target="_blank" class="news-link">华为 MatePad Edge 获鸿蒙 HarmonyOS 5.1.0.291 升级，新增电脑模式截图直接编辑等功能</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
