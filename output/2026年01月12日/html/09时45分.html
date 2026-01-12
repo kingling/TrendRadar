@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-01-12 09:45:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">12</td>
+                <td class="percentage">9.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1262073.html" target="_blank" class="news-link">王毅：中国愿与全球南方国家维护发展中国家正当权益</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1262072.html" target="_blank" class="news-link">中国官方公布北部湾部分海域进行实弹射击</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/370.htm" target="_blank" class="news-link">全球首款有机光伏触控笔亮相 CES 2026：室内灯光就能供电，国产追光科技 x Wacom 打造</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1990222623448260935" target="_blank" class="news-link">国家级射击女教练因走私枪支配件获刑，此事件暴露出中国射击运动管理及枪支监管哪些问题？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pqXuCMrQ6F" target="_blank" class="news-link">外媒：美国悄悄撤回对中国无人机限制计划</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1262068.html" target="_blank" class="news-link">岳健勇：中国是全球化最大受益者吗？——从增长叙事到发展约束</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1262061.html" target="_blank" class="news-link">中国限制对日出口两用物项 高市批经济胁迫背离国际惯例</a> [14] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1262059.html" target="_blank" class="news-link">中国拟加强对互联网收集和使用个人信息的监管</a> [16] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32364415" target="_blank" class="news-link">专家：应理性看待中国新申报卫星网络资料</a> [18] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7594241845736001078/" target="_blank" class="news-link">房地产对中国经济还有多大影响</a> [19] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7593595421826662406/" target="_blank" class="news-link">澳大利亚U23主帅：中国队防守严密</a> [22] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7594246704115957806/" target="_blank" class="news-link">非洲媒体称赞中国是非洲发展坚定伙伴</a> [28] <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">3.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%87%E5%AD%97%E8%A7%A3%E6%9E%90%E4%B8%AD%E5%9B%BDAI%E4%BA%A7%E4%B8%9A" target="_blank" class="news-link">万字解析中国AI产业</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/367.htm" target="_blank" class="news-link">不只 Magic8 Pro Air，1 月 19 日还有荣耀“联名设计系列新品”发布会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/363.htm" target="_blank" class="news-link">华硕放弃推出 &quot;Panther Lake H 12Xe&quot; 版 ROG 幻 14 Air 笔记本</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%96%91%E4%BC%BCLOL%E9%A9%AC%E6%96%AF%E5%85%8BAI%E8%8B%B1%E9%9B%84%E6%9C%89%E5%A4%9A%E5%BC%BA" target="_blank" class="news-link">疑似LOL马斯克AI英雄有多强</a> [11] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/356.htm" target="_blank" class="news-link">被砍的小米 17 Air 手机工程机曝光：横向双摄设计、6.59 英寸面板、5.5mm 厚度机身</a> [15] <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pqUK16yYUX" target="_blank" class="news-link">日本造船巨头并购，能追赶中韩吗</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pqXuCMrQHk" target="_blank" class="news-link">瑞典首相要求美国“感谢”丹麦：丹麦是极为忠诚的盟友</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/354.htm" target="_blank" class="news-link">科技昨夜今晨：0112：2025 年底新旗舰单品激活百万机型曝光；我国首款隐身战机歼-20 首飞珍贵影像公开；引望回应 2026 下半年上市传闻 ...</a> [17] <font color='grey'>- 09时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1991210541499298340" target="_blank" class="news-link">如何看待教育部拟同意华北科技学院、防灾科技学院更名为应急管理大学？</a> [18] <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/350.htm" target="_blank" class="news-link">消息称鸿蒙智行问界 M8 和 M9 车型三连副驾屏将支持享界 S9T 同款开门车外视角提醒功能</a> [21] <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/355.htm" target="_blank" class="news-link">微软确认文档扫描应用 Microsoft Lens 寿终正寝，2 月 9 日后告别应用商店</a> [16] <font color='grey'>- 09时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
