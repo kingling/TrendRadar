@@ -1,0 +1,143 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-01-13 09:28:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">7.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1362161.html" target="_blank" class="news-link">何立峰会见奥巴马时期美国财长盖特纳</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=2026%E7%89%88%E7%BE%8E%E5%9B%BD%E8%86%B3%E9%A3%9F%E6%8C%87%E5%8D%97%E8%A7%A3%E8%AF%BB" target="_blank" class="news-link">2026版美国膳食指南解读</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8A%A1%E9%99%A2%E8%A6%81%E6%B1%82%E7%BE%8E%E5%85%AC%E6%B0%91%E7%AB%8B%E5%8D%B3%E7%A6%BB%E5%BC%80%E4%BC%8A%E6%9C%97" target="_blank" class="news-link">美国务院要求美公民立即离开伊朗</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1362147.html" target="_blank" class="news-link">称受中俄觊觎 特朗普：美国“无论如何”都要得到格陵兰岛</a> [14] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2365939" target="_blank" class="news-link">美国：美公民立即离开伊朗</a> [15] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1362142.html" target="_blank" class="news-link">格陵兰岛：北极防御在北约框架下进行 拒绝美国接管</a> [19] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7594631701720993334/" target="_blank" class="news-link">美国务院要求美公民立即离开伊朗</a> [24] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7594553266026315827/" target="_blank" class="news-link">美国紧盯金砖成员国南非军演</a> [28] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%8A%A1%E9%99%A2%E8%A6%81%E6%B1%82%E7%BE%8E%E5%9B%BD%E5%85%AC%E6%B0%91%E7%AB%8B%E5%8D%B3%E7%A6%BB%E5%BC%80%E4%BC%8A%E6%9C%97%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">美国国务院要求美国公民立即离开伊朗</a> [30] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">6.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%A3%E6%B0%94%E7%94%B3%E6%8A%A520%E4%B8%87%E9%A2%97%E5%8D%AB%E6%98%9F%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88" target="_blank" class="news-link">中国一口气申报20万颗卫星意味着什么</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202601/1362160.html" target="_blank" class="news-link">中国“最长春节假期”催热出境游 新加坡是热门目的地</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7593651842932932671/" target="_blank" class="news-link">美报告承认中国电子战和导弹压过美军</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1362156.html" target="_blank" class="news-link">胡以晨：中国创纪录顺差压缩亚洲政策空间</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1362145.html" target="_blank" class="news-link">中国据报加大打击地下教会力度 多人被捕有十字架被拆</a> [16] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1362144.html" target="_blank" class="news-link">特朗普访华前 对美谈判老手蒋成华任中国国际贸易谈判副代表</a> [17] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7593895491210199103/" target="_blank" class="news-link">中国科技巨头指数将首超美股七巨头</a> [22] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%B6%856%E6%88%90%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8B%E4%B8%80%E8%BE%86%E8%BD%A6%E9%A2%84%E7%AE%9730%E4%B8%87%E5%85%83%E4%BB%A5%E4%B8%8A%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">超6成中国人下一辆车预算30万元以上</a> [24] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/684.htm" target="_blank" class="news-link">外媒初探亚马逊 AI 穿戴设备 Bee：它想做你的“第二大脑”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/682.htm" target="_blank" class="news-link">因应 HBM 等 AI 内存需求，SK 海力士宣布投资 19 万亿韩元建设清州先进封装工厂 P&amp;T7</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/669.htm" target="_blank" class="news-link">元宇宙转 AI：Meta 本周将裁员数百人，Reality Labs 约 10% 员工受影响</a> [18] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1362153.html" target="_blank" class="news-link">评论：幻方量化基金取得亮眼回报 为DeepSeek提供资金后盾</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/678.htm" target="_blank" class="news-link">DeepSeek 开源大模型记忆模块：梁文锋署名新论文，下一代稀疏模型提前剧透</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/673.htm" target="_blank" class="news-link">慎更 Win10/Win11 新版微软 Outlook 1.2025.1209.500，恐导致多邮箱管理瘫痪</a> [14] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/663.htm" target="_blank" class="news-link">服役约 23 年：微软退役 Win10/Win11 部署工具 MDT</a> [24] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/683.htm" target="_blank" class="news-link">Gartner：英伟达 2025 年成为首家半导体销售年收入破 1000 亿美元企业</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/680.htm" target="_blank" class="news-link">NAND 涨价警告：花旗预测英伟达 Vera Rubin AI 系统将推动 PB 级 SSD 需求</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/676.htm" target="_blank" class="news-link">嫦娥六号月壤揭示月球深部秘密：巨型撞击导致月幔挥发元素丢失，为揭示月球地质演化历史提供关键线索</a> [12] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/664.htm" target="_blank" class="news-link">初创公司 GRU Space 宣布开发“月球酒店”：最快六年后入住，定金 25 万至 100 万美元</a> [23] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/662.htm" target="_blank" class="news-link">消息称大疆 Avata 360 全景无人机云台摄像头可旋转收纳，无需影翎 A1 同款电动起落架</a> [25] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/670.htm" target="_blank" class="news-link">科技昨夜今晨 0113：多平台回应“婚礼电子请柬访客记录付费可看”；卢伟冰称 17 系列是小米数字史上最畅销的产品；荣耀 Magic8 RSR 保时捷设计真机曝光...</a> [17] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
