@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-01-15 20:43:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1562407.html" target="_blank" class="news-link">中国“国考”笔试成绩和合格分数线公布</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/587.htm" target="_blank" class="news-link">中国航天科技集团：2026 年深入推进载人登月、深空探测等重大工程，全力突破重复使用火箭技术</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7595418346897047595/" target="_blank" class="news-link">中国科学家证实87年前量子力学预言</a> [11] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7595504595716177971/" target="_blank" class="news-link">常昊：聂卫平就是中国围棋的一面旗帜</a> [22] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/588.htm" target="_blank" class="news-link">消息称华为畅享 70X 成为 HarmonyOS 6 首个 API22 版本公测机型</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/585.htm" target="_blank" class="news-link">消息称微信鸿蒙手表版正在内测，预计很快就上架表端应用尝鲜</a> [11] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/594.htm" target="_blank" class="news-link">大疆 DJI RS 5 相机稳定器发布：支持全新增强智能追踪模块，3099 元起</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/590.htm" target="_blank" class="news-link">【视频】「单兵作战」利器，DJI RS5 稳定器四大升级点体验</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/586.htm" target="_blank" class="news-link">又一国家出手：菲律宾封杀马斯克的 Grok AI 聊天机器人</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/584.htm" target="_blank" class="news-link">蔚来李斌开年内部讲话：预计 2025 年第四季度盈利目标可实现，推动 AI 在全业务链条落地</a> [12] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1562410.html" target="_blank" class="news-link">日本最大反对党立宪民主党与公明党组新政党</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32388410" target="_blank" class="news-link">人民日报钟声：三问日本，撕开其所谓“和平国家”的假面</a> [20] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1995072623625855863" target="_blank" class="news-link">DeepSeek 梁文锋旗下幻方量化 2025 年收益率 56.6%，如何评价这一业绩？</a> [11] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/596.htm" target="_blank" class="news-link">英伟达投资初创公司 Harmonic，后者专注开发解决数学问题的 AI 系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
