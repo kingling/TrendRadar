@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 44</p><p>生成时间: 2026-01-17 18:19:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">25.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762573.html" target="_blank" class="news-link">中国决定将商业用房购房贷款最低首付款比例降至不低于30%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pzV58veoWq" target="_blank" class="news-link">加拿大总理在日坛公园举行记者会：中国将加油菜籽关税降至15%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762571.html" target="_blank" class="news-link">中国铁路2月1日起扩大静音车厢服务范围</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8pzNiKJXJOn" target="_blank" class="news-link">日本急了：若中国开始管控抗生素和药品原料，麻烦可大了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762569.html" target="_blank" class="news-link">欧盟对中国熔融氧化铝征收最高达110.6%反倾销关税</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762568.html" target="_blank" class="news-link">英媒：欧盟将禁中国供应商涉足关键基础设施领域</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762567.html" target="_blank" class="news-link">中国国常会：加紧清理拖欠企业账款 尽快下达清欠专项债券额度</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762566.html" target="_blank" class="news-link">调查：中美贸易休战后 美企对中国市场更乐观</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1762565.html" target="_blank" class="news-link">谢锋：中国对发展中美关系有诚意但讲原则</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%B9%B4%E7%94%A8%E7%94%B5%E9%87%8F%E6%98%AF%E7%BE%8E%E5%9B%BD%E4%B8%A4%E5%80%8D%E5%A4%9A%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">中国一年用电量是美国两倍多</a> [19] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596236229813734931/" target="_blank" class="news-link">欧盟会提高中国混动新能源车关税吗</a> [24] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8pzVDiebRY4" target="_blank" class="news-link">特朗普改口：无理由在美国明州动用《反叛乱法》</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596250548332924452/" target="_blank" class="news-link">国乒女将蒯曼0-3不敌日本选手</a> [18] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1995200812075480347" target="_blank" class="news-link">如何评价 DeepSeek 最新的「条件记忆」和字节 Seed 团队「Over-Encoding」之间的关联？</a> [12] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1762572.html" target="_blank" class="news-link">福特拟海外混动车用比亚迪电池 引发美国反弹</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2062685-1-1.html" target="_blank" class="news-link">有没有人有Chromium和Google Chrome的离线安装包</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
