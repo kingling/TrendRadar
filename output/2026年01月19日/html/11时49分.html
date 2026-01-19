@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 144</p><p>生成时间: 2026-01-19 11:49:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">15</td>
+                <td class="percentage">10.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596049706971794998/" target="_blank" class="news-link">首超140万亿！去年中国GDP增速5%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=2025%E5%B9%B4%E4%B8%AD%E5%9B%BDGDP%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF5%25" target="_blank" class="news-link">2025年中国GDP同比增长5%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962701.html" target="_blank" class="news-link">中国人口连续第四年下滑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962700.html" target="_blank" class="news-link">涉与宁德时代签锂电大单 容百科技被中国证监会立案调查</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962699.html" target="_blank" class="news-link">中国经济去年全年增长5.0%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962698.html" target="_blank" class="news-link">中国一线城市新建商品住宅销售价格去年12月同比降幅扩大</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962697.html" target="_blank" class="news-link">中国驻阿联酋大使张益明即将离任</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BDGDP%E8%B7%A8%E8%B6%8A140%E4%B8%87%E4%BA%BF%E5%85%83%E5%85%B3%E5%8F%A3" target="_blank" class="news-link">中国GDP跨越140万亿元关口</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596881198572375615/" target="_blank" class="news-link">日本撕裂？6位在日中国人的社会观察</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/370.htm" target="_blank" class="news-link">雷诺集团 CEO 福兰 2026 开年首访中国，计划 3 月发布中期战略规划</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32413940" target="_blank" class="news-link">2025年中国GDP达1401879亿元，比上年增长5%</a> [11] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/1962690.html" target="_blank" class="news-link">中国第四季度经济增长可能放缓至三年来最低水平</a> [12] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1995988616556586523" target="_blank" class="news-link">范志毅说安东尼奥带 U23 国足像 04 年欧洲杯希腊，董方卓说安东尼奥带队太功利，毁中国足球未来，谁对？</a> [12] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7596263669881880617/" target="_blank" class="news-link">U23亚洲杯中国vs越南裁判团队公布</a> [18] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BDGDP%E8%B7%A8%E8%B6%8A140%E4%B8%87%E4%BA%BF%E5%85%83%E5%85%B3%E5%8F%A3%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中国GDP跨越140万亿元关口</a> [20] <font color='grey'>- 11时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/369.htm" target="_blank" class="news-link">比亚迪方程豹钛 7 汽车第二次 OTA 正式推送，HUAWEI HiCar 适配华为鸿蒙 6 手机镜像模式连接</a> [11] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/363.htm" target="_blank" class="news-link">鸿蒙智行首款轿跑尚界 Z7 亮点前瞻：三版本可选、智界 V9 同款新激光雷达</a> [15] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/352.htm" target="_blank" class="news-link">安克推出 100W 六口桌面充：3C+1A+2AC、支持华为 66W 充电协议，首发价 474 元</a> [22] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/344.htm" target="_blank" class="news-link">Top5 某厂今年影像旗舰工程机大大杯曝搭载 200Mp 1/1.28&quot;± 潜望长焦，预计归属华为 Pura 90 系列</a> [28] <font color='grey'>- 11时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/19/50c02f32370c4f27905eda61189f96cf.html" target="_blank" class="news-link">格陵兰人对美国“既怒且惧”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/1962694.html" target="_blank" class="news-link">贝森特：因欧洲“软弱” 美国须控制格陵兰岛</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E9%82%80%E7%BA%A660%E5%9B%BD%E5%8A%A0%E5%85%A5%E7%89%B9%E6%9C%97%E6%99%AE%E7%89%88%E8%81%94%E5%90%88%E5%9B%BD%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">美国邀约60国加入特朗普版联合国</a> [12] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32411977" target="_blank" class="news-link">一图看懂｜从中产跌落到空难激增：美国制裁如何重创伊朗？</a> [16] <font color='grey'>- 11时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">4</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%A5%9E20%E9%A3%9E%E8%88%B9%E8%BF%94%E5%9B%9E%E4%B8%9C%E9%A3%8E%E7%9D%80%E9%99%86%E5%9C%BA" target="_blank" class="news-link">神20飞船返回东风着陆场</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%8F%B7%E9%A3%9E%E8%88%B9%E8%BF%94%E5%9B%9E%E8%88%B1%E6%88%90%E5%8A%9F%E7%9D%80%E9%99%86" target="_blank" class="news-link">神舟二十号飞船返回舱成功着陆</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%8F%B7%E9%A3%9E%E8%88%B9%E8%BF%94%E5%9B%9E%E8%88%B1%E5%A4%96%E8%A7%82%E6%80%BB%E4%BD%93%E6%AD%A3%E5%B8%B8" target="_blank" class="news-link">神舟二十号飞船返回舱外观总体正常</a> [20] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/353.htm" target="_blank" class="news-link">神舟二十号飞船返回任务圆满成功：外观总体正常，舱内下行物品状态良好</a> [21] <font color='grey'>- 11时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/381.htm" target="_blank" class="news-link">胡润发布 2025 中国 AI 企业 50 强，寒武纪以 6300 亿元价值居首</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/366.htm" target="_blank" class="news-link">安克、飞书合作硬件官宣：可随身记录、总结的 AI 录音豆，仅重 10 克</a> [12] <font color='grey'>- 11时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/359.htm" target="_blank" class="news-link">漫步者 M330 II 蓝牙音箱发布：新增支持 LDAC 协议、苹果 AirPlay，959 元</a> [19] <font color='grey'>- 11时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
