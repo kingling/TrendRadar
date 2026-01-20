@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 58</p><p>生成时间: 2026-01-20 18:26:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">18.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B9%92%E5%8D%8F%E7%A1%AE%E8%AE%A4%E5%9B%BD%E5%AE%B6%E9%98%9F%E6%95%99%E7%BB%83%E5%91%98%E5%90%8D%E5%8D%95%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">中国乒协确认国家队教练员名单</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2062812.html" target="_blank" class="news-link">中国首所应急管理大学成立</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2062811.html" target="_blank" class="news-link">中国已向阿富汗提出紧急交涉 保护在阿中国公民</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2062809.html" target="_blank" class="news-link">中国拟出台新措施刺激未来五年内需拉动消费</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2062808.html" target="_blank" class="news-link">特朗普就任一年 中国外交部：两国关系总体动态稳定</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2062807.html" target="_blank" class="news-link">专家称中国出生人口回落到乾隆三年水平</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2062806.html" target="_blank" class="news-link">中国证实收到美国关于加入和平委员会的邀请</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E7%9F%9B%E7%9B%BE%E2%80%9D%E4%B9%8B%E4%BA%89%EF%BC%81%E4%B8%AD%E5%9B%BDU23%E7%94%B7%E8%B6%B3%E5%B0%86%E6%88%98%E8%B6%8A%E5%8D%97" target="_blank" class="news-link">“矛盾”之争！中国U23男足将战越南</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E8%B6%85%E8%8B%B9%E6%9E%9C%E6%88%90%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E6%BF%80%E6%B4%BB%E9%87%8F%E7%AC%AC%E4%BA%8C%23&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">小米超苹果成中国手机激活量第二</a> [14] <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32416310" target="_blank" class="news-link">分析｜2025年中国经济增长5%，哪些领域在发力？</a> [20] <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E4%B9%B0%E9%94%99%E7%A5%A8%E8%BA%B2%E8%BF%87%E8%A5%BF%E7%8F%AD%E7%89%99%E9%AB%98%E9%93%81%E4%BA%8B%E6%95%85" target="_blank" class="news-link">中国留学生买错票躲过西班牙高铁事故</a> [29] <font color='grey'>- 18时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">5.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8q4LVghIqeV" target="_blank" class="news-link">两位院士提名，韦东奕入围北京市科技奖杰出青年中关村奖候选人</a> [11] <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32423683" target="_blank" class="news-link">两位院士提名，韦东奕入围北京市科技奖杰出青年中关村奖候选人</a> [16] <font color='grey'>- 18时26分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637002624.html" target="_blank" class="news-link">深圳已经进化成这样了⁉️黑科技也太超前了</a> [29] <font color='grey'>- 18时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=H200%E5%AF%B9AI%E4%BA%A7%E4%B8%9A%E5%BD%B1%E5%93%8D%E5%A6%82%E4%BD%95" target="_blank" class="news-link">H200对AI产业影响如何</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/9131960101" target="_blank" class="news-link">如果美国真的拿下了加拿大、巴拿马运河和格陵兰岛，实力大增，是不是再也无法撼动美国世界霸主地位了？</a> [19] <font color='grey'>- 18时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2062810.html" target="_blank" class="news-link">嫦娥六号月球样品首次发现天然单壁碳纳米管与石墨碳</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
