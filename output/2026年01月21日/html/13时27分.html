@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-01-21 13:27:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/088.htm" target="_blank" class="news-link">日本最大核电站重启前发现 88 处错误，6 号机组确认延期启动</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1996540321803301777" target="_blank" class="news-link">特朗普回归后签署「大而美」法案、开启全球贸易战，真的让制造业回归了吗？重塑了美国国内的经济结构吗？</a> [20] <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597217699982245942/" target="_blank" class="news-link">U23国足：决赛拼一把PK日本队</a> [26] <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597623044286189082/" target="_blank" class="news-link">媒体：美国想要的是格陵兰岛产权</a> [30] <font color='grey'>- 13时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E5%85%8B%E9%BE%99%E5%91%BC%E5%90%81%E4%B8%AD%E5%9B%BD%E5%8A%A0%E5%A4%A7%E5%AF%B9%E6%AC%A7%E6%B4%B2%E7%9A%84%E6%8A%95%E8%B5%84" target="_blank" class="news-link">马克龙呼吁中国加大对欧洲的投资</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%BA%8C%E4%B8%AA5%E4%B8%87%E4%BA%BF%E5%9F%8E%E5%B8%82%E8%AF%9E%E7%94%9F%E4%BA%86" target="_blank" class="news-link">中国第二个5万亿城市诞生了</a> [17] <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BB%84%E9%87%91%E8%83%BD%E2%80%9C%E9%95%BF%E2%80%9D%E5%87%BA%E6%9D%A5%EF%BC%9F%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%96%B0%E5%8F%91%E7%8E%B0" target="_blank" class="news-link">黄金能“长”出来？中国科学家新发现</a> [30] <font color='grey'>- 13时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">3.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/089.htm" target="_blank" class="news-link">【IT之家评测室】一坞搞定供电 + 传输 + 性能，技嘉 RTX 5060 Ti AI BOX 体验评测</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时27分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%AD%A6%E7%A7%91%E5%B8%A6%E5%A4%B4%E4%BA%BA%E7%A7%B0%E8%80%81%E5%B8%88%E8%A6%81%E6%8A%8AAI%E5%BD%93%E6%88%90%E5%AF%B9%E6%89%8B%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">学科带头人称老师要把AI当成对手</a> [25] <font color='grey'>- 13时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
