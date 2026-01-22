@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-01-22 12:47:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597400085092728851/" target="_blank" class="news-link">读懂中国制造2025成绩单</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2262948.html" target="_blank" class="news-link">中国去年整治内卷式竞争十大案例 货拉拉列首席</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2375886" target="_blank" class="news-link">一分钟读懂中国经济“韧性”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A91%E5%A4%A92%E6%AC%A1%E5%8F%97%E6%8C%AB%E5%BA%94%E7%90%86%E6%80%A7%E7%9C%8B%E5%BE%85%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">中国航天1天2次受挫应理性看待</a> [16] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/415.htm" target="_blank" class="news-link">华为 nova 15 系列 × ROBBi 联名手办礼盒亮相：全系内置专属主题、锁屏界面藏互动彩蛋</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/399.htm" target="_blank" class="news-link">华为余承东再谈汽车风阻：车辆 120km/h 时，风阻消耗能量可达 70%</a> [12] <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%B8%BF%E8%92%99%E5%A4%A7%E9%A5%AD%E5%BA%97%E4%B8%80%E9%A1%BF%E9%A5%AD%E5%87%BB%E7%A2%8EBBA%E8%BD%A6%E4%B8%BB%E7%9A%84%E4%BD%93%E9%9D%A2" target="_blank" class="news-link">鸿蒙大饭店一顿饭击碎BBA车主的体面</a> [18] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/420.htm" target="_blank" class="news-link">雷军官宣小米多项 AI 创新成果入选国际顶级会议 ICASSP 2026，包括音频理解、音乐生成评估等</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/402.htm" target="_blank" class="news-link">Salesforce CEO 贝尼奥夫警告：AI 已成“自杀教练”，政府部门应加强监管</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997376980287513267" target="_blank" class="news-link">如何看待「不会用 AI 的家庭将是新寒门」的观点，AI 改变教育模式的当下，该如何在学习中合理使用 AI？</a> [17] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/401.htm" target="_blank" class="news-link">日本最大核电站重启后响起警报</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时47分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%9C%80%E5%A4%A7%E6%A0%B8%E7%94%B5%E7%AB%99%E9%87%8D%E5%90%AF%E5%90%8E%E5%93%8D%E8%B5%B7%E8%AD%A6%E6%8A%A5" target="_blank" class="news-link">日本最大核电站重启后响起警报</a> [15] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/411.htm" target="_blank" class="news-link">比亚迪法务部：博主“大秦军陕团”编造方程豹汽车虚假信息，被判赔 201 万元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/400.htm" target="_blank" class="news-link">【IT之家评测室】AMD 赋能的 AI“多面手”，铭凡 MS-S1 MAX 迷你 AI 工作站评测</a> [11] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/530236153" target="_blank" class="news-link">如何看待电子科技大学清水河畔论坛划分校友组并限制校友发言权限，现在校友组访问权限也关了？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1996337801059397880" target="_blank" class="news-link">穿越者壹号载人飞船试验舱着陆缓冲试验成功，这意味着什么？这项实验有何重要之处？</a> [18] <font color='grey'>- 12时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
