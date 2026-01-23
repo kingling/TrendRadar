@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-01-23 12:41:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">13.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2363029.html" target="_blank" class="news-link">中国海警称成功救援13名菲律宾落水船员</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598351571840696363/" target="_blank" class="news-link">出口商品清单看中国外贸新变化</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%93%81%E8%B7%AF%E5%8F%88%E5%8F%8C%E5%8F%92%E6%9C%89%E6%96%B0%E7%AA%81%E7%A0%B4%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">中国铁路又双叒有新突破</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2376523" target="_blank" class="news-link">中国粮主要用上中国种</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E4%B8%AD%E5%9B%BD%E8%BF%90%E5%8A%A8%E5%91%98%E5%90%8D%E5%8D%95%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">米兰冬奥中国运动员名单来了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597421007737520182/" target="_blank" class="news-link">网传中国高铁颠簸实为西班牙列车</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32448236" target="_blank" class="news-link">中国海警紧急救援菲律宾籍落水船员，已有13人获救</a> [17] <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598088865535885321/" target="_blank" class="news-link">中国海警紧急救援菲律宾籍落水船员</a> [18] <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E7%B4%A7%E6%80%A5%E6%95%91%E6%8F%B4%E8%8F%B2%E5%BE%8B%E5%AE%BE%E7%B1%8D%E8%90%BD%E6%B0%B4%E8%88%B9%E5%91%98" target="_blank" class="news-link">中国海警紧急救援菲律宾籍落水船员</a> [19] <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%B5%81%E6%B5%AA%E5%9C%A8%E7%BE%8E%E5%9B%BD%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">流浪在美国的中国女子</a> [23] <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597542097604575251/" target="_blank" class="news-link">越媒：阮庭北从未说过要踢中国3-0</a> [27] <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E4%BC%97%E8%AE%AE%E9%99%A2%E5%B7%B2%E6%AD%A3%E5%BC%8F%E8%A7%A3%E6%95%A3" target="_blank" class="news-link">日本众议院已正式解散</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2376945" target="_blank" class="news-link">日本众议院正式解散</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2376663" target="_blank" class="news-link">特朗普起诉美国最大银行</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%BC%97%E8%AE%AE%E9%99%A2%E6%AD%A3%E5%BC%8F%E8%A7%A3%E6%95%A3" target="_blank" class="news-link">日本众议院正式解散</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598110606285213238/" target="_blank" class="news-link">日本众议院正式解散</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E4%BC%97%E8%AE%AE%E9%99%A2%E6%AD%A3%E5%BC%8F%E8%A7%A3%E6%95%A3%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">日本众议院正式解散</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598130749917184009/" target="_blank" class="news-link">韩国一边谈和一边强军目的为何</a> [14] <font color='grey'>- 12时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598186043728822308/" target="_blank" class="news-link">韩国检方上诉会改变尹锡悦案走向吗</a> [16] <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/742.htm" target="_blank" class="news-link">定位家庭旗舰大六座 SUV，华为乾崑︱奕境首款车型预告图公布</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637066355.html" target="_blank" class="news-link">一个英国人买了一辆比亚迪，他的女邻居要求他把车处理掉，理由是</a> [19] <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32447563" target="_blank" class="news-link">TikTok美国方案落地：字节保留算法知识产权，为合资公司最大单一股东</a> [15] <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/750.htm" target="_blank" class="news-link">不再每月 99 美元？马斯克称特斯拉 FSD 监督版将涨价，无监督版能“全程睡觉”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/753.htm" target="_blank" class="news-link">开源系统 ReactOS 的 30 年“追窗”之路：不含一行微软代码</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/756.htm" target="_blank" class="news-link">JBL“乐队练团神器”BandBox 系列音箱发布，AI 帮你去除歌曲里的指定乐器</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/754.htm" target="_blank" class="news-link">广汽埃安与滴滴自动驾驶联手打造，Robotaxi R2 实现量产交付</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%BE%B0%E4%B8%9C%E5%AE%87%E5%AE%99%E7%BB%9D%E4%B8%8D%E5%90%83%E8%8B%A6%E7%94%B7%E4%B8%BB" target="_blank" class="news-link">辰东宇宙绝不吃苦男主</a> [17] <font color='grey'>- 12时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
