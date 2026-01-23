@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-01-23 16:29:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/831.htm" target="_blank" class="news-link">雷诺集团 CEO 福兰：短期内不会重返中国卖车，但用中国供应链把车卖到全世界</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997962947184587591" target="_blank" class="news-link">米兰冬奥会中国参赛运动员名单公示，谷爱凌、苏翊鸣等在列，你会关注哪个项目或哪个运动员的表现?</a> [15] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%B0%86%E4%BA%8E4%E6%9C%88%E8%AE%BF%E9%97%AE%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">外交部回应特朗普称将于4月访问中国</a> [19] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597610597631033407/" target="_blank" class="news-link">外交部回应特朗普称将于4月访问中国</a> [21] <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/23/1d8d4715595e440492578e3ef9f09246.html" target="_blank" class="news-link">俄媒：普京与美国特使深夜会谈超三个半小时</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E4%BC%97%E8%AE%AE%E9%99%A2%E6%AD%A3%E5%BC%8F%E8%A7%A3%E6%95%A3" target="_blank" class="news-link">外交部回应日本众议院正式解散</a> [18] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%A2A%E7%A7%B0%E6%B2%A1%E8%A7%81%E8%BF%87%E7%BE%8E%E5%9B%BD%E5%BA%95%E5%B1%82%E6%88%90%E5%8A%9F%E9%80%86%E8%A2%AD%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">牢A称没见过美国底层成功逆袭</a> [20] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598427344889450034/" target="_blank" class="news-link">高市早苗把日本政坛拖入“混乱”</a> [28] <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/829.htm" target="_blank" class="news-link">鸿蒙智行首款 MPV 智界 V9 更多官图公布，今年春天见</a> [11] <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997735046166099243" target="_blank" class="news-link">比亚迪起诉自媒体姚十八胜诉，获赔 201 万，如何看待用极端测试恶意抹黑车企的行为？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/830.htm" target="_blank" class="news-link">华硕针对近期多起 AMD 800 系主板搭配锐龙 7 9800X3D 处理器出现故障启动审查</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
