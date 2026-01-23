@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-01-23 14:33:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8q96MRUolqD" target="_blank" class="news-link">默茨：中国凭借战略远见，已跻身全球大国之列</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7597377462620241947/" target="_blank" class="news-link">肖战录制《2026中国网络视听盛典》</a> [19] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598348259496562214/" target="_blank" class="news-link">中国变压器成全球电力市场“硬通货”</a> [24] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E6%AD%A3%E4%BB%A5%E6%96%B0%E7%9A%84%E6%96%B9%E5%BC%8F%E8%B5%B0%E5%90%91%E4%B8%96%E7%95%8C" target="_blank" class="news-link">中国制造正以新的方式走向世界</a> [28] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/23/ef82f1419e124f30b96a074092d6405c.html" target="_blank" class="news-link">日媒感叹：日本选举何其多</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/23/db0704daa0e247f6b26fd358e69b673f.html" target="_blank" class="news-link">伊朗革命卫队总司令警告美国：“手指已扣扳机”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%AD%A3%E8%B0%83%E9%9B%86%E9%87%8D%E5%85%B5%E5%89%8D%E5%BE%80%E4%BC%8A%E6%9C%97" target="_blank" class="news-link">美国正调集重兵前往伊朗</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/767.htm" target="_blank" class="news-link">美国参议员拟立法将安卓定为犹他州官方象征</a> [14] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">2</td>
+                <td class="percentage">3.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/789.htm" target="_blank" class="news-link">谷歌 DeepMind 发布 4D 世界模型 D4RT，比 SOTA 快 300 倍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/784.htm" target="_blank" class="news-link">OpenAI“急着”为 ChatGPT 引入广告，谷歌 DeepMind CEO 哈萨比斯表示惊讶</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/795.htm" target="_blank" class="news-link">用户反馈称微软在 AI 优先策略下导致 Planner 体验倒退</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/772.htm" target="_blank" class="news-link">英伟达 GeForce NOW 云游戏现已正式支持模拟飞行摇杆</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/771.htm" target="_blank" class="news-link">英特尔 CEO 陈立武：AI 需求强劲，为短期未完全满足市场需求而遗憾</a> [11] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
