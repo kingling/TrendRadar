@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-01-25 09:50:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">8.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598340615877640234/" target="_blank" class="news-link">中国最冷小镇最低温-36℃</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2563163.html" target="_blank" class="news-link">中国四球完败于日本后 球迷展现理性心态</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qC67angQKO" target="_blank" class="news-link">德国央行行长挑唆欧洲给中国“划红线”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2563162.html" target="_blank" class="news-link">中国国防部：兵役登记是为掌握公民服役能力状况</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1998567709563123061" target="_blank" class="news-link">中国队打进 U23 亚洲杯决赛，让你看到了哪些希望？中国足球要站起来了吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2563161.html" target="_blank" class="news-link">中国特稿：一手旧牌打出新局面 上海“竖店”抢占短剧风口</a> <font color='red'><strong>[6 - 16]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/144.htm" target="_blank" class="news-link">中国船企首入欧洲 LNG 船市场，沪东中华斩获希腊卡迪夫 4 艘大单</a> [14] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2563148.html" target="_blank" class="news-link">U23亚洲杯决赛 中国0比4不敌日本获得亚军</a> [19] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202601/2563147.html" target="_blank" class="news-link">美军舰首访中国援建柬海军基地</a> [20] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2563144.html" target="_blank" class="news-link">特朗普威胁加拿大 若与中国达成贸易协议就征100%关税</a> [23] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637098833.html" target="_blank" class="news-link">[流言板]中国人寿HR讽刺求职者本科学历不配双休引热议：官方回应</a> [29] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">5.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202601/2563166.html" target="_blank" class="news-link">美国运动员霍诺德今早挑战赤手攀爬台北101</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=U23%E5%9B%BD%E8%B6%B30%3A4%E6%97%A5%E6%9C%AC%E8%8E%B7%E4%BA%9A%E5%86%9B" target="_blank" class="news-link">U23国足0:4日本获亚军</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598204256374128682/" target="_blank" class="news-link">贺炜：U23国足输给日本并非世界末日</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E5%BA%A7%E8%A7%81%E8%AF%81%E5%A4%A7%E5%94%90%E7%9B%9B%E4%B8%96%E7%9A%84%E5%9B%BD%E5%AE%9D+%E6%97%A5%E6%9C%AC%E8%AF%A5%E8%BF%98%E4%BA%86" target="_blank" class="news-link">这座见证大唐盛世的国宝 日本该还了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2563150.html" target="_blank" class="news-link">美国防战略报告：本土优先 恢复西半球军事主导地位</a> [17] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2563141.html" target="_blank" class="news-link">美国：威慑朝鲜 韩国应承担主要责任</a> [26] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7598308447200739334/" target="_blank" class="news-link">日本U23亚洲杯6场比赛只丢1球</a> [29] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/155.htm" target="_blank" class="news-link">鸿蒙智行首款 MPV 智界 V9 侧向迎宾光毯曝光，赵长江透露还有惊喜</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/153.htm" target="_blank" class="news-link">华为 nova 15 标准版机型确认后续 OTA 升级支持星闪音频</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/146.htm" target="_blank" class="news-link">华为 Mate XT / XTs 非凡大师获 HarmonyOS 6.0.0.130 升级，刘德华《非凡》主题曲变手机内置铃声</a> [12] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/157.htm" target="_blank" class="news-link">微软 Xbox 工作室负责人解释跨平台策略：确保尽可能多的玩家体验到旗下游戏</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/143.htm" target="_blank" class="news-link">微软发布 Windows Terminal 双版本更新：包含多项细节优化，修复输入法兼容问题</a> [15] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/158.htm" target="_blank" class="news-link">荣耀林林谈 iPhone Air 降价：并不会改变销量基本面，因为它是个逆着绝大多数用户需求来的产品</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/2563154.html" target="_blank" class="news-link">黄佩玲：对AI的爱恨情绪</a> [13] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/148.htm" target="_blank" class="news-link">科技昨夜今晨 0125：专家回应网传“高铁二氧化碳超标；曝 iPhone 17e 维持原价；英伟达 CEO 黄仁勋 2026 年首度来华现身菜市场...</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/152.htm" target="_blank" class="news-link">谷歌承认 Gmail 邮箱存在垃圾、广告邮件分类错误问题，正积极解决</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
