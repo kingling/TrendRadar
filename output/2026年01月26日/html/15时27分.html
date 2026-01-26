@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2026-01-26 15:27:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">8.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2663262.html" target="_blank" class="news-link">委内瑞拉临时总统：美国应停止对委官员发号施令</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599514410310209067/" target="_blank" class="news-link">美国派出重兵“合围伊朗”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2663261.html" target="_blank" class="news-link">奥巴马米歇尔联合声明：移民执法枪击给美国人敲响警钟</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2663260.html" target="_blank" class="news-link">韩国华川山鳟鱼节接待访客已破百万人次</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2663259.html" target="_blank" class="news-link">明尼苏达州拒绝美国司法部“勒索”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2663258.html" target="_blank" class="news-link">日本北海道火车与卡车相撞 多人受伤</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2380126" target="_blank" class="news-link">日本党首辩论</a> [15] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663267.html" target="_blank" class="news-link">中国国内居民出游人次65.22亿 同比增长16.2%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663266.html" target="_blank" class="news-link">中国国开行2025年铁路贷款同比增长27.8%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637135766.html" target="_blank" class="news-link">亚历克斯·霍诺尔德成功登顶了中国台北101大楼的最顶端！见证牛人奇迹的时刻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/448.htm" target="_blank" class="news-link">中国光伏组件、精细陶瓷等 23 项团体标准被确认为国际标准提案</a> [12] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599144158175707155/" target="_blank" class="news-link">为何中国连续14个月囤积黄金</a> [30] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">3.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/462.htm" target="_blank" class="news-link">马化腾：腾讯唯一花钱投入比较多的就是 AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/451.htm" target="_blank" class="news-link">创意界纷纷抵制生成式 AI：星云奖、动漫展相继封杀 AI 作品</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/446.htm" target="_blank" class="news-link">大摩研究：英国岗位流失速度受 AI 影响最深，达国际平均水平两倍</a> [13] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/459.htm" target="_blank" class="news-link">消息称谷歌 Android 17 系统 UI 将大幅增加模糊效果，相比苹果 iOS 26“液态玻璃”更克制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599490096168963625/" target="_blank" class="news-link">航空航天产业迎来“星辰大海”</a> [20] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
