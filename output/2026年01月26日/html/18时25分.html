@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2026-01-26 18:25:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">12</td>
+                <td class="percentage">16.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599595572160368164/" target="_blank" class="news-link">外交部：中国公民春节期间避免前往日本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/26/f17373222e5f453da639d9992117cd86.html" target="_blank" class="news-link">英国国王提新车，零部件由中国制造</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663277.html" target="_blank" class="news-link">中国外交部提醒公民春节避免赴日 中日航线免费退改签再延长</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%98%A5%E8%8A%82%E6%9C%9F%E9%97%B4%E9%81%BF%E5%85%8D%E5%89%8D%E5%BE%80%E6%97%A5%E6%9C%AC%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">中国公民春节期间避免前往日本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB%E7%9A%84%E5%8E%86%E5%8F%B2%E8%BD%AC%E6%8A%98%E4%B9%8B%E5%B9%B4" target="_blank" class="news-link">国产动画的历史转折之年</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663276.html" target="_blank" class="news-link">中国外交部：中加合作不针对第三方有利世界发展繁荣</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663275.html" target="_blank" class="news-link">中国商务部：一视同仁支持外企参与提振消费、政府采购</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%AC%AC%E4%B8%80%E5%A4%A7%E7%9C%81%E5%AE%9A%E4%BA%86" target="_blank" class="news-link">中国经济第一大省定了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/550.htm" target="_blank" class="news-link">乘联分会崔东树：2025 年 1-12 月中国汽车进口 48 万辆，同比大降 32%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2663271.html" target="_blank" class="news-link">中国高层与伊合组织秘书长会面：共同反对强权霸凌</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E5%90%91%E8%8F%B2%E6%96%B9%E7%A7%BB%E4%BA%A417%E5%90%8D%E8%8E%B7%E6%95%91%E8%88%B9%E5%91%98" target="_blank" class="news-link">中国海警向菲方移交17名获救船员</a> [20] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9D%9A%E5%86%B3%E5%8F%8D%E5%AF%B9%E5%B0%86%E7%96%AB%E6%83%85%E7%94%A9%E9%94%85%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">中方坚决反对将疫情甩锅中国</a> [23] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%8F%90%E9%86%92%EF%BC%9A%E6%98%A5%E8%8A%82%E6%9C%9F%E9%97%B4%E9%81%BF%E5%85%8D%E5%89%8D%E5%BE%80%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">外交部提醒：春节期间避免前往日本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2380271" target="_blank" class="news-link">外交部提醒春节避免前往日本</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1999117900200551138" target="_blank" class="news-link">外媒报道称伊朗最高领袖哈梅内伊已进入德黑兰一处加固地堡，美国会对伊朗动武吗？当前伊朗局势如何？</a> [17] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%80%E4%B8%AA%E6%B7%8B%E6%B5%B4%E5%96%B7%E5%A4%B4%E7%9C%8B%E6%87%82%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E7%84%A6%E8%99%91" target="_blank" class="news-link">一个淋浴喷头看懂美国能源焦虑</a> [24] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/558.htm" target="_blank" class="news-link">研究显示：AI 对英国冲击超其他主要经济体，就业市场承压</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/551.htm" target="_blank" class="news-link">Counterpoint：2027 年服务器 AI AISC 出货将达 2024 年三倍，2028 年反超 GPU</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/549.htm" target="_blank" class="news-link">北京麟卓详解卓奕引擎：安卓应用可直接在开源鸿蒙运行，3.0 版本业界首发适配安卓 16</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
