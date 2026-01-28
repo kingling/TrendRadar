@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 73</p><p>生成时间: 2026-01-28 12:43:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E6%AD%A6%E4%BE%A0%E5%8D%95%E6%9C%BA%E6%9E%95%E5%88%80%E6%AD%8C%E9%A6%96%E6%9B%9D" target="_blank" class="news-link">国产武侠单机枕刀歌首曝</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2863419.html" target="_blank" class="news-link">加州环保官员称赞中国加拿大电动车贸易协议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997722076698654465" target="_blank" class="news-link">川普说「中国制造了几乎所有风力发电设备，自己却没安装」，真实情况如何？你怎么看？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%80%81%E5%A4%96%E5%9C%A830%E5%B9%B4%E5%89%8D%E4%B8%AD%E5%9B%BD%E9%95%BF%E5%A4%A7%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">老外在30年前中国长大是什么体验</a> [13] <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202601/2863421.html" target="_blank" class="news-link">关税协议达成后 台美官员展开科技、AI与无人机合作讨论</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/130.htm" target="_blank" class="news-link">Stratechery 称台积电已成为全球 AI 供应链中最大的“风险”因素</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E4%BA%91%EF%BC%9A%E5%AD%A9%E5%AD%90%E4%B8%8D%E5%BA%94%E5%92%8CAI%E6%AF%94%E6%8B%BC%E8%AE%A1%E7%AE%97%E5%92%8C%E8%AE%B0%E5%BF%86" target="_blank" class="news-link">马云：孩子不应和AI比拼计算和记忆</a> [23] <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">比亚迪</td>
+                <td class="count">2</td>
+                <td class="percentage">2.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/128.htm" target="_blank" class="news-link">特斯拉品牌价值 2025 年缩水 36% 已连续三年下滑，比亚迪逆势增长 23%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599192163290218537/" target="_blank" class="news-link">韩国比亚迪购车人群98%为韩国国民</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">2.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/131.htm" target="_blank" class="news-link">预计 2030 年用掉 800 亿升水，微软承诺节约水资源</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2063590-1-1.html" target="_blank" class="news-link">Windows 11 的“开始”菜单的分类视图缺少手动控制，微软表示正在听取反馈意见。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">2.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/126.htm" target="_blank" class="news-link">英伟达 RTX Remix Logic 上线：900+ 参数任意调，不改源代码重塑经典游戏</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/124.htm" target="_blank" class="news-link">消息称 SK 海力士已拿下英伟达三分之二 HBM4 订单</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/123.htm" target="_blank" class="news-link">OpenAI 投资人呼吁特斯拉员工辞职，马斯克痛骂其“混蛋”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/28/090eb2b762e84696b976f7aa8f9f74c9.html" target="_blank" class="news-link">美国再次退出《巴黎协定》</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
