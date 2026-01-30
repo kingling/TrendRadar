@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2026-01-30 17:37:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qKckagYL2d" target="_blank" class="news-link">欧盟高官抱怨：更多国家想靠近中国，美国犯大错</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/30/658e421e65fa4d6fa60599bf6280ef13.html" target="_blank" class="news-link">页岩气开发推动中国天然气产量创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qKcKCEV4m5" target="_blank" class="news-link">美智库民调：近四分之三美国人预计，中国将超越美国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qKuPdH5NFD" target="_blank" class="news-link">东京街头273万美元被劫！受害者含2名中国人</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/937.htm" target="_blank" class="news-link">小米可穿戴设备 1 月 OTA 更新进展：Watch 5 优化微信连接，AI 眼镜灰度上线精选智能体</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=SpaceX%E6%88%96%E4%B8%8ExAI%E5%90%88%E5%B9%B6" target="_blank" class="news-link">SpaceX或与xAI合并</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/913.htm" target="_blank" class="news-link">进迭时空发布全球首款符合 RVA23 规范的量产 RISC-V 芯片 K3，支持 Ubuntu、开源鸿蒙等操作系统</a> [12] <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/924.htm" target="_blank" class="news-link">比亚迪腾势 N9 开年 OTA：升级天神之眼 5.0，新增隐私声盾等功能</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/938.htm" target="_blank" class="news-link">消息称英伟达敲定一季度 RTX50 系显卡供货比例指导建议，主力型号调整为 RTX 5060 Ti 8GB</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/930.htm" target="_blank" class="news-link">名创优品创始人叶国富：公司正在开发“YOYO”人形机器人</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qKeVySFdEn" target="_blank" class="news-link">涉格陵兰岛机密电文曝光，芬兰求美国：别搞那么难看</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
