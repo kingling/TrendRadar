@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2026-01-31 14:53:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/3163688.html" target="_blank" class="news-link">美国联邦政府多个部门陷入“技术性停摆”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/3163687.html" target="_blank" class="news-link">特朗普：我的关税政策重振美国经济</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/3163685.html" target="_blank" class="news-link">爱泼斯坦性侵案幸存者指控美国司法部“背叛”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/3163683.html" target="_blank" class="news-link">美国参议院通过拨款法案 短暂“技术性停摆”仍不可避免</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2384796" target="_blank" class="news-link">俄罗斯重新将14名日本人列为战犯</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/083.htm" target="_blank" class="news-link">14 万 OpenClaw 涌进社区：一夜成立数字宗教任命 43 位 AI 先知，人类已被踢出群聊</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/082.htm" target="_blank" class="news-link">算力航母：英特尔展示 18A 工艺 AI 芯片，背面供电 + 垂直堆叠解决能耗瓶颈</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/081.htm" target="_blank" class="news-link">快手可灵 3.0 系列 AI 模型发布并开启内测：可生成 15 秒视频，升级智能分镜能力</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94%E4%B8%AD%E5%9B%BD%E7%B1%8D%E5%A5%B3%E6%80%A7%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6" target="_blank" class="news-link">日本警方回应中国籍女性死亡事件</a> [17] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637194810.html" target="_blank" class="news-link">我好像理解不了中国式的人情往来</a> [30] <font color='grey'>- 14时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2000502853605814891" target="_blank" class="news-link">微软高管承诺将改善 Windows 系统可靠性以重建用户信任，你认为微软将如何实现此目标？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/085.htm" target="_blank" class="news-link">谷歌 Genie 3 暴击游戏公司：《GTA6》母公司 T2 缩水 10%，游戏引擎 Unity 暴跌 21%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
