@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 31</p><p>生成时间: 2026-01-31 15:49:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">9.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/3163690.html" target="_blank" class="news-link">日本茨城县山林发现中国籍女尸</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时49分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/533832896" target="_blank" class="news-link">为什么音频解码器都是国产的？</a> [19] <font color='grey'>- 15时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E5%9B%BD%E6%94%BF%E8%A6%81%E7%88%B1%E5%90%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%8F%9C%E9%83%BD%E6%9C%89%E5%95%A5" target="_blank" class="news-link">外国政要爱吃的中国菜都有啥</a> [23] <font color='grey'>- 15时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">6.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/101.htm" target="_blank" class="news-link">格力发布 Star5 AI 中央空调：实时感知环境变化，室内机噪音低至 16 分贝</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/100.htm" target="_blank" class="news-link">realme 真我 16 手机海外发布：天玑 6400 Turbo 芯片、7000mAh 电池，“Air”设计</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/099.htm" target="_blank" class="news-link">比亚迪海洋 8 系“双旗舰”海豹 08、海狮 08 实车曝光，均配后轮转向</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E5%8F%88%E2%80%9C%E5%81%9C%E6%91%86%E2%80%9D%E4%BA%86" target="_blank" class="news-link">美国政府又“停摆”了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
