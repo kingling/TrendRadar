@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-02-01 13:58:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/01/2b29949e3d694c188359aee85b65d4d9.html" target="_blank" class="news-link">美国伊拉克问题特使萨瓦亚遭撤换</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2001056898753983700" target="_blank" class="news-link">美军侦察机现身伊朗附近空域，美国为何盯上伊朗？一旦动武将产生哪些连锁反应？</a> [11] <font color='grey'>- 13时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%BB%91%E9%9B%AA%E5%9C%BA%E5%86%8D%E5%87%BA%E4%B8%A5%E9%87%8D%E8%87%B4%E6%AD%BB%E4%BA%8B%E6%95%85%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">日本滑雪场再出严重致死事故</a> [30] <font color='grey'>- 13时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/236.htm" target="_blank" class="news-link">荣耀朱臣才介绍今年笔电产品策略，称在核显和 AI 应用提升的力气最大</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/230.htm" target="_blank" class="news-link">OpenAI 已准备好在 ChatGPT 中推出广告：承诺不篡改回答且数据不外售</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0163742.html" target="_blank" class="news-link">中国工商银行指贵金属价格波动 敦促投资者避免盲目追涨杀跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%BA%A7%E7%94%B5%E5%8A%9B%E5%BF%83%E8%84%8F%E5%85%A8%E7%90%83%E7%88%86%E5%8D%95%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">国产电力心脏全球爆单</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/227.htm" target="_blank" class="news-link">何小鹏回应 IRON 人形机器人摔倒：想起所有孩子学步的样子</a> [11] <font color='grey'>- 13时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
