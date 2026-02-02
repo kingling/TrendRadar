@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2026-02-02 20:57:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0263839.html" target="_blank" class="news-link">美国强劲暴风雪波及温暖佛州 多市气温降至零下低于格陵兰</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0263838.html" target="_blank" class="news-link">阿联酋王室注资特朗普家族企业 创美国政坛先例</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0263837.html" target="_blank" class="news-link">日本将拍卖30年期国债 市场视为高市“公投”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/37302015" target="_blank" class="news-link">美国当地人常吃的快餐品牌也是肯德基、麦当劳么?</a> [13] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637241297.html" target="_blank" class="news-link">美国发了最新的爱泼斯坦文件，特朗普等人太会玩了，外网舆论已经炸了</a> [16] <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/576.htm" target="_blank" class="news-link">全国首个开源鸿蒙智慧病区正式启用，支持精准输液、智慧病房联动等</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/573.htm" target="_blank" class="news-link">比亚迪方程豹开启豹 5 第九次、豹 8 第六次 OTA 推送：新增智能防晕车、华为 HiCar 适配镜像模式等</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/566.htm" target="_blank" class="news-link">智元将举办全球首个大型机器人晚会“机器人奇妙夜”，不参加 2026 年春晚</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32513400" target="_blank" class="news-link">侧记｜预制菜、短剧、机器人……上海政协委员们的两会关键词里有什么？</a> [19] <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0263834.html" target="_blank" class="news-link">日本6000米深海开采发现稀土 盼降低对中国依赖</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1903909147877023814" target="_blank" class="news-link">杭州是否已经稳居中国第五城？未来有可以撼动杭州地位的城市吗？</a> [19] <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/572.htm" target="_blank" class="news-link">消息称台积电 2nm 产能已被预订一空，英伟达有望“弯道超车”率先用上 A16 制程</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/570.htm" target="_blank" class="news-link">绿联科技向港交所提交上市申请书，提升国际化品牌形象</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
