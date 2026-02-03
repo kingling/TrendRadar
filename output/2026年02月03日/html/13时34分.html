@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 57</p><p>生成时间: 2026-02-03 13:34:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2001947312226848988" target="_blank" class="news-link">SpaceX 收购人工智能企业 xAI，合并估值达 1.25 万亿美元，同为马斯克旗下公司，如何解读？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602226721282457650/" target="_blank" class="news-link">又一位AI亿万富豪诞生了</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%8E%82%E6%8E%80%E8%B5%B745%E4%BA%BFAI%E7%BA%A2%E5%8C%85%E5%A4%A7%E6%88%98%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">大厂掀起45亿AI红包大战</a> [20] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0363880.html" target="_blank" class="news-link">中国国产新型无人机彩虹YH-1000S成功首飞</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0363879.html" target="_blank" class="news-link">涉案近5000万人民币 中国警方从南非引渡一名经济嫌犯</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32515040" target="_blank" class="news-link">春节期间中国人出境游首选韩国，外交部回应</a> [18] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%96%B0%E7%89%88%E7%86%94%E7%82%89%E4%BA%8B%E4%BB%B6%E8%AE%A9%E9%9F%A9%E5%9B%BD%E7%A4%BE%E4%BC%9A%E7%82%B8%E9%94%85%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">新版熔炉事件让韩国社会炸锅</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602198108495609898/" target="_blank" class="news-link">美国女子曝幼年被母亲喂食人肉</a> [16] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%98%A5%E8%8A%82%E5%87%BA%E6%B8%B8%E9%A3%8E%E5%90%91%E5%8F%98%E4%BA%86%EF%BC%9A%E2%80%9C%E6%97%A5%E6%9C%AC%E6%B8%B8%E2%80%9D%E5%87%89%E4%BA%86" target="_blank" class="news-link">春节出游风向变了：“日本游”凉了</a> [27] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">3.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/724.htm" target="_blank" class="news-link">消息称华为在看 1:1 方形传感器，用于前置摄像头</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/723.htm" target="_blank" class="news-link">鸿蒙智行官宣“春节不打烊”，支持新春出行检测、24 小时全场景道路救援等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2388109" target="_blank" class="news-link">当硬核科技遇上柔软归途</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
