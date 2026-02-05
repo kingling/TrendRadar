@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-02-05 13:37:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602104760728125482/" target="_blank" class="news-link">立陶宛承认对中国犯了巨大的错误</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时37分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0564036.html" target="_blank" class="news-link">中国驻韩大使：循序渐进推进健康有益的文化交流</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2002689754945250515" target="_blank" class="news-link">立陶宛新总理公开承认对中国「犯了大错」，这种外交决策的转向说明了什么？后续中立关系会如何？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时37分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0564033.html" target="_blank" class="news-link">中国三军工央企高管人大代表资格被终止</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0564038.html" target="_blank" class="news-link">中国生成式AI用户超6亿人</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32532785" target="_blank" class="news-link">腾讯元宝红包微信分享遭限制，AI入口之争遇挫了吗？</a> [20] <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602939814740754441/" target="_blank" class="news-link">19990美元起！贾跃亭发布人形机器人</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B4%BE%E8%B7%83%E4%BA%AD%E5%8F%91%E5%B8%83%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+19990%E7%BE%8E%E5%85%83%E8%B5%B7" target="_blank" class="news-link">贾跃亭发布人形机器人 19990美元起</a> [15] <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/440.htm" target="_blank" class="news-link">鸿蒙智行首款 MPV 智界 V9 座舱公布：首发绒霞紫内饰，搭载二排旋转座椅</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/437.htm" target="_blank" class="news-link">陶琳：2025 年上海超级工厂贡献特斯拉全球范围过半交付量</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/438.htm" target="_blank" class="news-link">宣称每美元、每瓦 Token 可达英伟达 Rubin 五倍，Positron 公布 AI 推理芯片 Asimov</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637295170.html" target="_blank" class="news-link">瑞士华人曝光美国斩杀线，被开除了</a> [24] <font color='grey'>- 13时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
