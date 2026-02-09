@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-02-09 18:02:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qbgybCJ8kB" target="_blank" class="news-link">胡锡进：这次选举是高市个人忽悠术的胜利，而决非日本的胜利</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2002455660063916860" target="_blank" class="news-link">如何评价美国惊悚电影《家弑服务》？</a> [12] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7604510939282407487/" target="_blank" class="news-link">中方回应强硬立场影响日本大选论</a> [19] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E4%B8%AD%E5%9C%BA%E7%A7%80%E6%98%AF%E5%AF%B9%E7%BE%8E%E5%9B%BD%E7%9A%84%E4%BE%AE%E8%BE%B1%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">特朗普说中场秀是对美国的侮辱</a> [25] <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AIGC%E6%95%B4%E6%B4%BB%E6%96%B0%E6%98%A5%E8%81%94%E6%AC%A2%E4%BC%9A" target="_blank" class="news-link">AIGC整活新春联欢会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/531.htm" target="_blank" class="news-link">欧盟委员会警告 Meta：WhatsApp 须为竞争对手 AI 聊天机器人“开绿灯”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A4%B4%E5%8F%B7%E6%B5%81%E5%A4%B1%E5%9B%BD%E5%AE%9D+%E7%AB%9F%E6%88%90%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%9C%89%E8%B4%A2%E4%BA%A7" target="_blank" class="news-link">中国头号流失国宝 竟成日本国有财产</a> [12] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7604101647568273471/" target="_blank" class="news-link">外交部回应中国网民担忧日本右倾</a> [22] <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/499.htm" target="_blank" class="news-link">特斯拉：赛博无人驾驶电动车 Cybercab 将在得州超级工厂量产并投运</a> [14] <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/533.htm" target="_blank" class="news-link">消息称微软下一代 Xbox 平台发布时点主要取决于 Win11 改造进度</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/536.htm" target="_blank" class="news-link">登机口也能点外卖：美团“小黄蜂”上岗，南京机场首次引入智能配送机器人</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qbdiwwFtGg" target="_blank" class="news-link">马斯克又改口：先造月球城市，再登陆火星</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
