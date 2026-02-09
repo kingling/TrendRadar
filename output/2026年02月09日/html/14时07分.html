@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2026-02-09 14:07:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD19%E5%B2%81%E9%80%9F%E6%BB%91%E5%B0%8F%E5%B0%86%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E9%80%A0%E5%9E%8B" target="_blank" class="news-link">中国19岁速滑小将齐天大圣造型</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%BA%E5%95%A5%E7%88%B1%E5%90%83%E5%86%9C%E6%9D%91%E5%A4%A7%E5%B8%AD" target="_blank" class="news-link">中国人为啥爱吃农村大席</a> [13] <font color='grey'>- 14时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%AD%A6vs%E7%BE%8E%E5%9B%BD%E7%89%B9%E8%AD%A6&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">中国特警vs美国特警</a> [13] <font color='grey'>- 14时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/434.htm" target="_blank" class="news-link">AI 工具带来突破性进展，新罕布什尔大学识别出 25 种先前未知的磁性材料</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/427.htm" target="_blank" class="news-link">贾跃亭：法拉第未来今年将死磕 FX Super One 及机器人量产、交付和爬坡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%A4%A7%E9%AA%82%E7%BE%8E%E5%9B%BD%E5%86%AC%E5%A5%A5%E8%BF%90%E5%8A%A8%E5%91%98%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">特朗普大骂美国冬奥运动员</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
