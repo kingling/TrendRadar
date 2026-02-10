@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2026-02-10 15:58:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">9</td>
+                <td class="percentage">8.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/10/39287066ef5d44108f29a479df409dc4.html" target="_blank" class="news-link">波多黎各歌手“坏痞兔”：美洲是一个大陆，而不仅仅是美国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qdDQ7ppwvG" target="_blank" class="news-link">专家：日本政局“一强多弱”，进入是否坚持和平的重要节点</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/10/e31e0c7789c8436e8f3f0571103c78a4.html" target="_blank" class="news-link">美国就霍尔木兹海峡航运风险发警告</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/1064427.html" target="_blank" class="news-link">日媒：日本2月18日举行首相指名选举</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qd9RCQ1QUU" target="_blank" class="news-link">如果想知道法西斯当年怎么上台的，看看现在的日本</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350492&amp;amp;topic_name=%E6%B4%97%E5%9C%B0%E7%A5%9E%E8%AE%BA%3A%E7%BE%8E%E5%9B%BD%E7%BC%BA%E7%94%B5%E5%A4%AA%E6%8B%9B%E7%AC%91" target="_blank" class="news-link">洗地神论:美国缺电太招笑</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004190292983703175" target="_blank" class="news-link">自民党众院选举大胜，对日本是福还是祸？本次大选后他们的执政前景如何？</a> [16] <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004311700736861294" target="_blank" class="news-link">时隔 75 年，沃什和贝森特共推美联储和美国财政部恢复一致性关系，这意味着什么？</a> [17] <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3YU7%E5%9C%A8%E7%BE%8E%E5%9B%BD%E5%8A%A0%E5%B7%9E%E9%AB%98%E9%80%9F%E8%B7%AF%E4%B8%8A%E8%A1%8C%E9%A9%B6" target="_blank" class="news-link">小米YU7在美国加州高速路上行驶</a> [28] <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">3.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1064429.html" target="_blank" class="news-link">法国报告建议欧盟通过关税或欧元贬值应对中国竞争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%95%B0%E6%8D%AE%E8%A7%81%E8%AF%81%E7%9D%80%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E9%9F%A7%E6%80%A7%E4%B8%8E%E6%B4%BB%E5%8A%9B%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">数据见证着中国经济韧性与活力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/813.htm" target="_blank" class="news-link">国产掌机品牌 AYANEO 辟谣拖欠员工工资：薪资发放一切正常，晒银行回单自证</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7604694826445226020/" target="_blank" class="news-link">回家过年是中国人刻在骨子里的执念</a> [29] <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/809.htm" target="_blank" class="news-link">最高纯电续航 272 公里，鸿蒙智行问界 M6 增程版续航信息出炉</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/796.htm" target="_blank" class="news-link">华为余承东解释“问界 / AITO”命名寓意：投石问路 + 跨界合作，大模型 AI 将 OTA 给老车主</a> [19] <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/1064426.html" target="_blank" class="news-link">美国拟豁免科技巨头晶片关税 助AI兼促台积电投资</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/819.htm" target="_blank" class="news-link">银昕推出 AIO 水冷散热器 XE420，面向单路服务器处理器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">2</td>
+                <td class="percentage">1.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/823.htm" target="_blank" class="news-link">全球首款 5 吨级 eVTOL“峰飞航空 V5000 天际龙”正式亮相，成功在苏州昆山基地完成转换飞行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/392450233" target="_blank" class="news-link">有没有可能可控核聚变根本实现不了，宇宙中的文明也无法星际航行？</a> [19] <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/822.htm" target="_blank" class="news-link">曝谷歌“安卓电脑”系统 Aluminum OS 将无缝集成 Gemini，按 Google 键 + 空格就能打开</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
