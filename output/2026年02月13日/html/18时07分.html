@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-02-13 18:07:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%95%BF%E5%BE%81%E5%8D%81%E5%8F%B7%E5%AF%B9%E4%B8%AD%E5%9B%BD%E7%99%BB%E6%9C%88%E6%8E%A8%E8%BF%9B%E6%9C%89%E4%BD%95%E6%84%8F%E4%B9%89" target="_blank" class="news-link">长征十号对中国登月推进有何意义</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2005639895000044849" target="_blank" class="news-link">外交部回应日本再次扣押中国大陆渔船一事，日方近期在涉华问题上动作频频，哪些信息值得关注？会有什么影响？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%85%8B%E9%BE%99%E8%8E%B7%E8%B5%A0%E4%B8%AD%E5%9B%BD%E9%BE%99%E8%B0%95%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">马克龙获赠中国龙谕</a> [17] <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/725.htm" target="_blank" class="news-link">大疆公布 2026 春节服务保障：线上客服时间延长至 24 点、门店无休、无人机快换覆盖范围扩大</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">京东</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%A4%E5%A4%95%E6%9D%A5%E4%BA%AC%E4%B8%9C%E6%8A%BD1%E6%8A%98%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">除夕来京东抽1折机器人</a> [16] <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/719.htm" target="_blank" class="news-link">曝特斯拉 Model Y 成 2025 年欧洲最畅销纯电车型，但品牌总销量被大众反超</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2064816-1-1.html" target="_blank" class="news-link">⭐⭐ 微软商店抽风了？⭐⭐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%93%A5%E5%BC%801%E4%BA%BA%E5%85%AC%E5%8F%B8%E9%9D%A0AI%E6%9C%88%E5%85%A5200%E4%B8%87" target="_blank" class="news-link">杭州大哥开1人公司靠AI月入200万</a> [22] <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606195526660263443/" target="_blank" class="news-link">科技公司年终奖大比拼</a> [20] <font color='grey'>- 18时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
