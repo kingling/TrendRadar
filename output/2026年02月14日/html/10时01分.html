@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 124</p><p>生成时间: 2026-02-14 10:01:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">9</td>
+                <td class="percentage">7.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qjI1upWXBg" target="_blank" class="news-link">武契奇答凤凰：大国博弈激烈，中国这种情况非常少见</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1464705.html" target="_blank" class="news-link">安世案裁决出炉 中国商务部称半导体供应链稳定是当务之急</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1464704.html" target="_blank" class="news-link">王毅：中国从不要求别国选边站队 中阿合作不针对第三方</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A4%B1%E8%81%94%E4%B8%AD%E5%9B%BD%E5%8D%9A%E5%A3%AB%E7%94%9F%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">意大利失联中国博士生最新进展</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1969607496965559718" target="_blank" class="news-link">中国出一个 faker 难还是韩国出一个数学韦神难?</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qjDieGUIRM" target="_blank" class="news-link">日方扣押中国渔船，中方通报最新进展</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7605965166294958089/" target="_blank" class="news-link">中国为何突然大量进口美国玉米</a> [11] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7605847078376013843/" target="_blank" class="news-link">先“动手”的菲律宾喊中国“冷静”</a> [20] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">乌克兰感谢中国</a> [30] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7605955804092743721/" target="_blank" class="news-link">美国选手马里宁自由滑重大失误</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606361497841156102/" target="_blank" class="news-link">德国总理：美国没有实力独行</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8qjHnBLEM9O" target="_blank" class="news-link">美国气候政策发生“最重大逆转”</a> [12] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/1464693.html" target="_blank" class="news-link">美国发布后撤回涉嫌助北京军方中企更新名单</a> [13] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606395764763557930/" target="_blank" class="news-link">日本加速“再军事化”美国准备好了吗</a> [16] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%995%E4%B8%AA%E6%9C%88%E7%94%A8AI%E5%81%9A120%E5%A4%9A%E4%B8%AAApp" target="_blank" class="news-link">小伙5个月用AI做120多个App</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/1464697.html" target="_blank" class="news-link">谢承财：为企业生态与AI转型奠定新底盘</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/799.htm" target="_blank" class="news-link">地平线开源 HoloBrain VLA 基座模型，为机器人注入三维空间理解能力</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/795.htm" target="_blank" class="news-link">中国首部 AIGC 动画电影《团圆令》定档 2 月 28 日上映，以大熊猫为主题</a> [14] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">2</td>
+                <td class="percentage">1.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32602762" target="_blank" class="news-link">DeepSeek春节再扔王炸？官方披露正测试新模型结构</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1464695.html" target="_blank" class="news-link">陈婧：中国将迎来下一个DeepSeek时刻？</a> [11] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/800.htm" target="_blank" class="news-link">华为公布最新 5A 设备名单：涵盖畅享 70X、nova 15 系列等机型</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/803.htm" target="_blank" class="news-link">迪士尼法务部出手，称字节跳动 Seedance 2.0 盗用漫威与星战角色训练 AI 模型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606270891333091371/" target="_blank" class="news-link">英伟达市值一夜蒸发超6900亿元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/802.htm" target="_blank" class="news-link">日企 Links 发布 AMD &quot;Zen+&quot; 嵌入式处理器迷你主机 LC2314</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
