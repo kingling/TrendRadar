@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 47</p><p>生成时间: 2026-02-16 18:49:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7607355796984299556/" target="_blank" class="news-link">春晚节目单：同为中国人不分彼此</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7606697300048183337/" target="_blank" class="news-link">来中国的外国人也爱上了中国年</a> [14] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BE%B7%E5%9B%BD%E8%80%81%E5%A4%96%E7%9C%8B%E5%91%86%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%A4%9C%E9%A5%AD" target="_blank" class="news-link">德国老外看呆中国年夜饭</a> [30] <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2403105" target="_blank" class="news-link">被王毅痛斥后日本急了</a> [18] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%88%90%E5%B9%B4%E4%BA%BA%E8%BF%87%E5%B9%B4%E6%9C%80%E6%80%95%E4%BB%80%E4%B9%88%EF%BC%9F%E5%8F%91%E5%8E%8B%E5%B2%81%E9%92%B1" target="_blank" class="news-link">韩国成年人过年最怕什么？发压岁钱</a> [30] <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%B1%86%E5%8C%85%E7%A7%91%E6%8A%80%E5%A5%BD%E7%A4%BC%E6%9C%89%E6%98%A5%E6%99%9A%E5%90%8C%E6%AC%BE%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">豆包科技好礼有春晚同款机器人</a> [27] <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/120.htm" target="_blank" class="news-link">2026 总台春晚将首次融合杂技与科技，《难忘今宵》以全新方式演绎</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
