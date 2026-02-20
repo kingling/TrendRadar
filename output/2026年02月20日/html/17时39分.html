@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2026-02-20 17:39:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">15.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2065068.html" target="_blank" class="news-link">2026中国春节档票房突破30亿人民币</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%AF%8F%E4%B8%80%E4%BD%8D%E4%B8%AD%E5%9B%BD%E5%86%B0%E9%9B%AA%E5%81%A5%E5%84%BF%E9%83%BD%E9%97%AA%E9%97%AA%E5%8F%91%E5%85%89%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">每一位中国冰雪健儿都闪闪发光</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/597.htm" target="_blank" class="news-link">宝马 CEO 齐普策警告：对中国庞大市场、创新潜力视而不见之人正错失巨大机遇</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/596.htm" target="_blank" class="news-link">国产镜头发力高端市场，七工匠 AF 135mm F1.8 将亮相 CP+ 2026</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7608816836171271726/" target="_blank" class="news-link">中国婚姻报告2026</a> [19] <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32632422" target="_blank" class="news-link">渤海大学教授大年初一泰国救人获点赞，曾入选“中国好人榜”</a> [19] <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%88%98%E6%9C%BA%E8%BF%9B%E9%98%B6%E5%8F%B2%E8%AF%A6%E8%A7%A3" target="_blank" class="news-link">中国战机进阶史详解</a> [24] <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7608847362115190847/" target="_blank" class="news-link">德总理访华前找中国问题专家吃饭</a> [28] <font color='grey'>- 17时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/600.htm" target="_blank" class="news-link">刷新深空探测极限：我国科学家用天文 AI 模型绘制“极致深空图”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%94%A8AI%E9%89%B4%E5%AE%9A%E7%8E%89%E7%9F%B38%E4%B8%AA%E6%9C%88%E6%94%B6%E5%85%A5%E4%B8%8A%E7%99%BE%E4%B8%87%23&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">男子用AI鉴定玉石8个月收入上百万</a> [14] <font color='grey'>- 17时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%85%B4%E5%85%B4%E8%AF%B4%E5%AE%87%E6%A0%91%E7%9A%84%E5%AF%B9%E6%89%8B%E5%B0%B1%E6%98%AF%E8%87%AA%E5%B7%B1%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">王兴兴说宇树的对手就是自己</a> [15] <font color='grey'>- 17时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/603.htm" target="_blank" class="news-link">美国洛杉矶政府起诉《Roblox》游戏，指其成恋童癖犯罪温床</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
