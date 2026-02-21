@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-02-21 09:54:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">16</td>
+                <td class="percentage">13.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7607994965654700095/" target="_blank" class="news-link">驻俄使馆再次提醒中国游客注意安全</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2165104.html" target="_blank" class="news-link">新华社称冬奥会中国奖牌数量已创境外参赛新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2165103.html" target="_blank" class="news-link">中国应急管理部工作组湖北荆门检查烟花爆竹安全生产</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609099963863158278/" target="_blank" class="news-link">《镖人》之后国产武侠片或许再无来者</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609082729434660902/" target="_blank" class="news-link">中国代表重申：日本没资格要求入常</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BB%A3%E8%A1%A8%E9%87%8D%E7%94%B3%EF%BC%9A%E6%97%A5%E6%9C%AC%E6%B2%A1%E8%B5%84%E6%A0%BC%E8%A6%81%E6%B1%82%E5%85%A5%E5%B8%B8" target="_blank" class="news-link">中国代表重申：日本没资格要求入常</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2165095.html" target="_blank" class="news-link">下午察：中国“超级智库”的陨落</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%BB%A3%E8%A1%A8%E9%87%8D%E7%94%B3%E6%97%A5%E6%9C%AC%E6%B2%A1%E8%B5%84%E6%A0%BC%E8%A6%81%E6%B1%82%E5%85%A5%E5%B8%B8%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">中国代表重申日本没资格要求入常</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E9%98%9F%E6%AF%94%E5%86%A0%E5%86%9B%E8%BF%98%E5%BF%AB&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">中国队比冠军还快</a> [15] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202602/2165089.html" target="_blank" class="news-link">泰国成中国无人机销俄新枢纽 出口额暴增八倍</a> [16] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7608959111568834566/" target="_blank" class="news-link">领奖台上两面中国国旗</a> [18] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%BB%E4%BF%84%E4%BD%BF%E9%A6%86%E6%8F%90%E9%86%92%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E9%87%8D%E8%A7%86%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" target="_blank" class="news-link">驻俄使馆提醒中国游客重视安全问题</a> [18] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609097873954704959/" target="_blank" class="news-link">中国境外冬奥参赛奖牌总数创新高</a> [21] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%9F%AD%E9%81%93%E6%96%B0%E4%B8%96%E7%BA%AA%E5%86%AC%E5%A5%A5%E4%BC%9A%E6%9C%80%E5%B7%AE%E6%88%98%E7%BB%A9%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">中国短道新世纪冬奥会最差战绩</a> [24] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2407180" target="_blank" class="news-link">中国游客溺亡事发地沿途布满冰裂</a> [24] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=90%E5%B2%81%E9%99%A2%E5%A3%AB%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AF%BC%E5%BC%B9%E6%B2%A1%E6%9C%89%E6%AD%BB%E8%A7%92" target="_blank" class="news-link">90岁院士称中国导弹没有死角</a> [28] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软</td>
+                <td class="count">3</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/669.htm" target="_blank" class="news-link">神似原版：微软 WinXP 壁纸 Bliss 拍摄地 30 年后罕见重回巅峰</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/666.htm" target="_blank" class="news-link">微软 Win11 Canary 28020.1619 预览版发布：Resume 跨设备互联、讲述人等自带应用增添实用功能</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BE%AE%E8%BD%AF%E6%B8%B8%E6%88%8FCEO%E5%AE%A3%E5%B8%83%E9%80%80%E4%BC%91" target="_blank" class="news-link">微软游戏CEO宣布退休</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/668.htm" target="_blank" class="news-link">研究显示：AI 生成人脸已“好得不真实”，人类识别能力落后于技术进步</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/2165100.html" target="_blank" class="news-link">王彼得：半年内被AI抢走饭碗 你也在吓自己吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202602/2165092.html" target="_blank" class="news-link">美印联盟迈向“新黄金时代” 美国对印尼关税降至19%</a> [13] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/2165091.html" target="_blank" class="news-link">美国最高法院裁决特朗普关税政策违宪 1750亿美元税款或须退还</a> [14] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/670.htm" target="_blank" class="news-link">每秒 12000 tokens 吞吐：Taalas 集群跑 DeepSeek R1 创速度纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/667.htm" target="_blank" class="news-link">特斯拉 App 4.54.0 新特性：可晒 FSD（辅助监督版）数据</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/664.htm" target="_blank" class="news-link">消息称索尼想复刻《蜘蛛侠：平行宇宙》奇迹，《毒液》续作将转型为动画电影</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
