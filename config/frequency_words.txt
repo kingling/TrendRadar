@@ -1,5 +1,8 @@
 DeepSeek
 
+openclaw
+picoclaw
+
 华为
 鸿蒙
 
