@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2026-02-24 18:48:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/305.htm" target="_blank" class="news-link">硅谷顶级待遇：OpenAI 研究员底薪 24.5~68.5 万美元，工程师收入可观</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/302.htm" target="_blank" class="news-link">宜鼎推出 CXL AIC 扩展卡：可为兼容设备扩展最大 256GB 内存</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/291.htm" target="_blank" class="news-link">虚拟世界中搞“AI 基建”：游戏《Data Center》三月末正式上线，现已开启试玩</a> [12] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/288.htm" target="_blank" class="news-link">下一代豆包手机？努比亚 AI 新品官宣“定义手机新物种”，MWC 2026 见</a> [13] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">2</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609967554191933449/" target="_blank" class="news-link">大疆起诉美国联邦通信委员会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/301.htm" target="_blank" class="news-link">大疆起诉美国联邦通信委员会 FCC</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/284.htm" target="_blank" class="news-link">Model Y L 在澳大利亚获批上市，特斯拉上海超级工厂出口加速</a> [16] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/285.htm" target="_blank" class="news-link">消息称英伟达、苹果等科技巨头在韩挖角 HBM、AI 人才，开出六位数美元年薪</a> [15] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/292.htm" target="_blank" class="news-link">不再局限移动端：曝 AMD 计划今年二季度推出桌面版“Gorgon Point”处理器，AM5 插槽</a> [11] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609522532311515178/" target="_blank" class="news-link">媒体：彻底击碎日本“军国梦”</a> [21] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/582970615" target="_blank" class="news-link">为什么宇宙恰好是三维的，不是二维也不是四维？</a> [15] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
