@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 91</p><p>生成时间: 2026-02-24 17:51:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8r0VIgXcpnx" target="_blank" class="news-link">中国将与美国进行军控会谈？外交部回应</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时51分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8r0YLprccqB" target="_blank" class="news-link">被中国列入管控清单的20家日本实体，什么来头？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时51分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32649172" target="_blank" class="news-link">特朗普称将会在3月31日访问中国，外交部回应</a> [14] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/205.htm" target="_blank" class="news-link">任天堂《星之卡比》主题限定版苹果 AirPods Pro 3 耳机保护套 4 月发售，定价 3168 日元</a> [15] <font color='grey'>- 17时51分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/41253586" target="_blank" class="news-link">未来有什么工作绝对不会被人工智能（AI）取代？</a> [18] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/24/1f7ece2195e64509b1e10f11f4fe6114.html" target="_blank" class="news-link">韩国高技能创业人才数量激增</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时51分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32648558" target="_blank" class="news-link">商务部就对日出口管制答问：制止日本“再军事化”和拥核企图</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E7%A7%B0DeepSeek%E8%BF%9D%E5%8F%8D%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6" target="_blank" class="news-link">中方回应美称DeepSeek违反出口管制</a> [27] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/257.htm" target="_blank" class="news-link">比亚迪方程豹首款轿车“镁 7”动力信息曝光，有望共享腾势 Z 三电技术</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/211.htm" target="_blank" class="news-link">宇树发布 Unitree As2“可载人”四足机器人：空载续航超 4 小时，负载 15kg 续航超 13km</a> [14] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/234.htm" target="_blank" class="news-link">字节跳动 AI 代码开发工具 Trae 修改付费方式，由按次数收费改为按 Token 计费</a> [12] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/652991138" target="_blank" class="news-link">有大神来讲讲 NVIDIA Blackwell 架构吗？</a> [19] <font color='grey'>- 17时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
