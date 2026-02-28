@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-02-28 20:42:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%89%93%E5%87%BB%E7%BE%8E%E5%9B%BD%E5%86%9B%E4%BA%8B%E5%9F%BA%E5%9C%B0" target="_blank" class="news-link">伊朗打击美国军事基地</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/666.htm" target="_blank" class="news-link">全球限量 50 份的型月《月姬》珍藏软盘被毁，玩家痛骂美国海关</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/661.htm" target="_blank" class="news-link">韩国警方闹乌龙：数百万美元比特币在眼皮底下被盗，恢复密钥竟被拱手送给第三方黑客</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7611681706168451114/" target="_blank" class="news-link">人民日报：以实际行动阻击日本再军事化</a> [28] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E8%84%B1%E9%92%A9%E4%B8%AD%E5%9B%BD%E5%B0%B1%E5%83%8F%E6%9C%9D%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E5%BC%80%E6%9E%AA%E2%80%9D" target="_blank" class="news-link">“脱钩中国就像朝自己的脚开枪”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/28/836bf9a4bd0b4a71aec2af7315e663b1.html" target="_blank" class="news-link">韩国投资者青睐中国科技股</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%98%E8%8C%A8%E4%BB%8E%E4%B8%AD%E5%9B%BD%E5%9B%9E%E5%8E%BB%E4%B8%8D%E6%BB%A1%E6%AF%8F%E5%91%A8%E5%9B%9B%E5%A4%A9%E5%B7%A5%E4%BD%9C%E5%88%B6%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">默茨从中国回去不满每周四天工作制</a> [20] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2065669-1-1.html" target="_blank" class="news-link">微软首席产品经理架构师解释26H1</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/669.htm" target="_blank" class="news-link">韦德布什证券分析师帕切特：微软下一代 Xbox 主机“已死”，原因在于 XGP</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2010670686461452529" target="_blank" class="news-link">如何评价 DeepSeek 发布新论文，提出一个名为「DualPath」的创新推理系统？有哪些亮点？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2011023228328510169" target="_blank" class="news-link">Claude 遭特朗普封杀，亚马逊、英伟达等联手助 OpenAI 完成 1100 亿美元融资，对此你怎么看？</a> [19] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/663.htm" target="_blank" class="news-link">AI 音乐生成平台 Suno 付费用户突破 200 万，年经常性收入达 3 亿美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
