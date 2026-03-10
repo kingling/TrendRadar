@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 126</p><p>生成时间: 2026-03-10 09:54:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">3.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A55%E5%B9%B4%E4%B8%AD%E5%9B%BD%E8%A6%81%E5%BB%BA%E8%AE%BE%E7%9A%84%E9%87%8D%E5%A4%A7%E5%B7%A5%E7%A8%8B" target="_blank" class="news-link">未来5年中国要建设的重大工程</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E4%B8%AD%E5%9B%BD%E8%A6%81%E5%BB%BA%E8%AE%BE%E7%9A%84%E9%87%8D%E5%A4%A7%E5%B7%A5%E7%A8%8B%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">未来5年中国要建设的重大工程</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615157885911256630/" target="_blank" class="news-link">中国女足反超后朝鲜队一度罢赛</a> [13] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2014276089237755801" target="_blank" class="news-link">如何看待天津山姆超越深圳福田成为中国山姆单店营业额第一？全国最热闹的超市为何不在北上广？</a> [17] <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614686863403565098/" target="_blank" class="news-link">足协主席赛后探望中国女足</a> [27] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B7%A5%E4%BF%A1%E9%83%A8%E6%8F%90%E9%86%92AI%E5%85%BB%E8%99%BE%E5%AE%89%E5%85%A8%E9%A3%8E%E9%99%A9" target="_blank" class="news-link">工信部提醒AI养虾安全风险</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9D%B3%E4%B8%9C%E5%91%BC%E5%90%81%E9%92%88%E5%AF%B9AI%E6%8D%A2%E8%84%B8%E7%AB%8B%E6%B3%95%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">靳东呼吁针对AI换脸立法</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/414.htm" target="_blank" class="news-link">高通发布 Arduino Ventuno Q 单板机，专攻边缘 AI 与机器人应用</a> [24] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rN9LjUkK24" target="_blank" class="news-link">伊朗正为美国准备“惊喜”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2014356299022821037" target="_blank" class="news-link">媒体证实是美国「战斧」巡航导弹炸了伊朗小学，特朗普曾说是伊朗「自导自演」，究竟是怎么回事？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614345000603910185/" target="_blank" class="news-link">伊朗外长：给美国人准备了许多惊喜</a> [14] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">2</td>
+                <td class="percentage">1.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/436.htm" target="_blank" class="news-link">比亚迪领汇 e7 新车预热：5 分钟充好，9 分钟充饱</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615414850428079666/" target="_blank" class="news-link">比亚迪蔚来回应闪充换电之争</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">openclaw picoclaw</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/422.htm" target="_blank" class="news-link">阿里版“OpenClaw 龙虾”应用内测，“无影 JVS”更名为“JVS Claw”</a> [17] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/419.htm" target="_blank" class="news-link">字节豆包内测 AI 电商功能：无需跳转抖音，日活用户数超 1.45 亿</a> [20] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/409.htm" target="_blank" class="news-link">特斯拉 17 年资深财务副总裁宣布离职，马斯克致谢</a> [29] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/417.htm" target="_blank" class="news-link">消息称英伟达版“小龙虾” NemoClaw 下周登场：已接洽谷歌等巨头打造“数字员工”</a> [22] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/408.htm" target="_blank" class="news-link">大家来帮忙：30 多名 OpenAI、谷歌员工力挺 Anthropic 起诉美政府</a> [30] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/426.htm" target="_blank" class="news-link">砺算科技将于 3 月 12 日在 AWE2026 现场举行显卡产品发售会</a> [14] <font color='grey'>- 09时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
