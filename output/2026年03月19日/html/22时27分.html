@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-03-19 22:27:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">8.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/797.htm" target="_blank" class="news-link">黑灰产用 AI 批量生成违规内容网页，微信发布针对滥用人工智能生成内容服务传播恶意链接治理公告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/795.htm" target="_blank" class="news-link">OpenAI 再出手：计划收购 Python 工具初创公司 Astral，并入 Codex 项目</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/790.htm" target="_blank" class="news-link">电商版“龙虾”来了！阿里悟空发布，用 AI 破解电商经营核心焦虑</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/789.htm" target="_blank" class="news-link">Adobe FireFly 解锁新技能：可使用自己的画作训练 AI 模型，确保风格一致性</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/783.htm" target="_blank" class="news-link">雷军：小米积极拥抱 AI 时代，未来三年在 AI 领域投入 600 亿元</a> [11] <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86AI%E7%9F%AD%E7%89%87%E3%80%8A%E6%B5%81%E9%87%91%E8%B0%B7%E6%81%A9%E4%BB%87%E5%BD%95%E3%80%8B%E7%88%86%E7%81%AB" target="_blank" class="news-link">央视AI短片《流金谷恩仇录》爆火</a> [20] <font color='grey'>- 22时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%87%AA%E4%BC%8A%E6%9C%97%E6%92%A4%E7%A6%BB%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9B%9E%E5%9B%BD" target="_blank" class="news-link">自伊朗撤离的中国公民回国</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%8F%E7%82%B3%E6%B7%BB%E8%B5%9E%E6%96%B0SU7%E4%B8%BA%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E9%AA%84%E5%82%B2%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">苏炳添赞新SU7为中国科技骄傲</a> [20] <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%89%93%E8%BD%A6%E8%A7%86%E9%A2%91%E5%9C%A8%E5%9B%BD%E5%A4%96%E7%88%86%E7%81%AB" target="_blank" class="news-link">中国小女孩打车视频在国外爆火</a> [22] <font color='grey'>- 22时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗称命中美国第五舰队</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/787.htm" target="_blank" class="news-link">刚在美国赔了 1.5 亿美元，Adobe 又遭英国监管机构调查</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时27分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2018054333028071026" target="_blank" class="news-link">伊朗称打击行动命中美国第五舰队，造成破坏有多大？对美军有哪些影响？</a> [14] <font color='grey'>- 22时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E6%84%9F%E8%B0%A2%E7%8E%8B%E5%85%B4%E5%85%B4%E7%BB%99%E4%BA%86%E6%8A%95%E8%B5%84%E5%AE%87%E6%A0%91%E7%9A%84%E6%9C%BA%E4%BC%9A%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">雷军感谢王兴兴给了投资宇树的机会</a> [24] <font color='grey'>- 22时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/785.htm" target="_blank" class="news-link">英伟达 GeForce NOW 新增《红色沙漠》《辐射 3》支持，VR 串流帧率升至 90FPS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
