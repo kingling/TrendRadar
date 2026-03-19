@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2026-03-19 19:58:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/398758985" target="_blank" class="news-link">有哪些你认为是「全世界都应该有的东西」，实际上只有中国才有？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时58分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%8C%96%E8%82%A5%E4%BB%B7%E6%A0%BC%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8C%81%E7%A8%B3%E5%AE%9A" target="_blank" class="news-link">中国化肥价格如何保持稳定</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32793883" target="_blank" class="news-link">小米凌晨模型三连发：罗福莉称为智能体时代打造，曾被误认为DeepSeek V4</a> [19] <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">openclaw picoclaw</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017544894055407699" target="_blank" class="news-link">如何看待黄仁勋「OpenClaw 是 AI 时代的 Linux」的观点？其将如何加速行业的发展？</a> [18] <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/758.htm" target="_blank" class="news-link">王传福、李想、何小鹏等车圈大佬齐聚新一代小米 SU7 发布会，宇树王兴兴也来了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/765.htm" target="_blank" class="news-link">“人形机器人半马”下月开跑，参赛团队剑指人类半马冠军纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352101&amp;amp;topic_name=%E9%BA%BB%E8%8D%AF%E7%BC%BA%E8%B4%A7%2C%E6%97%A5%E6%9C%AC%E6%8B%94%E7%89%99%E9%9D%A0%E7%A1%AC%E6%8C%BA" target="_blank" class="news-link">麻药缺货,日本拔牙靠硬挺</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
