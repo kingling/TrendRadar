@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-03-23 21:54:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">8.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%87%91%E4%B8%8E%E6%AD%A3%EF%BC%9A%E6%9C%9D%E9%B2%9C%E4%B8%8E%E6%97%A5%E6%9C%AC%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E8%B0%88%E7%9A%84" target="_blank" class="news-link">金与正：朝鲜与日本没什么可谈的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620386693591285803/" target="_blank" class="news-link">美国为何沦为盟友眼中的高风险玩家</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620418114320158259/" target="_blank" class="news-link">伊朗外交部：与美国不存在对话</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%90%A6%E8%AE%A4%E4%B8%8E%E7%BE%8E%E5%9B%BD%E6%B2%9F%E9%80%9A%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">伊朗否认与美国沟通</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2019499450662348649" target="_blank" class="news-link">伊朗否认与美国沟通，此前特朗普称已与伊朗对话，将推迟五天打击伊朗发电站，如何看待此事？战争要结束了吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E4%B8%8E%E7%BE%8E%E5%9B%BD%E4%B8%8D%E5%AD%98%E5%9C%A8%E5%AF%B9%E8%AF%9D" target="_blank" class="news-link">伊朗外交部：与美国不存在对话</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E7%A7%B0%E7%BE%8E%E5%9B%BD%E5%B0%9A%E6%9C%AA%E7%9C%9F%E6%AD%A3%E8%AE%A4%E6%B8%85%E5%85%B6%E5%AE%9E%E5%8A%9B%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">伊朗革命卫队称美国尚未真正认清其实力</a> [26] <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E4%BA%BA%E6%80%8E%E4%B9%88%E7%9C%8BBTS%E5%85%89%E5%8C%96%E9%97%A8%E6%BC%94%E5%94%B1%E4%BC%9A" target="_blank" class="news-link">韩国人怎么看BTS光化门演唱会</a> [27] <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/900.htm" target="_blank" class="news-link">鸿蒙智行首批搭载 896 线双光路图像级激光雷达的智界 R7 轿跑 SUV 开启全国交付</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/897.htm" target="_blank" class="news-link">华为面向第一代智慧屏老用户推出福利活动：含免费清洁外观、送装定制画框等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620252152506155044/" target="_blank" class="news-link">华为手机全面回归</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/887.htm" target="_blank" class="news-link">余承东：搭载麒麟芯片和全新鸿蒙操作系统的畅享 90 系列发布，华为手机终于实现全面回归</a> [11] <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E5%86%99%E6%AD%8C%E8%B5%B0%E7%BA%A2%E7%A8%8B%E5%BA%8F%E5%91%989%E4%B8%AA%E6%9C%88%E8%B5%9A20%E4%B8%87" target="_blank" class="news-link">AI写歌走红程序员9个月赚20万</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%99%AE%E9%80%9A%E4%BA%BA%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CAI%E8%A7%86%E9%A2%91" target="_blank" class="news-link">普通人如何制作AI视频</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90AI%E5%AF%B9%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A%E7%9A%84%E5%BD%B1%E5%93%8D" target="_blank" class="news-link">深度解析AI对影视行业的影响</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/888.htm" target="_blank" class="news-link">消息称 OpenAI 向私募股权机构提供 17.5% 保底回报，争夺企业 AI 市场</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E8%B6%8A%E4%B8%8D%E7%A1%AE%E5%AE%9A+%E5%A4%96%E4%BC%81%E8%B6%8A%E5%BE%80%E4%B8%AD%E5%9B%BD%E8%B5%B0" target="_blank" class="news-link">世界越不确定 外企越往中国走</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E9%80%A0%E5%A4%AA%E9%98%B3%E8%B7%9D%E7%A6%BB%E5%95%86%E7%94%A8%E6%9C%89%E5%A4%9A%E8%BF%9C" target="_blank" class="news-link">中国人造太阳距离商用有多远</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/896.htm" target="_blank" class="news-link">我国首套全链条国产化 POE 装置进入联动试车关键阶段</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%A0%B8%E7%94%B5%E8%AE%A9%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E5%81%9C%E7%94%B5%E6%97%B6%E9%97%B4%E5%B0%91%E4%B8%80%E5%8D%8A" target="_blank" class="news-link">中国核电让巴基斯坦停电时间少一半</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">openclaw picoclaw</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/886.htm" target="_blank" class="news-link">首个开放服务能力的音乐平台：网易云音乐官宣全面接入 OpenClaw</a> [12] <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/889.htm" target="_blank" class="news-link">比亚迪方程豹推送钛 7 第四次 OTA 、钛 3 第六次 OTA：改善驾驶辅助功能策略等</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/893.htm" target="_blank" class="news-link">影石回应大疆专利诉讼：研发过程合法规范</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2067308-1-1.html" target="_blank" class="news-link">怎么让微软商店的界面变成模糊透明</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/895.htm" target="_blank" class="news-link">OpenAI 向英国监管机构施压：要求谷歌将 ChatGPT 列为安卓与 Chrome 默认搜索引擎选项</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620147172323049508/" target="_blank" class="news-link">科技春耕与春日经济共绘希望田野</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
