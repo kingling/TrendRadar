@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-04-04 19:28:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/036.htm" target="_blank" class="news-link">NuPhy Air V3 矮轴机械键盘新增 65% / 100% 配列，首发 649 元 / 749 元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Blaizzy/mlx-vlm" target="_blank" class="news-link">Blaizzy / mlx-vlm</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/035.htm" target="_blank" class="news-link">Anthropic 悄然以约 4 亿美元收购 AI 生技初创企业 Coefficient Bio</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9C%E5%A4%9A%E9%83%A8%E7%9F%AD%E5%89%A7AI%E8%A7%92%E8%89%B2%E6%92%9E%E8%84%B8%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">红果多部短剧AI角色撞脸易烊千玺</a> [23] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊媒头版嘲讽美国：空中颜面尽失</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s3NhKYvZFG" target="_blank" class="news-link">伊朗号召民众找到美国飞行员就开枪，富商悬赏5万美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A0%E4%BA%BA%E7%BB%A7%E6%89%BF%E7%9A%84%E5%B7%A8%E9%A2%9D%E9%81%97%E4%BA%A7%E6%88%96%E5%9C%A8%E6%8B%96%E5%9E%AE%E6%97%A5%E6%9C%AC%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">无人继承的巨额遗产或在拖垮日本</a> [22] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%87%BB%E8%90%BD%E4%B8%80%E6%9E%B6%E7%BE%8E%E5%9B%BD%E2%80%9C%E5%8D%A2%E5%8D%A1%E6%96%AF%E2%80%9D%E6%97%A0%E4%BA%BA%E6%9C%BA" target="_blank" class="news-link">伊朗：击落一架美国“卢卡斯”无人机</a> [27] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s3CgdlzyZ6" target="_blank" class="news-link">驻以使馆提醒：在以中国公民远离民用基础设施</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E4%B8%87%E5%90%8D%E8%80%81%E6%8C%9D%E4%BA%BA%E5%9C%A8%E4%B8%AD%E5%9B%BD%E8%BE%B9%E5%A2%83%E5%8E%BF%E5%8C%BB%E9%99%A2%E7%9C%8B%E7%97%85" target="_blank" class="news-link">上万名老挝人在中国边境县医院看病</a> [30] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/telegramdesktop/tdesktop" target="_blank" class="news-link">telegramdesktop / tdesktop</a> <font color='red'><strong>[5]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
