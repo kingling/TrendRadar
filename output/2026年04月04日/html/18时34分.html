@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 48</p><p>生成时间: 2026-04-04 18:34:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">10.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/011.htm" target="_blank" class="news-link">中国首款 WSBK 冠军摩托车：张雪 820RR 正式量产下线，4.38 万元起</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时34分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%96%B0%E4%B8%80%E4%BB%A3%E7%94%B5%E7%A3%81%E6%9E%AA%E5%A8%81%E5%8A%9B%E6%9C%89%E5%A4%9A%E5%BC%BA" target="_blank" class="news-link">中国新一代电磁枪威力有多强</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时34分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%AD%94%E5%AD%90%E5%AD%A6%E9%99%A2%E5%AF%B9%E5%A4%96%E4%BA%A4%E6%B5%81%E4%B8%AD%E5%BF%83%E8%A2%AB%E6%89%93%E5%81%87" target="_blank" class="news-link">中国孔子学院对外交流中心被打假</a> [11] <font color='grey'>- 18时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624757616002285631/" target="_blank" class="news-link">中国铁路清明提示：这些行为不要做</a> [24] <font color='grey'>- 18时34分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%9B%9E%E7%AD%94%E4%B8%BA%E4%BD%95%E4%B8%8D%E7%94%A8%E4%B8%AD%E5%9B%BD%E8%BD%A6%E6%89%8B" target="_blank" class="news-link">张雪回答为何不用中国车手</a> [27] <font color='grey'>- 18时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%99%88%E5%B9%B8%E5%90%8Cvs%E9%9F%A9%E5%9B%BD%E4%B8%80%E5%A7%90%E7%94%B3%E8%A3%95%E6%96%8C" target="_blank" class="news-link">陈幸同vs韩国一姐申裕斌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E7%94%B7%E5%AD%90%E5%B0%86%E5%A5%B3%E5%8F%8B%E5%88%B6%E6%88%90%E6%9C%A8%E4%B9%83%E4%BC%8A%E8%97%8F%E5%B0%B8&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">韩国男子将女友制成木乃伊藏尸</a> [30] <font color='grey'>- 18时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
