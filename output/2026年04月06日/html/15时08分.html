@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 81</p><p>生成时间: 2026-04-06 15:08:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">6.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/232.htm" target="_blank" class="news-link">亿万富翁投资人马克 · 库班：大公司 CEO 正面临“AI 困境”，进或退都会引发投资者不满</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/222.htm" target="_blank" class="news-link">沃尔玛、塔吉特等美国零售巨头拥抱 AI，明确用户需为购物助手出错担责</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2024413032667772670" target="_blank" class="news-link">妈妈不知儿子去世跟 AI 儿子聊了 1 年，AI「复活」逝者的服务有伦理风险吗？如果是你，会更愿意知道真相吗？</a> [16] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7625500381922017321/" target="_blank" class="news-link">孙女用AI复刻奶奶的叮嘱</a> [17] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32909915" target="_blank" class="news-link">澎湃AI晚新闻丨2026年4月5日</a> [19] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E6%9C%80%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%B5%B7%E4%B8%8A%E5%85%B5%E5%8A%9B%E6%94%B9%E7%BC%96" target="_blank" class="news-link">日本最大规模海上兵力改编</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E8%AD%A6%E5%91%8A%E7%BE%8E%E5%9B%BD%E6%88%96%E5%B0%81%E9%94%81%E6%9B%BC%E5%BE%B7%E6%B5%B7%E5%B3%A1%E5%8F%8D%E5%88%B6" target="_blank" class="news-link">伊朗警告美国或封锁曼德海峡反制</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E9%80%BC%E7%BE%8E%E5%9B%BD%E5%81%9A%E9%80%89%E6%8B%A9%23&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">伊朗逼美国做选择</a> [14] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/231.htm" target="_blank" class="news-link">鸿蒙智行 2026 款问界 M9 无伪装实车上路：门把手焕新、外观更硬朗</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/226.htm" target="_blank" class="news-link">英特尔与英伟达合作的 &quot;Serpent Lake&quot; 处理器被曝属 &quot;Titan Lake&quot; 变体</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2024072660527642193" target="_blank" class="news-link">为什么中国能实现蔬菜自由，欧洲却不行？</a> [18] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/220.htm" target="_blank" class="news-link">时隔半个世纪人类“重返”月球：NASA 阿耳忒弥斯 2 号宇航员抵达月球空间</a> [12] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
