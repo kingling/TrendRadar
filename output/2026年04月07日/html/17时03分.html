@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2026-04-07 17:03:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9E%81%E5%9C%B0%E5%86%B0%E5%B1%82%E9%92%BB%E6%8E%A2%E7%AA%81%E7%A0%B4%E5%9B%BD%E9%99%85%E7%BA%AA%E5%BD%95" target="_blank" class="news-link">中国极地冰层钻探突破国际纪录</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s8Cfn5nXcN" target="_blank" class="news-link">中使馆发布重要提醒：请在阿曼中国公民务必加强安全防范</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E4%BA%BA%E7%A7%B0%E4%B8%BA%E5%90%83%E5%9C%B0%E7%93%9C%E6%9D%A1%E4%B8%93%E9%97%A8%E6%9D%A5%E4%B8%AD%E5%9B%BD&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">韩国人称为吃地瓜条专门来中国</a> [23] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/638300406.html" target="_blank" class="news-link">伊朗实在太抽象，居然让美国装了个大逼</a> [26] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7625278599397949446/" target="_blank" class="news-link">美国对伊朗的谈判诉求是战略讹诈吗</a> [30] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E6%8B%9F%E4%BF%AE%E6%94%B9%E6%AD%A6%E5%99%A8%E5%87%BA%E5%8F%A3%E5%8E%9F%E5%88%99" target="_blank" class="news-link">外交部回应日本拟修改武器出口原则</a> [30] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352871&amp;amp;topic_name=AI%E6%9F%93%E6%8C%87%E9%AC%BC%E7%81%AD%2C%E6%97%A5%E7%BD%91%E5%8F%8B%E6%B0%94%E6%80%A5%E8%B7%B3%E8%84%9A" target="_blank" class="news-link">AI染指鬼灭,日网友气急跳脚</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/626.htm" target="_blank" class="news-link">OpenAI CEO 奥尔特曼回应关停 Sora：集中计算资源，就像 GPT-3 发布前那样</a> [12] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">openclaw picoclaw</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/636.htm" target="_blank" class="news-link">微信鸿蒙版 App 8.0.16.51 正式版本支持 ClawBot 插件，可连接 OpenClaw 与微信</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
