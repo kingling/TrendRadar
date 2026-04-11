@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2026-04-11 20:55:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%9C%A8%E8%BF%99%E4%BA%9B%E9%A2%86%E5%9F%9F+%E4%B8%AD%E5%9B%BD%E7%8B%AC%E6%A0%91%E4%B8%80%E5%B8%9C%E2%80%9D" target="_blank" class="news-link">“在这些领域 中国独树一帜”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/11/5ef35451123e4997b76a7ddf47008943.html" target="_blank" class="news-link">巴拿马总统寻求缓和与中国关系</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/165.htm" target="_blank" class="news-link">坐地巡天千万里：国防科大发布国产航天任务设计软件 ATK 4.0 版，已用于天宫、神舟等任务</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2025615043966814195" target="_blank" class="news-link">如何看待本田中国 2026 第一季度销量 12.25 万，同比下滑 22.4％？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7627304476291940362/" target="_blank" class="news-link">AI短片《雪山救狐狸》爆火背后</a> [21] <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7626963528087408182/" target="_blank" class="news-link">机器人机器狗方阵献舞苏超开幕式</a> [27] <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sF1m34ovoK" target="_blank" class="news-link">美国强烈反对后，英国暂缓“还岛”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/160.htm" target="_blank" class="news-link">NASA 开源 57 年前阿波罗 11 号登月 AGC 源代码，历史性代码已进入公共领域</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
