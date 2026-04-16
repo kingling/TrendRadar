@@ -1,0 +1,143 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-04-16 20:42:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">8.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2028144905344623639" target="_blank" class="news-link">中国驻日本大使馆接连遭受到恐怖威胁，包括有人称在使馆内安装远距离遥控炸弹等，哪些信息值得关注？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/16/8b04ed930a5e4f4487b5539f2dff9a39.html" target="_blank" class="news-link">中美航天比拼“插旗留印”？我们有自己的节奏 | 中国故事世界说</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628901409706786858/" target="_blank" class="news-link">黄仁勋：芯片不是浓缩铀 卖中国咋了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%B7%B4%E9%93%81%E2%80%9D%E7%A1%AC%E6%A0%B8%E8%A1%A8%E7%99%BD%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%BC%BA%E6%88%91%E4%BB%AC%E5%B0%B1%E5%BC%BA" target="_blank" class="news-link">“巴铁”硬核表白：中国强我们就强</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628239684956520490/" target="_blank" class="news-link">警察带台胞走中国公民专用通道</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2468545" target="_blank" class="news-link">中国海洋采油技术有多牛</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2468059" target="_blank" class="news-link">中国驻布基纳法索使馆发布提醒</a> [15] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E7%BD%91%E7%BA%A2%E5%B0%86%E5%BC%80%E5%90%AF%E4%B8%AD%E5%9B%BD%E8%A1%8C" target="_blank" class="news-link">中东第一大网红将开启中国行</a> [24] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%88%90%E5%8A%9F%E5%A4%8D%E5%88%BB%E2%80%9C%E7%B1%BB%E7%90%83%E7%8A%B6%E9%97%AA%E7%94%B5%E2%80%9D" target="_blank" class="news-link">中国科学家成功复刻“类球状闪电”</a> [26] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628617507208859172/" target="_blank" class="news-link">法国馆藏中国文物数量仅次于英国</a> [27] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=20%E4%BD%8D%E4%B8%AD%E5%9B%BD%E5%AD%A6%E8%80%85%E8%A2%AB%E7%BE%8E%E5%9B%BD%E6%8B%92%E7%BB%9D%E5%85%A5%E5%A2%83" target="_blank" class="news-link">20位中国学者被美国拒绝入境</a> [29] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">5</td>
+                <td class="percentage">4.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%A4%A7%E7%96%86Pocket4&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">大疆Pocket4</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/049.htm" target="_blank" class="news-link">【视频】大疆Pocket 4 终于来了，一条视频看懂相比前代有何变化</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/047.htm" target="_blank" class="news-link">大疆 Osmo Pocket 4 云台相机发布：搭 1 英寸传感器、支持智能跟随 7.0，2999 元起</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/046.htm" target="_blank" class="news-link">大疆预热旗下双摄云台相机 Pocket 4P 即将发布，可与 DJI 生态链产品联动</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%A4%A7%E7%96%86%E5%8F%91%E5%B8%83%E4%BC%9A&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">大疆发布会</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">4.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9B%9D%E5%B8%B8%E6%98%A5%E8%97%A4%E5%90%8D%E6%A0%A1%E7%94%A8%E6%89%93%E5%AD%97%E6%9C%BA%E5%AF%B9%E6%8A%97AI" target="_blank" class="news-link">曝常春藤名校用打字机对抗AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/045.htm" target="_blank" class="news-link">追觅预热 AI 智能人体工学椅 EGC-XR9，搭电控椅背及 X 型支臂系统</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/037.htm" target="_blank" class="news-link">前 OpenAI CTO 创立的 AI 公司再失核心人才，Meta 已挖走其 5 位创始成员</a> [15] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/034.htm" target="_blank" class="news-link">全国首个防汛防台具身智能机器人“AI 防汛勇士”发布：集成大模型、车载平台等</a> [17] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/029.htm" target="_blank" class="news-link">科大讯飞推出 AI 英语宝 EBOX Pro 青春版学习机，699 元</a> [22] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/16/25c3eb07141a422a9cc73e21ffd2e1a3.html" target="_blank" class="news-link">皮尤民调：美国民众对华好感度持续提升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/051.htm" target="_blank" class="news-link">消息称三星晶圆代工负责人韩真晚出席 4 月 24 日美国泰勒厂重大设备交付仪式</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF%E9%81%AD%E5%BC%B9%E5%8A%BE" target="_blank" class="news-link">美国国防部长遭弹劾</a> [16] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32984566" target="_blank" class="news-link">“日本警方未重视使馆报警”，我驻日使馆披露接连遭恐怖威胁细节</a> [19] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7629246502776422410/" target="_blank" class="news-link">韩国加速发展可再生能源</a> [29] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2027778862646408771" target="_blank" class="news-link">如何看待 IDC 发布 2026 第一季度国内手机出货量数据，华为居首苹果次席，小米跌出前五？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/048.htm" target="_blank" class="news-link">【IT之家评测室】《识质存在》游戏初体验：首发路径追踪，NVIDIA DLSS 4 多帧生成技术让性能一飞冲天</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/043.htm" target="_blank" class="news-link">AMD 确认 2027 年 EPYC &quot;Verano&quot; 处理器支持 LPDDR5X SOCAMM2 内存</a> [11] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/027.htm" target="_blank" class="news-link">IPv6 历史性时刻：全球半数互联网用户已通过其连接谷歌服务</a> [23] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/040.htm" target="_blank" class="news-link">人类首次：贝索斯旗下蓝色起源从月球尘埃中提取出氧气，为建立月球基地铺平道路</a> [13] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
