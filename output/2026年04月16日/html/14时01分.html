@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 106</p><p>生成时间: 2026-04-16 14:01:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2467956" target="_blank" class="news-link">第十三届中国网络视听大会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%8F%A3%E7%AC%AC%E4%B8%89%E5%9F%8E%E8%A6%81%E6%98%93%E4%B8%BB%E4%BA%86" target="_blank" class="news-link">中国人口第三城要易主了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/815.htm" target="_blank" class="news-link">提前近两个月，第二艘国产大型邮轮“爱达 · 花城号”11 月交付</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628617507208695332/" target="_blank" class="news-link">宝马中国宣传片疑似讽刺友商</a> [20] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/785.htm" target="_blank" class="news-link">小猪佩奇 IP 首部三维动画大电影官宣，2026 暑期档“来中国度假”</a> [22] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/807.htm" target="_blank" class="news-link">黄仁勋呼吁中美加强 AI 合作，直言出口管制难遏中国算力</a> [12] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/796.htm" target="_blank" class="news-link">美国多家律所警告：不要同 AI 分享案情信息，聊天记录也可能成为证据</a> [16] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B318Pro%E6%96%B0%E5%A2%9EAI%E6%8C%89%E9%94%AE%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">小米18Pro新增AI按键</a> [20] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%88%B7%E6%89%8B%E6%9C%BA%E6%9C%89%E5%A4%9A%E7%B4%AF%EF%BC%9F%E7%8E%B0%E5%9C%A8AI%E8%83%BD%E7%AE%97%E5%87%BA%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">刷手机有多累？现在AI能算出来了</a> [23] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/800.htm" target="_blank" class="news-link">华为余承东：问界 M8 上市一周年交付突破 17 万台，拿下 40 万级 SUV 年度销冠</a> [15] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/812.htm" target="_blank" class="news-link">马斯克：特斯拉 AI6、AI6.5 芯片将分别应用三星晶圆代工和台积电在美 2nm 产能</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/816.htm" target="_blank" class="news-link">自动驾驶技术企业 Wayve 获 AMD、Arm、高通合计 6000 万美元投资</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/788.htm" target="_blank" class="news-link">谷歌安卓 17 有望原生支持双 SIM 卡差异铃声设置</a> [19] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC11%E5%B2%81%E7%94%B7%E7%AB%A5%E5%A4%B1%E8%B8%AA20%E4%BD%99%E5%A4%A9%E6%83%8A%E4%BA%BA%E5%8F%8D%E8%BD%AC%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">日本11岁男童失踪20余天惊人反转</a> [16] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%88%E7%90%83%E8%A1%A8%E9%9D%A2%E5%87%BA%E7%8E%B0%E2%80%9C%E6%96%B0%E7%96%A4%E2%80%9D+%E8%B0%81%E6%98%AF%E8%82%87%E4%BA%8B%E5%85%83%E5%87%B6" target="_blank" class="news-link">月球表面出现“新疤” 谁是肇事元凶</a> [29] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
