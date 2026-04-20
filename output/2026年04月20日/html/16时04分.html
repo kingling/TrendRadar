@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 140</p><p>生成时间: 2026-04-20 16:04:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">13</td>
+                <td class="percentage">9.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630668430820147263/" target="_blank" class="news-link">华为新品发布会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">华为发布会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/220.htm" target="_blank" class="news-link">华为余承东：鸿蒙 HarmonyOS 6 终端设备数突破 5500 万</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BAPura%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A" target="_blank" class="news-link">华为Pura新品发布会</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BApura90&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">华为pura90</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BAPura90%E4%BB%B7%E6%A0%BC&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">华为Pura90价格</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/208.htm" target="_blank" class="news-link">华为 Pura90 Pro / Pro Max 手机发布：首发麒麟 9030S 芯片，售价 5499 元起</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/200.htm" target="_blank" class="news-link">华为 Pura 90 手机发布：独占前摄红枫、外观大不同，4699 元起</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/187.htm" target="_blank" class="news-link">Pro / Pro Max 都没有：华为 Pura 90 标准版手机系列独占前摄红枫原色镜头</a> [14] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/176.htm" target="_blank" class="news-link">12G 内存 16G 保活体验：华为 Pura 90 Pro Max 新机官宣支持超空间内存技术</a> [17] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/170.htm" target="_blank" class="news-link">华为推出全新 XMAGE 智拍功能：支持 AI 姿势推荐、3D 动态照片等</a> [22] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/169.htm" target="_blank" class="news-link">发布会场外还有惊喜：鸿蒙 HarmonyOS 6.1.0.117 SP6 版本开推，华为 Mate 80 实装超空间内存技术</a> [23] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/165.htm" target="_blank" class="news-link">为智慧影像而生：华为 Pura 90 Pro / Pro Max 首发麒麟 9030S 芯片，NPU 图像理解能力提升 200%</a> [26] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%A1%AC%E6%A0%B8%E6%95%B0%E6%8D%AE%E5%86%8D%E2%80%9C%E4%B8%8A%E6%96%B0%E2%80%9D" target="_blank" class="news-link">中国经济硬核数据再“上新”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7629894874027982857/" target="_blank" class="news-link">外籍残障人士用中国外骨骼站起</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sTlAj8Ozim" target="_blank" class="news-link">中方回应美国拦截中国油轮</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/20/e401aa59c8ff4d2fba3c55aac8d23a8b.html" target="_blank" class="news-link">造谣日本男童遇害案嫌犯为“中国人”，台媒郑重致歉</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/194.htm" target="_blank" class="news-link">国产 CMOS 崛起，长光辰芯宣布为下一代徕卡相机定制图像传感器芯片</a> [12] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%94%9F%E5%9C%A8%E9%9F%A9%E9%81%AD%E6%97%A5%E7%B1%8D%E7%94%B7%E5%AD%90%E9%AA%9A%E6%89%B0" target="_blank" class="news-link">中国女生在韩遭日籍男子骚扰</a> [18] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E7%B1%8D%E6%AE%8B%E9%9A%9C%E4%BA%BA%E5%A3%AB%E7%94%A8%E4%B8%AD%E5%9B%BD%E5%A4%96%E9%AA%A8%E9%AA%BC%E7%8B%AC%E7%AB%8B%E8%B5%B0%E8%B7%AF" target="_blank" class="news-link">外籍残障人士用中国外骨骼独立走路</a> [19] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨伊朗议会要员：已决定继续与美国进行谈判</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/20/45bc6118847741419d8b19ad5aeaa58a.html" target="_blank" class="news-link">美媒文章：美国再次掉进“武力干预”陷阱</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/211.htm" target="_blank" class="news-link">丰田、五十铃合作开发日本首款量产燃料电池轻卡，2027 财年投产</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630738148166766118/" target="_blank" class="news-link">伊朗已决定继续与美国谈判</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33006716" target="_blank" class="news-link">美国路易斯安那州发生枪击，8名儿童死亡</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sTVZIb8o37" target="_blank" class="news-link">矛盾公开化，美防长呵斥美国陆军部长：我才是老大</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2029493352559633500" target="_blank" class="news-link">美国发生大规模枪击事件，致 8 名儿童死亡，具体怎么回事？反映出美国社会哪些问题？</a> [18] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">4.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%85%92%E7%AA%9D%E8%B6%85%E5%A4%A7%E8%A2%AB%E7%BD%91%E5%8F%8B%E6%80%80%E7%96%91%E6%98%AFAI" target="_blank" class="news-link">女子酒窝超大被网友怀疑是AI</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/209.htm" target="_blank" class="news-link">最高法：正抓紧起草关于依法妥善审理涉人工智能纠纷案件的意见</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BC%A0%E8%8B%A5%E6%98%80%E5%B7%A5%E4%BD%9C%E5%AE%A4%20%E6%B2%A1%E7%AD%BE%E8%BF%87AI%E6%8E%88%E6%9D%83&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">张若昀工作室 没签过AI授权</a> [12] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630464363427069993/" target="_blank" class="news-link">女子酒窝超大被网友怀疑是AI</a> [14] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%9C%AA%E6%8E%88%E6%9D%83AI%E8%89%BA%E4%BA%BA&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">未授权AI艺人</a> [16] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E8%A7%82%E4%BC%97&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">AI观众</a> [23] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">3</td>
+                <td class="percentage">2.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A9%AC%E6%8B%89%E6%9D%BE%E8%B5%9B" target="_blank" class="news-link">全面解析机器人马拉松赛</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2472785" target="_blank" class="news-link">机器人半马打破人类纪录</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A9%AC%E6%8B%89%E6%9D%BE" target="_blank" class="news-link">盘点机器人半马的技术进化</a> [14] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/221.htm" target="_blank" class="news-link">为何选择试驾小米汽车？福特 CEO 法利称“因为特斯拉没有更新的车型”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/212.htm" target="_blank" class="news-link">特斯拉人形机器人 Optimus 现身波士顿马拉松，为跑者加油助威</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/193.htm" target="_blank" class="news-link">微软“全球最强”AI 数据中心 Fairwater 提前上线，包含数十万块 GB200</a> [13] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/175.htm" target="_blank" class="news-link">宁德时代“超级科技日”明天启幕，消息称将发布钠电、快充等相关技术产品</a> [18] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
