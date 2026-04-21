@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2026-04-21 19:17:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">4.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BD%A0%E6%AF%8F%E5%A4%A9%E7%94%A8%E7%9A%84AI+%E5%8F%AF%E8%83%BD%E8%A2%AB%E2%80%9C%E6%8A%95%E6%AF%92%E2%80%9D%E4%BA%86" target="_blank" class="news-link">你每天用的AI 可能被“投毒”了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/780.htm" target="_blank" class="news-link">联想 AI 平板拯救者 Y900 官宣，11 &amp; 13 双尺寸旗舰 5 月 19 日登场</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" class="news-link">microsoft / ai-agents-for-beginners</a> <font color='red'><strong>[5]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨霍尔木兹海峡博弈，给中国带来哪些启示？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630281850431701055/" target="_blank" class="news-link">中国战舰坦荡过航横当水道释放啥信号</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=26%E5%B2%81%E4%B8%AD%E5%9B%BD%E7%94%B7%E5%AD%90%E5%9C%A8%E6%97%A5%E6%9C%AC%E5%A4%B1%E8%81%9410%E5%A4%A9" target="_blank" class="news-link">26岁中国男子在日本失联10天</a> [27] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E5%85%81%E8%AE%B8%E5%87%BA%E5%8F%A3%E6%9D%80%E4%BC%A4%E6%80%A7%E6%AD%A6%E5%99%A8%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">中方回应日本允许出口杀伤性武器</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28353548&amp;amp;topic_name=%E7%BE%8E%E5%9B%BD%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%87%E4%BA%BF%E5%85%83%E9%80%80%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">美国启动一万亿元退关税</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sVcvuEgtHw" target="_blank" class="news-link">高市早苗吹嘘日本武器遭打脸</a> [11] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A9%AC%E6%8B%89%E6%9D%BE%E8%B5%9B%E7%9A%84%E5%9B%9E%E9%A1%BE%E4%B8%8E%E5%B1%95%E6%9C%9B" target="_blank" class="news-link">机器人马拉松赛的回顾与展望</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8D%8A%E9%A9%AC%E5%86%A0%E5%86%9B%E5%87%BA%E8%87%AA%E5%81%9A%E6%89%8B%E6%9C%BA%E7%9A%84%E8%8D%A3%E8%80%80%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">机器人半马冠军出自做手机的荣耀</a> [29] <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/764.htm" target="_blank" class="news-link">大疆旗舰运载无人机 FC200 发布：单机最大载重 200kg / 航程 36km，新 T200 农业无人飞机同步亮相</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/782.htm" target="_blank" class="news-link">消息称 AMD 定制 Magnus APU 并未完全由下一代微软 Xbox 游戏机“Project Helix”独占</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
