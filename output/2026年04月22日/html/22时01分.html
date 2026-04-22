@@ -1,0 +1,134 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-04-22 22:01:58</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>thepaper</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">7</td>
+                <td class="percentage">6.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/310.htm" target="_blank" class="news-link">华为余承东再放豪言：两年前发布的问界 M9 让中国汽车产业家家都学习，新 M9 要让他们永远追不上</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/301.htm" target="_blank" class="news-link">黄金频谱：华为在尼日利亚完成全球首个 Sub-1GHz Massive MIMO 商用部署</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/293.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行全新一代问界 M9 系列新车首发乾崑智驾 HUAWEI ADS 5</a> [13] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/292.htm" target="_blank" class="news-link">鸿蒙智行全新一代问界 M9 预售：标准版 49.98 万元起，Ultimate 领世加长版 66.98 万元起</a> [14] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/291.htm" target="_blank" class="news-link">鸿蒙智行全新一代问界 M9 Ultimate 领世加长版亮相：长 5.4 米，号称中国量产最大尺寸新能源 SUV</a> [15] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/289.htm" target="_blank" class="news-link">鸿蒙智行问界 M6 新锐智慧 SUV 上市：标配全球量产最高 896 线激光雷达，25.98 万元起</a> [17] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/282.htm" target="_blank" class="news-link">鸿蒙智行尚界 Z7 / Z7T 新车上市：标配华为乾崑 896 线激光雷达，21.98 万元 / 22.98 万元起</a> [23] <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">5.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630601920629801002/" target="_blank" class="news-link">朝鲜发声要求日本向中国道歉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%9C%A8%E6%9C%88%E7%90%83%E7%95%99%E4%B8%8B%E4%BA%86%E6%96%B0%E7%9A%84%E5%90%8D%E5%AD%97%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">中国在月球留下了新的名字</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sXRlIytbVi" target="_blank" class="news-link">朝鲜发声痛批日本，要求日本向中国道歉</a> [12] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1989385996874297867" target="_blank" class="news-link">为什么外国人会普遍相信中国存在所谓「社会信用分」？</a> [15] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E4%BA%A4%E8%AD%A6%E9%9B%A8%E5%A4%A9%E6%89%A7%E5%8B%A4%E7%9A%84%E8%A7%86%E9%A2%91%E5%9C%A8%E5%9B%BD%E5%A4%96%E7%81%AB%E4%BA%86&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">中国交警雨天执勤的视频在国外火了</a> [18] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%9D%E9%B2%9C%E5%8F%91%E5%A3%B0%E8%A6%81%E6%B1%82%E6%97%A5%E6%9C%AC%E5%90%91%E4%B8%AD%E5%9B%BD%E9%81%93%E6%AD%89%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">朝鲜发声要求日本向中国道歉</a> [20] <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/22/82b74d75a47843159f17e675c11f9048.html" target="_blank" class="news-link">苹果公司任命特努斯为下任CEO “硬件老兵”接班应对AI变革</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/283.htm" target="_blank" class="news-link">徕芬 CEO 叶洪新预热 AirFold 手持风扇，5 月将集中推出 7 款新品</a> [22] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E5%8A%9E%E4%BA%86%E5%9C%BA%E8%BD%A6%E5%B1%95" target="_blank" class="news-link">用AI办了场车展</a> [24] <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">AMD</td>
+                <td class="count">2</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/294.htm" target="_blank" class="news-link">微星用 X870E 主板将 128GB DDR5 内存超至 9400 MT/s，暗示 AMD Zen 6 锐龙处理器将带来更大提升</a> [12] <font color='grey'>- 22时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/286.htm" target="_blank" class="news-link">6999 元 AMD 锐龙 9 9950X3D2 处理器今晚开售：192MB 双芯缓存，生产力性能再获提升</a> [19] <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/304.htm" target="_blank" class="news-link">谷歌推出 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E7%BE%8E%E5%90%8C%E6%97%A5%E4%B8%8A%E6%BC%94%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%AB%9E%E9%80%9F%E8%B5%9B" target="_blank" class="news-link">中美同日上演机器人竞速赛</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/281.htm" target="_blank" class="news-link">赵明官宣千里科技合作伙伴的全新汽车品牌“游心”，两款车型首秀</a> [24] <font color='grey'>- 22时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
