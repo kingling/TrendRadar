@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-04-29 20:00:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">6.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/177.htm" target="_blank" class="news-link">研究团队：自 2022 年 ChatGPT 诞生以来，如今互联网新增内容中 35% 均由 AI 生成</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" class="news-link">ZhuLinsen / daily_stock_analysis</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/171.htm" target="_blank" class="news-link">AI 涨价潮致苹果供应链遭挤压，消息称明年 iPhone 内存 / 闪存成本将占整机 45%</a> [13] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/soxoj/maigret" target="_blank" class="news-link">soxoj / maigret</a> [13]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/169.htm" target="_blank" class="news-link">荣耀亲选 coocaa 便携剃须刀 Air 发售：IPX7 防水认证，99 元</a> [15] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2032593268840600541" target="_blank" class="news-link">美股芯片股跳水，OpenAI 用户和营收不及预期，CFO 担心付不起数据中心账单，哪些信息值得关注？</a> [20] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%90%86%E5%93%8D%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">理响中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33078698" target="_blank" class="news-link">​中国羽毛球协会主席、南京体育学院副院长张军接受审查调查</a> [11] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%EF%BC%9A%E8%A6%81%E6%B1%82%E6%97%A5%E6%96%B9%E8%BF%98%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A5%E5%87%80%E5%9C%9F" target="_blank" class="news-link">中方：要求日方还中国人民以净土</a> [17] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/165.htm" target="_blank" class="news-link">砺算科技 7G100 国产显卡官宣 5 月 20 日首发开售，官方晒工厂产线回应“画大饼”质疑</a> [18] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/638869425.html" target="_blank" class="news-link">有没有懂的老哥说下，如果人民币成为全球唯一流通货币，对中国老百姓有没有利好</a> [25] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/174.htm" target="_blank" class="news-link">乘联会：截至 4 月 26 日本月乘用车零售辆已突破百万，新能源渗透率达 60% 共计 61.4 万辆</a> [11] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33071522" target="_blank" class="news-link">明查｜榫卯技术“日本特有”？非也</a> [13] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E4%B8%8A%E7%BA%BF%E8%AF%86%E5%9B%BE%E6%A8%A1%E5%BC%8F" target="_blank" class="news-link">DeepSeek上线识图模式</a> [19] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/181.htm" target="_blank" class="news-link">比亚迪第二代腾势 D9 汽车开启首批交付，售价 35.98 万元起</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/182.htm" target="_blank" class="news-link">TCL 科技 2026 年一季度净利润 15.56 亿元，同比增长 53.71%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
