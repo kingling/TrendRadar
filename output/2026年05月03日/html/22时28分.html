@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2026-05-03 22:28:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E4%BA%A7%E2%80%9C%E8%B6%85%E8%B7%91%E2%80%9D%E6%97%B6%E9%80%9F%E7%A0%B4496%E5%85%AC%E9%87%8C%E7%A7%92%E5%94%AE%E7%BD%84" target="_blank" class="news-link">国产“超跑”时速破496公里秒售罄</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635650738705665545/" target="_blank" class="news-link">C919换装国产发动机还要多久</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8spj3P5AomB" target="_blank" class="news-link">日本民众集会反修宪：祖先对中国做过那样残酷的事，我必须道歉</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E5%9B%A21%E6%AF%941%E7%91%9E%E5%85%B8%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">中国男团1比1瑞典</a> [24] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635608940223053834/" target="_blank" class="news-link">2026中国在世界纯电动车市场份额56%</a> [26] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/189.htm" target="_blank" class="news-link">消息称微软《光环》系列三部曲全面改用虚幻引擎 5 重制，两款新作同步开发中</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/185.htm" target="_blank" class="news-link">开源贡献者提议为微软 PowerToys 增设“低内存模式”，为低配 Win11 PC 释放资源</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/187.htm" target="_blank" class="news-link">马斯克 xAI 坐拥 55 万张英伟达 GPU 但算力利用率仅 11%，Meta 和谷歌可达 43~46%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/181.htm" target="_blank" class="news-link">黄仁勋称英伟达中国市场份额已降为零，美国出口管制效果适得其反</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/65567108" target="_blank" class="news-link">全世界都爱 F1 和勒芒，美国人为什么偏偏喜欢看 NASCAR 转圈？</a> [18] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E7%BE%BD%E4%B8%8D%E6%95%8C%E9%9F%A9%E5%9B%BD%E9%98%9F%E8%8E%B7%E5%B0%A4%E4%BC%AF%E6%9D%AF%E4%BA%9A%E5%86%9B" target="_blank" class="news-link">国羽不敌韩国队获尤伯杯亚军</a> [19] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
