@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2026-05-04 10:44:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">5.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E9%9D%92%E5%B9%B4%E5%A4%A7%E6%9C%89%E5%8F%AF%E4%B8%BA" target="_blank" class="news-link">中国青年大有可为</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8E%AB%E9%9B%B7%E5%8A%A0%E5%BE%B7%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E4%B8%AD%E5%9B%BD%E7%94%B7%E5%9B%A2%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">莫雷加德回应击败中国男团</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%94%B7%E6%8E%A5%E5%86%8D%E7%A0%B438%E7%A7%92%E5%A4%A7%E5%85%B3" target="_blank" class="news-link">中国男接再破38秒大关</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635813475402616329/" target="_blank" class="news-link">中国队夺得第12个汤姆斯杯冠军</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%9C%A8%E5%8D%8E%E4%BB%8D%E5%9D%9A%E6%8C%81%E4%B8%8D%E9%99%8D%E4%BB%B7%E4%B8%8D%E5%9B%BD%E4%BA%A7" target="_blank" class="news-link">保时捷在华仍坚持不降价不国产</a> [17] <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635675762733416489/" target="_blank" class="news-link">中国获世锦赛男子4×100米接力入场券</a> [23] <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2487977" target="_blank" class="news-link">中国男接37秒85历史第四</a> [23] <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635663614401511462/" target="_blank" class="news-link">莫雷加德：中国队不必太过担忧</a> [24] <font color='grey'>- 10时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7634900298558537734/" target="_blank" class="news-link">港媒：民进党跪舔美国得罪岛内农民</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%87%A0%E4%B9%8E%E5%B7%B2%E6%97%A0%E5%B7%A2%E9%B8%AD%E7%9B%91%E7%8B%B1%E7%97%95%E8%BF%B9" target="_blank" class="news-link">日本几乎已无巢鸭监狱痕迹</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/215.htm" target="_blank" class="news-link">美国电玩零售商 GameStop 向电商平台 eBay 提出无预警收购要约，总价 560 亿美元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33095206" target="_blank" class="news-link">伊朗超大型油轮躲过美国“封锁”，仍有特定船只可通过霍尔木兹海峡</a> [15] <font color='grey'>- 10时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/216.htm" target="_blank" class="news-link">借 AI 芯片风口，日本卫浴巨头 TOTO 半导体陶瓷业务利润占比过半</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%85%AC%E5%8F%B8%E5%BC%95%E8%BF%9BAI%E5%90%8E%E5%B0%86%E5%91%98%E5%B7%A5%E9%99%8D%E8%96%AA%E8%A3%81%E5%91%98%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">公司引进AI后将员工降薪裁员</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2032522089656230991" target="_blank" class="news-link">孩子抱着 AI 聊三小时，问「十一楼飞出窗会摔到吗」，AI 竟称会慢慢飘起，为啥会这样？家长该怎么做？</a> [14] <font color='grey'>- 10时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">2</td>
+                <td class="percentage">1.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2070296-1-1.html" target="_blank" class="news-link">据说 Win11 质量与口碑下滑，是印度裔工程师太多的原因导致的了？(from DeepSeek v4 Pro)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时44分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E5%91%98%E5%B7%A5%E4%B8%BA%E4%BD%95%E4%B8%8D%E5%8A%A0%E7%8F%AD" target="_blank" class="news-link">DeepSeek员工为何不加班</a> [21] <font color='grey'>- 10时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/222.htm" target="_blank" class="news-link">无需等待人类指令，半自主探测机器人可大幅提升火星探测效率</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
