@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2026-05-22 16:20:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">4.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/966.htm" target="_blank" class="news-link">苹果联合创始人沃兹尼亚克喊话毕业生“你们拥有的 AI 是真正的智慧”，赢得现场掌声</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%A3%E6%96%87AI%E7%8E%87%E8%B6%8560%25%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">朱自清散文AI率超60%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%83%9D%E5%93%A5%E6%9D%8E%E5%B9%BF%E5%A5%87%E5%9B%9E%E5%BA%94AI%E4%B9%B0%E7%93%9C" target="_blank" class="news-link">郝哥李广奇回应AI买瓜</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/939.htm" target="_blank" class="news-link">号称“全球通话最清晰耳机”安克 Liberty 5 Pro / Max 发布：搭自主研发“Thus”AI 芯片强调降噪能力，1399 元起</a> [18] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/935.htm" target="_blank" class="news-link">消息称 OpenAI 公司 2026Q1 营收 57 亿美元，比 Anthropic 高约 10 亿美元</a> [21] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/923.htm" target="_blank" class="news-link">OpenAI 推 Beta 版 ChatGPT for PowerPoint，可生成 / 编辑 / 完善幻灯片</a> [25] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%A3%E6%96%87AI%E7%8E%87%E8%B6%8560%25" target="_blank" class="news-link">朱自清散文AI率超60%</a> [26] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/620fa6957cf448d8a198dbaa7321d6ba.html" target="_blank" class="news-link">阿斯麦CEO：美收紧光刻机输华只会令中国自研加速</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/52d1b095ed694b3092a6effb8951bc3e.html" target="_blank" class="news-link">瑙鲁下令所有公务员和政府机构遵守一个中国原则</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/3f86c87090a94ebe890f44d27b8dcd1e.html" target="_blank" class="news-link">李在明严批韩媒炮制中国人在韩炒房假新闻</a> [14] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%96%B9%E7%A8%8B%E5%BC%8F%E9%94%A6%E6%A0%87%E8%B5%9B" target="_blank" class="news-link">中国大学生方程式锦标赛</a> [16] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7642607345068605476/" target="_blank" class="news-link">缅北魏家受审：致2名中国公民死亡</a> [18] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/fe01805345dc43cca8dc6a55e7355f21.html" target="_blank" class="news-link">日本拟升级日菲关系</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%A4%E4%BA%86%E6%97%A5%E6%9C%AC%E4%B8%83%E5%9B%BD%E9%9B%86%E5%9B%A2%E9%AB%98%E5%B1%82%E6%8E%A5%E8%BF%9E%E8%AE%BF%E5%8D%8E%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">除了日本七国集团高层接连访华</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/951.htm" target="_blank" class="news-link">刚领完奖金就买保时捷跑车，曝三星数亿韩元奖金让韩国上班族集体破防</a> [12] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%89%E9%9F%A9%E5%9B%BD%E5%AA%92%E4%BD%93%E9%81%93%E6%AD%89%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">有韩国媒体道歉了</a> [27] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E6%9C%8D%E9%A5%B0%E5%93%81%E7%89%8C%E6%8A%84%E8%A2%AD%E6%B1%89%E6%9C%8D&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">韩国服饰品牌抄袭汉服</a> [30] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/943.htm" target="_blank" class="news-link">特斯拉监督版 FSD 在欧洲不再提供买断方案，用户需每月支付 99 欧元</a> [17] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/936.htm" target="_blank" class="news-link">特斯拉因缺少认证标签宣布在美召回 14575 辆 2025-2026 款 Model Y</a> [20] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/977.htm" target="_blank" class="news-link">18 年老粉与微软 GitHub 决裂：我希望它更好，但我更想编程</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2071688-1-1.html" target="_blank" class="news-link">官方正式版2026年05月版(微软原版ISO镜像)Windows 11 26H1/25H2 Server 2025/2022</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">AMD</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/944.htm" target="_blank" class="news-link">AMD 苏姿丰：CPU 目前供应紧张，未来 5 年市场年复增长率超 35%</a> [16] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/937.htm" target="_blank" class="news-link">AMD 向中国台湾地区投资 100 亿美元，加速建设 AI 基础设施</a> [19] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
