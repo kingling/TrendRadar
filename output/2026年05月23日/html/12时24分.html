@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 193</p><p>生成时间: 2026-05-23 12:24:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">23</td>
+                <td class="percentage">11.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%E8%88%AA%E5%A4%A9%E5%91%98%E9%A6%96%E4%B8%8A%E5%A4%AA%E7%A9%BA" target="_blank" class="news-link">中国香港航天员首上太空</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/280.htm" target="_blank" class="news-link">因劳动力短缺，丰田将把中国台湾地区产乘用车出口到日本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%9F%8E%E5%B8%82%E5%9C%B0%E4%B8%8B%E7%AE%A1%E7%BD%91%E8%A7%84%E6%A8%A1%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80" target="_blank" class="news-link">中国城市地下管网规模全球第一</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7641939137729383979/" target="_blank" class="news-link">中国第4位女航天员曾在香港警务处工作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=4%E5%90%8D%E5%9C%A8%E6%B3%B0%E5%A4%B1%E8%81%94%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%B7%B2%E8%A2%AB%E6%89%BE%E5%88%B0" target="_blank" class="news-link">4名在泰失联中国公民已被找到</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/23/54aa4a03571d43dcac47e28fb0293532.html" target="_blank" class="news-link">泰媒：中国成为泰国游客首选目的地</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2041217136849155198" target="_blank" class="news-link">如何评价本届 U17 亚洲杯，中国 U17 男足的表现，其中有哪些值得重点关注的未来之星？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/23/476fa7f0e6dd43c7828a5baad0d099b6.html" target="_blank" class="news-link">中国深远海漂浮式风电技术取得突破</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/23/8fe88d057c0d4d6fb0e31759b508f99a.html" target="_blank" class="news-link">美媒：让中国再次酷起来</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%AE%98%E5%AE%A3%E7%AC%AC4%E4%BD%8D%E5%A5%B3%E8%88%AA%E5%A4%A9%E5%91%98%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">中国官宣第4位女航天员</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%E8%88%AA%E5%A4%A9%E5%91%98%E9%A6%96%E4%B8%8A%E5%A4%AA%E7%A9%BA" target="_blank" class="news-link">中国香港航天员首上太空</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7642446027429052422/" target="_blank" class="news-link">馆长怒怼贾永婕：台湾是中国一部分</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1987971532887197449" target="_blank" class="news-link">西方的亲子关系，真的比中国的亲子关系更融洽吗？</a> [16] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7641952083473809451/" target="_blank" class="news-link">两名巴基斯坦航天员到中国参加训练</a> [18] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33213504" target="_blank" class="news-link">非法跨境展业遭重拳整治：中国证监会拟对富途罚款18.5亿，老虎证券罚没4.112亿</a> [20] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/257.htm" target="_blank" class="news-link">中国 2030 年实现航天员登月，空间站将提供人才储备、技术验证与一体化研制支撑</a> [21] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/255.htm" target="_blank" class="news-link">巴基斯坦航天员已入列中国训练中心，将执行短期飞行任务</a> [23] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E6%88%91%E7%9A%84%E5%B8%88%E5%82%85%E6%9D%A5%E8%87%AA%E4%B8%AD%E5%9B%BD%E2%80%9D" target="_blank" class="news-link">“我的师傅来自中国”</a> [25] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/253.htm" target="_blank" class="news-link">去年中国载人航天工程实施首次应急发射任务，为国际航天领域高效应对突发事件提供成功范例</a> [25] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%96%B9%E7%A8%8B%E5%BC%8F%E9%94%A6%E6%A0%87%E8%B5%9B" target="_blank" class="news-link">中国大学生方程式锦标赛</a> [28] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%88%AA%E5%A4%A9%E5%91%98%E4%B8%8E%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%91%98%E4%B8%80%E5%90%8C%E8%AE%AD%E7%BB%83" target="_blank" class="news-link">巴基斯坦航天员与中国航天员一同训练</a> [29] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/248.htm" target="_blank" class="news-link">203 天：神二十一乘组有望刷新中国航天员乘组在轨驻留最长纪录</a> [29] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD2030%E5%B9%B4%E5%AE%9E%E7%8E%B0%E8%88%AA%E5%A4%A9%E5%91%98%E7%99%BB%E6%9C%88" target="_blank" class="news-link">中国2030年实现航天员登月</a> [30] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">2.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/281.htm" target="_blank" class="news-link">推广约 9 个月叫停：星巴克北美搁置 AI 库存系统，分不清燕麦奶和牛奶</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/277.htm" target="_blank" class="news-link">年薪 32~40 万美元：Anthropic 推出高薪写作岗，打响 AI 传播战</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/274.htm" target="_blank" class="news-link">Meta 美国在建 AI 数据中心被指恶化水源，当地居民靠外运水做饭洗澡</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E7%A7%B0%E6%94%BB%E5%85%8B80%E5%B9%B4%E6%95%B0%E5%AD%A6%E9%9A%BE%E9%A2%98" target="_blank" class="news-link">OpenAI称攻克80年数学难题</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/272.htm" target="_blank" class="news-link">修不过来：Anthropic 披露 AI 抓虫首月战报，揪出超 1 万个高危漏洞</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">2.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=U17%E5%9B%BD%E8%B6%B3%E5%86%B3%E8%B5%9B2%E6%AF%943%E6%83%9C%E8%B4%A5%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">U17国足决赛2比3惜败日本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2041148892323000444" target="_blank" class="news-link">美官员称特朗普政府开始制定对古巴军事行动方案，美国为何盯上古巴？目前古巴局势如何？</a> [13] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%86%8D%E5%85%AC%E5%B8%83UFO%E6%96%87%E4%BB%B6%EF%BC%9A%E5%8F%91%E5%85%89%E7%89%A9%E8%BF%BD%E9%80%90%E6%88%98%E6%9C%BA" target="_blank" class="news-link">美国再公布UFO文件：发光物追逐战机</a> [28] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7642884340879199771/" target="_blank" class="news-link">韩国资金突然抄底A股看中了什么</a> [29] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/247.htm" target="_blank" class="news-link">机械硬盘组件供应商在美国遭集体诉讼：跨度 13 年，被指操纵推高终端售价</a> [30] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/279.htm" target="_blank" class="news-link">华为乾崑｜启境 GT7 车型官宣 5 月 29 日预售发布，同步开启预订</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/250.htm" target="_blank" class="news-link">鸿蒙智行问界 M9 系列新品发布会提至 5 月 27 日 14:30，会后即刻开启大定</a> [27] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/266.htm" target="_blank" class="news-link">微软推出 Fara1.5 系列浏览器 AI 智能体模型，72% 任务成功率超 OpenAI Operator</a> [12] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/260.htm" target="_blank" class="news-link">微软调整 Win11 待机规则：用户主动让电脑睡眠，中止播放音乐</a> [18] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28354527&amp;amp;topic_name=deepseek%E7%8B%82%E9%99%8D%E4%BB%B7%2C%E5%8F%8B%E5%95%86%E8%A2%AB%E5%8D%B7%E5%93%AD" target="_blank" class="news-link">deepseek狂降价,友商被卷哭</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28354529&amp;amp;topic_name=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%87%8D%E7%BB%84%2C%E6%B8%B8%E6%88%8F%E9%83%A8%E9%97%A8other" target="_blank" class="news-link">英伟达重组,游戏部门other</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/273.htm" target="_blank" class="news-link">联想推出 LOQ 15AHP11 游戏本：AMD 锐龙 7 250 CPU、RTX 5050/5060/5070 显卡</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/264.htm" target="_blank" class="news-link">人形机器人也有“身份证”：全国首个管理平台在京发布，全程可追溯</a> [15] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/258.htm" target="_blank" class="news-link">嫦娥七号计划于下半年择机发射：后续将按计划组织完成长征十号运载火箭技术验证飞行、梦舟载人飞船和揽月着陆器首次飞行等重要任务</a> [20] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
