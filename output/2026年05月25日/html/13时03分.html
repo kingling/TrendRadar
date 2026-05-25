@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 196</p><p>生成时间: 2026-05-25 13:03:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">11</td>
+                <td class="percentage">5.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/778.htm" target="_blank" class="news-link">不依赖新光刻工艺！麒麟 2027、昇腾 990 芯片在路上，华为何庭波“韬定律”论文要点大揭秘</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/775.htm" target="_blank" class="news-link">华为 MatePad Pro Max 旗舰平板官宣 6 月 1 日与 nova 16 系列手机同台发布</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/759.htm" target="_blank" class="news-link">面壁智能联合清华等开源中国首个基于华为昇腾训练的 1.58-bit 端侧大模型 BitCPM-CANN</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E9%AB%98%E7%AE%A1%E5%9B%9E%E5%BA%94%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">华为高管回应半导体领域新突破</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/748.htm" target="_blank" class="news-link">华为 nova 16 系列手机现身官网，含 16Ultra/16 Pro/16/16z 四款机型</a> [14] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/747.htm" target="_blank" class="news-link">华为何庭波：我们新芯片的性能完全可以持续对标另外一条路径</a> [15] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/746.htm" target="_blank" class="news-link">华为麒麟 2026 芯片官方剧透：晶体管密度提升 53.5％，峰值频率首超 3GHz</a> [16] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/745.htm" target="_blank" class="news-link">何庭波透露华为付出巨大努力使手机芯片重回市场，去年推出麒麟 9030 Pro 后曾进入性能“饱和区”</a> [17] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/720.htm" target="_blank" class="news-link">华为详解“逻辑折叠”等核心技术，多层级协同优化体系贯穿器件、电路、芯片到系统层面</a> [21] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/714.htm" target="_blank" class="news-link">华为 nova 16 系列手机今启预订，「晴空蓝」和「幻彩贝母」双色外观公布</a> [24] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/712.htm" target="_blank" class="news-link">华为何庭波：“麒麟 2026”手机芯片是逻辑折叠技术的首次成功实施，未来十年会持续走向全面折叠</a> [26] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">4.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%91%98%E5%AE%8C%E6%88%90%E7%AC%AC8%E6%AC%A1%E5%A4%AA%E7%A9%BA%E4%BC%9A%E5%B8%88" target="_blank" class="news-link">中国航天员完成第8次太空会师</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/777.htm" target="_blank" class="news-link">中国芯片走出不同于西方的路，玉渊谭天谈我国半导体领域高压下实现突破</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tOEfLcy7On" target="_blank" class="news-link">智胜特朗普？美媒酸了：中国取消对非关税这招太“高明”了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7643444126554505257/" target="_blank" class="news-link">中国航天又见大红屏</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/744.htm" target="_blank" class="news-link">芯动科技国产首发全套 UALink 纵向扩展高速互联 IP 组合</a> [18] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=91%E5%B2%81%E8%80%81%E4%BA%BA%E5%B8%A6%E8%80%81%E4%BC%B4%E8%87%AA%E9%A9%BE%E7%8E%AF%E6%B8%B8%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">91岁老人带老伴自驾环游中国</a> [22] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7643599400992374847/" target="_blank" class="news-link">印度游客：中国清洁水平令人震惊</a> [25] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7643396248133074963/" target="_blank" class="news-link">武契奇笑忆中国民众亲切称呼他为577</a> [30] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">3.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/25/d27eb3d2fdf749e7a14fea87a797201c.html" target="_blank" class="news-link">美国学校教育面临双重难题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/776.htm" target="_blank" class="news-link">任天堂 Switch 2 游戏机日本专供机型正式涨价 1 万日元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tPQ47Ovntp" target="_blank" class="news-link">起诉劳尔·卡斯特罗，美国离对古巴动手还有多远？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC7-Eleven%E5%88%9B%E5%A7%8B%E4%BA%BA%E9%93%83%E6%9C%A8%E6%95%8F%E6%96%87%E9%80%9D%E4%B8%96" target="_blank" class="news-link">日本7-Eleven创始人铃木敏文逝世</a> [19] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2511139" target="_blank" class="news-link">美国加州发生大规模工业火灾</a> [22] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/713.htm" target="_blank" class="news-link">既非活着、也非死去：美国初创公司 Bexorg 通过离体“缸中之脑”测试药物</a> [25] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/766.htm" target="_blank" class="news-link">东芝出样 1200V 沟槽栅碳化硅 MOSFET，主要面向下一代 AI 数据中心电源系统</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/954/718.htm" target="_blank" class="news-link">达摩鲨推出 30g 指握鼠标 M5 AIR V2：nRF54L15 主控，光学微动</a> [22] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%8C%91%E6%88%98%E6%B0%B4%E6%9E%9C%E5%BA%97%E5%91%98%E6%8C%91%E6%A6%B4%E8%8E%B2" target="_blank" class="news-link">AI挑战水果店员挑榴莲</a> [29] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">3</td>
+                <td class="percentage">1.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E4%B8%89%E5%8F%B7%E9%A3%9E%E8%88%B9%E6%9C%89%E5%A4%9A%E9%A1%B9%E5%88%9B%E6%96%B0" target="_blank" class="news-link">神舟二十三号飞船有多项创新</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33225228" target="_blank" class="news-link">视频丨神舟二十三号载人飞船发射取得圆满成功</a> [11] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E5%AE%99%E7%BA%A7%E2%80%9C%E5%85%A8%E5%AE%B6%E7%A6%8F%E2%80%9D%E5%92%B1%E6%9C%898%E5%BC%A0%E4%BA%86" target="_blank" class="news-link">宇宙级“全家福”咱有8张了</a> [24] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">京东</td>
+                <td class="count">2</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BA%AC%E4%B8%9C%E6%98%8E%E6%98%9F%E7%BA%A2%E5%8C%85%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">京东明星红包</a> [19] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BA%AC%E4%B8%9C%E9%87%87%E9%94%80%E8%AF%B4%E4%BB%8A%E5%A4%A9%E4%B9%B0%E6%89%8B%E6%9C%BA%E6%97%A0%E6%95%8C%E4%BE%BF%E5%AE%9C%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">京东采销说今天买手机无敌便宜</a> [24] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2071860-1-1.html" target="_blank" class="news-link">实测加载速度暴增95%！微软这项黑科技让游戏实现即点即玩(mydrivers.com)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
