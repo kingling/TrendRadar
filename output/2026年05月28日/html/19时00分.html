@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-05-28 19:00:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">14</td>
+                <td class="percentage">7.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7644470670185103369/" target="_blank" class="news-link">中国首个“亿级车企”诞生</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%80%E4%BA%AE%E7%9A%84%E6%98%9F%E8%87%B4%E6%95%AC%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A5%E4%BD%9C%E8%80%85" target="_blank" class="news-link">最亮的星致敬中国科技工作者</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/226aec55c751491daf873b75eb3e6579.html" target="_blank" class="news-link">专家：中国产业政策“引导创变”的启示</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E4%B8%AA%E4%BA%BF%E7%BA%A7%E8%BD%A6%E4%BC%81%E8%AF%9E%E7%94%9F" target="_blank" class="news-link">中国首个亿级车企诞生</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/fc5ec4dfbb7f419785ee7e48385473d8.html" target="_blank" class="news-link">“中国的发展成果让我深感震撼”——中蒙媒体北京内蒙古行联合采访侧记</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/c443219846ac4be9aad7ffe1777d80f6.html" target="_blank" class="news-link">外媒：中国工业企业利润逆势强劲增长</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tUq2NbxiLQ" target="_blank" class="news-link">涉嫌虐杀韩国大学生，6名中国电诈分子被柬埔寨法院判处终身监禁</a> [11] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/f9aa7a3d80144aa785bfec5f762d98f4.html" target="_blank" class="news-link">西媒：中国成一季度西班牙最大商品供应国</a> [13] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/d36c001a559440889514c7a142f5cfb4.html" target="_blank" class="news-link">美媒：中国本土高端品牌快速崛起</a> [15] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E9%98%B2%E9%83%A8%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%86%9B%E9%98%9F%E5%A4%96%E9%80%BC%E9%A9%B1%E7%A6%BB%E8%8D%B7%E5%85%B0%E7%9B%B4%E5%8D%87%E6%9C%BA" target="_blank" class="news-link">国防部：中国军队外逼驱离荷兰直升机</a> [16] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/22065032" target="_blank" class="news-link">中国大学舍友之间的关系普遍是什么状况？</a> [20] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%86%9B%E9%98%9F%E5%A4%96%E9%80%BC%E9%A9%B1%E7%A6%BB%E4%BE%B5%E9%97%AF%E8%8D%B7%E5%85%B0%E7%9B%B4%E5%8D%87%E6%9C%BA%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">中国军队外逼驱离侵闯荷兰直升机</a> [29] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/665.htm" target="_blank" class="news-link">岚图高管李博晓回怼法拉利前主席“Luce 的设计连中国车都不会抄”：根本不屑抄你们</a> [29] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7644521354460987398/" target="_blank" class="news-link">中国记协就女记者暗访遭拖拽发声</a> [30] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">3.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28354664&amp;amp;topic_name=%E6%B8%85%E5%AE%B5%E7%AB%8B%E7%BB%98%E8%A2%AB%E5%98%B2%E5%83%8FAI%E7%94%9F%E5%9B%BE" target="_blank" class="news-link">清宵立绘被嘲像AI生图</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/742.htm" target="_blank" class="news-link">科大讯飞 AI 眼镜发布：支持 122 种语言翻译，售价 4299 元</a> [11] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tUekOdGeku" target="_blank" class="news-link">三星罢工的众生相，捅破AI时代“不患寡而患不均”这层窗户纸</a> [12] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unclecode/crawl4ai" target="_blank" class="news-link">unclecode / crawl4ai</a> [13]</div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2042897105346368773" target="_blank" class="news-link">香港拟将「中国内地」英译改为「Chinese Mainland」，此举释放了哪些信号？</a> [19] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/694.htm" target="_blank" class="news-link">YouTube 将用 AI 改造你的首页：可根据需求生成个性化视频列表</a> [24] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7644842292717535251/" target="_blank" class="news-link">国防部回应日本大肆布局太空军事力量</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tUuMhWQeZd" target="_blank" class="news-link">美国日资造纸厂爆炸事故死亡人数升至11人，部分污染物进入河流</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/734.htm" target="_blank" class="news-link">两年磨一剑：美国造车新势力 Rivian 新车 R2 下月交车，不到 6 万美元</a> [15] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/28/e2c3b39d2cf943bea1afb383c2a58f28.html" target="_blank" class="news-link">日本对外净资产跌至全球第三</a> [20] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">1.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/752.htm" target="_blank" class="news-link">鸿蒙版迪士尼度假区 App 上架华为应用市场，恰逢上迪十周年与六一儿童节</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/751.htm" target="_blank" class="news-link">GFK 数据：华为音频国内销售额份额首超苹果，登顶中国音频市场</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/722.htm" target="_blank" class="news-link">华为余承东透露全新一代问界 M9 晕车舒缓功能将成为驾驶模式的一种，滚轮一滚就开启</a> [18] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/727.htm" target="_blank" class="news-link">特斯拉 Autopilot 卷入致命车祸，87 岁驾驶员身亡</a> [17] <font color='grey'>- 19时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/696.htm" target="_blank" class="news-link">特斯拉得州 Optimus 专属机器人工厂动工，规划年产能最高千万台</a> [23] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/737.htm" target="_blank" class="news-link">李云飞“超前”剧透：比亚迪是全球唯一一家拥有芯片全流程制造能力的车企</a> [13] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/956/718.htm" target="_blank" class="news-link">消息称字节跳动正开发自有 CPU，以支持 AI 基础设施扩张</a> [20] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%B9%B4%E8%BD%BB%E4%BA%BA%E8%A1%97%E5%A4%B4%E5%9B%B4%E6%94%BB%E5%A4%96%E5%8D%96%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">美国年轻人街头围攻外卖机器人</a> [28] <font color='grey'>- 19时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
