@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 385</p><p>生成时间: 2026-06-16 02:24:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">17</td>
+                <td class="percentage">4.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33379825" target="_blank" class="news-link">头条世界杯｜日本战平荷兰绝非爆冷，库拉索败者也有伟大一夜</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355174&amp;amp;topic_name=%E9%9F%A9%E5%9B%BD%E5%A5%B3%E7%90%83%E8%BF%B7%E5%9C%A8%E5%A2%A8%E8%A5%BF%E5%93%A5%E9%81%AD%E6%AD%A7%E8%A7%86" target="_blank" class="news-link">韩国女球迷在墨西哥遭歧视</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/71aa3dc3eb194f57b668adf4a1e933e9.html" target="_blank" class="news-link">市值突破两万亿美元，跃居美国第六大公司 SpaceX上市“太疯狂了！”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355157&amp;amp;topic_name=89%E5%88%86%E9%92%9F%E7%BB%9D%E5%B9%B3%2C%E6%97%A5%E6%9C%AC2-2%E8%8D%B7%E5%85%B0" target="_blank" class="news-link">89分钟绝平,日本2-2荷兰</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/601.htm" target="_blank" class="news-link">美国消费者指控 Claude Max 订阅套餐额度“虚标”，拟对 Anthropic 发起集体诉讼</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/52a63873752b45688f5ee8722a32dd47.html" target="_blank" class="news-link">美国一架飞机坠毁，12人遇难</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/1d3efe0f1a584595871f009a36dd6364.html" target="_blank" class="news-link">美国将向澳大利亚部署四艘核潜艇</a> [14] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33379917" target="_blank" class="news-link">《足球小将》没骗我：日本队真的能和荷兰掰手腕</a> [17] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/21bbd2c48f37451b909a4bc9c6169feb.html" target="_blank" class="news-link">伊媒：美国将在谈判开始前向伊朗解冻120亿美元资产</a> [19] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8D%B7%E5%85%B02-2%E6%88%98%E5%B9%B3%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">荷兰2-2战平日本</a> [21] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640033689.html" target="_blank" class="news-link">美国向伊朗支付3000亿美元战争赔款</a> [21] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/14/b8c87b2d837d4ff5b0b3d41754d9c0b9.html" target="_blank" class="news-link">港媒：美国以衰落之态迎来建国250周年</a> [23] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/14/524ef266076641a9bad60d12da657d2d.html" target="_blank" class="news-link">日媒：日本要去格陵兰岛勘察稀土</a> [25] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640028909.html" target="_blank" class="news-link">为什么说看日本队能看到黄种人的上限。</a> [26] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355135&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E7%82%B8%E9%B8%A1%E7%A7%98%E6%96%B9%3A%E4%B8%80%E9%94%85%E6%B2%B9%E7%94%A866%E5%B9%B4" target="_blank" class="news-link">日本炸鸡秘方:一锅油用66年</a> [28] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/14/2acbaac74087486eb845c258e8ce86df.html" target="_blank" class="news-link">日媒：日本航空自卫队将更名“航空宇宙自卫队”</a> [29] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E4%BC%8A%E6%9C%97%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">美国伊朗达成和平协议</a> [30] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">3.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/c118602e5ab848f19724f36431f76c30.html" target="_blank" class="news-link">英媒：人工智能正在彻底改变股市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%94%A8AI%E8%AE%A9%E7%90%83%E5%91%98%E7%89%B5%E9%81%87%E9%9A%BE%E5%84%BF%E7%AB%A5%E5%85%A5%E5%9C%BA" target="_blank" class="news-link">伊朗用AI让球员牵遇难儿童入场</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2049845138457719674" target="_blank" class="news-link">雨果奖科幻作者郝景芳称最新小说一半由 AI 完成，如何看待她这一做法？你会支持含 AI 创作小说吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" class="news-link">rohitg00 / ai-engineering-from-scratch</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/109850" target="_blank" class="news-link">从插件到 AI 辅助：Obsidian 如何成为我的主力工具</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E4%B8%BA%E4%BD%95%E6%88%90%E4%B8%BA%E8%83%BD%E6%BA%90%E4%B9%8B%E6%88%98" target="_blank" class="news-link">AI为何成为能源之战</a> [13] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/110106" target="_blank" class="news-link">Await：五分钟，把点子变成 iPhone 小组件</a> [13] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/110370" target="_blank" class="news-link">AI Agent 干中学，「造轮子」让我学会了什么？</a> [14] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/595.htm" target="_blank" class="news-link">全球 AI“黑马神话”一夜反转，被指套壳阿里千问和 Nex 两款国产模型</a> [15] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/110172" target="_blank" class="news-link">AI 如何影响你的审美？</a> [15] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33378154" target="_blank" class="news-link">批量撰写不实信息一年牟利15元，四川射洪一AI写手被处罚</a> [18] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/590.htm" target="_blank" class="news-link">联想 ThinkPad P14s AI 2026 笔记本上架：RTX PRO 500/1000 显卡，17999 元起</a> [19] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/109869" target="_blank" class="news-link">当 AI 成为角色：漫谈我的 SillyTavern 使用经验</a> [22] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7651542350414037011/" target="_blank" class="news-link">伊朗用AI让球员牵遇难儿童入场</a> [29] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7651595676949876250/" target="_blank" class="news-link">“十五五”中国光热发电前景可期</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/4c909b561e534fd1a8b9d7aac117be98.html" target="_blank" class="news-link">中国推动人民币国际化显成效</a> [11] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/15/017cd0bc249e4fc2b393a3cdf1ea2e7a.html" target="_blank" class="news-link">外媒：中国绿色发展有效抑制油价飙涨</a> [12] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640011797.html" target="_blank" class="news-link">中国人为什么足球真的是不行呢？JR们怎么看呢？</a> [16] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7651590861641223721/" target="_blank" class="news-link">为什么说中国没必要抄SpaceX的作业</a> [20] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/639934525.html" target="_blank" class="news-link">得到1吨黄金vs率领中国队拿下2座世界杯冠军，大家会选择哪个？</a> [20] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/14/0bf7b629fbf54c92b9b1df1ce3b56a65.html" target="_blank" class="news-link">超级运河网彰显中国治水兴邦雄心</a> [30] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">5</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/605.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 7 Developer Beta 版开启推送，系统扩展特性同步更新</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/604.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS API 设备量占比数据更新，6.1.0 以下版本合计不足 6%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/596.htm" target="_blank" class="news-link">华为朱懂东谈“鸿蒙套壳安卓”：套壳拿不到最高安全可靠等级 Ⅱ 级权威认证</a> [14] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/591.htm" target="_blank" class="news-link">国外软件对待国乐不上心，华为朱懂东透露音悦家 App 立志“复活”大家能看到的中国古典乐器</a> [18] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/582.htm" target="_blank" class="news-link">华为做大型应用工具软件原因揭秘，朱懂东称没找到合适的只能自己来</a> [26] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/602.htm" target="_blank" class="news-link">消息称英伟达时隔五年重返债市：拟发债筹集 200 亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/NVIDIA/SkillSpector" target="_blank" class="news-link">NVIDIA / SkillSpector</a> [17] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2073309-1-1.html" target="_blank" class="news-link">LoadDefault / ClearCMOS，会清空 NVRAM 中的内容么？(deepseek v4 pro)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/592.htm" target="_blank" class="news-link">“先玩后付”分期购买模式现身微软 XBOX 后台，支持 PayPal、Klarna</a> [17] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355151&amp;amp;topic_name=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BC%B4%E4%BE%A3%E5%BC%80%E5%94%AE%2C%E4%BA%BA%E6%9C%BA%E6%81%8B%E6%88%90%E7%9C%9F" target="_blank" class="news-link">机器人伴侣开售,人机恋成真</a> [18] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
