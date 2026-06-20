@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-06-20 20:27:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/547.htm" target="_blank" class="news-link">调查显示：美国成年人年均订阅支出 1332 美元，未使用服务年均浪费 252 美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时27分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640163944.html" target="_blank" class="news-link">以前不了解美国，这次世界杯发现美国的球场建的也不错</a> [13] <font color='grey'>- 20时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653414381891358251/" target="_blank" class="news-link">美国为何在军事上边缘化印度</a> [24] <font color='grey'>- 20时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u6ykIAUSiQ" target="_blank" class="news-link">“美国撇开印度，担心刺激中国”</a> [12] <font color='grey'>- 20时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%9A%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9C%A8%E7%BC%85%E7%94%B8%E8%A2%AB%E6%8D%95+%E6%80%BB%E9%A2%86%E9%A6%86%E6%8F%90%E9%86%92" target="_blank" class="news-link">多名中国公民在缅甸被捕 总领馆提醒</a> [14] <font color='grey'>- 20时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/owainlewis/awesome-artificial-intelligence" target="_blank" class="news-link">owainlewis / awesome-artificial-intelligence</a> [15]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653397957080780307/" target="_blank" class="news-link">专家：中美股市科技板块差距大</a> [19] <font color='grey'>- 20时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/546.htm" target="_blank" class="news-link">英国科学家攻克量子传感器噪声难题，有助于探索暗物质与早期宇宙引力波</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
