@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 222</p><p>生成时间: 2026-06-22 22:38:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">9</td>
+                <td class="percentage">4.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B8%A4%E7%AE%AD%E9%BD%90%E5%8F%91%E5%8F%8D%E5%88%B6%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">中国两箭齐发反制美国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7654133647913537067/" target="_blank" class="news-link">专家：中国的牛市刚刚开始</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uAd6iAgSzJ" target="_blank" class="news-link">一天之内，中国对美祭出两份“管控名单”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/206.htm" target="_blank" class="news-link">中国移动牵头完成 3GPP“6G 场景和技术需求”标准研究项目，为技术路线、网络架构等划定基线</a> [12] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7654122913431781395/" target="_blank" class="news-link">原来佛得角有那么多中国元素</a> [15] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33426641" target="_blank" class="news-link">受邀担任上海电视节青年大使，张凌赫要讲好中国故事</a> [15] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640206752.html" target="_blank" class="news-link">14亿中国人为什么选不出14个能踢好足球，带领中国进入世界杯的球员？</a> [16] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640212891.html" target="_blank" class="news-link">中国影视行业的这一轮崩溃和覆灭，是一个非常不体面的事情。</a> [20] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/179.htm" target="_blank" class="news-link">全球首台！中国绿发 5MW 级全碳型锂离子超级电容（LIC）功率舱型式试验成功</a> [29] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">3.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/223.htm" target="_blank" class="news-link">美光与 Anthropic 达成战略合作，包含 AI 存储供应、技术研发及股权投资</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/220.htm" target="_blank" class="news-link">英特尔联合长安汽车发布 AI 座舱方案：基于第三代酷睿 Ultra 处理器，支持本地运行大语言模型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2073812-1-1.html" target="_blank" class="news-link">4K-AI美女壁纸</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2543848" target="_blank" class="news-link">AI如此预测今晚焦点战算懂球吗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/JCodesMore/ai-website-cloner-template" target="_blank" class="news-link">JCodesMore / ai-website-cloner-template</a> [14]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/lyogavin/airllm" target="_blank" class="news-link">lyogavin / airllm</a> [15]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/201.htm" target="_blank" class="news-link">Counterpoint：预计今年 AI 手机渗透率达 45%，明年有望冲上 52%</a> [16] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">1.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7654178847184653865/" target="_blank" class="news-link">评论员：“后美国时代”已迎面而来</a> [13] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%9B%BD%E4%B9%92%E5%87%BA%E5%8F%91%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">国乒出发美国大满贯</a> [19] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2052316614541027284" target="_blank" class="news-link">商务部公布将艾维奥克斯公司等 10 家美国实体列入出口管制管控名单，有哪些信息值得关注？</a> [20] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/213.htm" target="_blank" class="news-link">35 台英伟达 AI HPC 惠及超 300 万研究人员，欧洲启动史上最大规模 AI 超算建设</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/212.htm" target="_blank" class="news-link">业界首个全栈物理 AI 安全系统，英伟达 Halos for Robotics 正式发布</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uAQS5NAC0O" target="_blank" class="news-link">刘强东：未来不需要快递员，将送70万快递员学修机器人</a> [12] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/191.htm" target="_blank" class="news-link">优必选发布人形机器人 Walker C1：可实现人机共舞，面向商用服务场景</a> [20] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/217.htm" target="_blank" class="news-link">为剧而生：生数 Vidu Q3 多模态大模型上线华为云，主打文 / 图生视频一体化成片能力</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/205.htm" target="_blank" class="news-link">微软 AI 迎强援，得克萨斯州数据中心获美能源巨头雪佛龙 20 年供电协议</a> [13] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/200.htm" target="_blank" class="news-link">谷歌云与诺基亚扩大合作，将 Gemini 模型融入电信网络智能运维平台</a> [17] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/189.htm" target="_blank" class="news-link">小米胡峥楠谈 YU7 GT 自动驾驶征战纽北，称这才是想真正展示的综合能力</a> [21] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/183.htm" target="_blank" class="news-link">亿咖通科技拟 18 亿元收购 Flyme 软件业务，年内魅族现有手机将迎大规模系统升级</a> [26] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
