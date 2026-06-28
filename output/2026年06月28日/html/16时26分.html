@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 136</p><p>生成时间: 2026-06-28 16:26:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">11</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E8%B6%B3%E5%8D%8F%E5%8F%96%E6%B6%88%E4%B8%BA%E9%9F%A9%E5%9B%BD%E9%98%9F%E6%8E%A5%E6%9C%BA" target="_blank" class="news-link">韩国足协取消为韩国队接机</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2054536470178653026" target="_blank" class="news-link">世界杯 32 强对阵出炉，巴西 vs 日本、法国 vs 瑞典、葡萄牙 vs 克罗地亚，你看好哪些球队晋级？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7655563807642304538/" target="_blank" class="news-link">韩国男足回国将首次无接机和欢迎</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7656068679436582963/" target="_blank" class="news-link">韩媒气到给韩国队主帅打码</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2054540391236335233" target="_blank" class="news-link">世界杯小组赛结束，亚足联仅日本澳大利亚进入 32 强，远不及扩军前给亚足联的世界杯名额，对此你怎么看？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/640355468.html" target="_blank" class="news-link">到底是哪些人支持日本队，喜欢日本队？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E5%AE%B6%E5%BA%AD%E4%B8%BB%E5%A6%87%E5%90%83%E9%A5%AD%E8%A7%86%E9%A2%91%E8%B5%B0%E7%BA%A2&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">日本家庭主妇吃饭视频走红</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/651.htm" target="_blank" class="news-link">消息称苹果游说美国政府，寻求采购长鑫存储内存芯片</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E5%B0%8F%E5%B0%86%E8%AE%A4%E4%B8%8D%E5%87%BA%E6%97%A5%E6%9C%AC%E7%90%83%E5%91%98" target="_blank" class="news-link">巴西小将认不出日本球员</a> [15] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E8%B7%AA%E7%9D%80%E6%AD%BB%E4%BC%8A%E6%9C%97%E7%AB%99%E7%9D%80%E6%AD%BB%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">韩国跪着死伊朗站着死</a> [26] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%9B%9E%E5%9B%BD%E6%B2%A1%E6%9C%89%E6%8E%A5%E6%9C%BA%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">韩国队回国没有接机</a> [29] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">3.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/28/7429b34af4e64f79b27903fdab15a85e.html" target="_blank" class="news-link">马来西亚专家：中国四大倡议契合全球南方愿景</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uKC7EuGVPf" target="_blank" class="news-link">梅朗雄：法国必须退出北约，绝不能暴力对抗中国</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/655.htm" target="_blank" class="news-link">乘联分会崔东树：中国 2026 年 5 月汽车进口 3.8 万辆，同比下降 19%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2053410817152902707" target="_blank" class="news-link">中国版「星链」运营方启动新一轮增资，设 50 亿元投资门槛，明确拒绝境外资本，低轨卫星互联网为什么重要？</a> [18] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/593.htm" target="_blank" class="news-link">消息称中国移动 03 星近期将择机发射，搭载星载基站验证卫星物联网业务</a> [29] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/661.htm" target="_blank" class="news-link">东风奕派 M8 预售：搭载华为乾崑智驾 ADS 5 Pro，19.98 万元起</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/652.htm" target="_blank" class="news-link">鸿蒙智行尊界 SUV 新车谍照再曝：家族式前脸分体大灯设计，尾灯或采用 V800 原配方案</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">比亚迪</td>
+                <td class="count">2</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/594.htm" target="_blank" class="news-link">比亚迪在韩首推插混车型海狮 06 DM-i，售 3750 万韩元</a> [28] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7655516204245811206/" target="_blank" class="news-link">比亚迪在韩首推插混车型海狮06 DM-i</a> [30] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/619.htm" target="_blank" class="news-link">搭载 L4 级自动驾驶系统，特斯拉 Cybercab 官方救援指南披露海量重磅信息</a> [23] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7656232715788288006/" target="_blank" class="news-link">特斯拉救援指南曝光Cybercab为L4级</a> [29] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33470630" target="_blank" class="news-link">教师杨某某论文图表被指有AI生成水印，兰州大学成立调查组</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/644.htm" target="_blank" class="news-link">惠普“战 66”14 英寸笔记本新增“锐龙 AI 7 450 + 32GB RAM + 1TB SSD”版，12699 元</a> [12] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/628.htm" target="_blank" class="news-link">历经两年 Bug 修复，KDE Plasma 6.8 终于为英伟达 GPU 默认开启三重缓冲</a> [18] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/625.htm" target="_blank" class="news-link">需求过大供给跟不上，消息称谷歌限制了 Meta 的 Gemini 使用量</a> [20] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/636.htm" target="_blank" class="news-link">智元第 15000 台通用具身机器人精灵 G2 量产下线</a> [14] <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/659.htm" target="_blank" class="news-link">澳大利亚：对未能执行 16 岁社媒禁令的科技企业，最高处罚金额将翻倍至 9900 万澳元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
