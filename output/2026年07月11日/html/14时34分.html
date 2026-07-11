@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 112</p><p>生成时间: 2026-07-11 14:34:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/439.htm" target="_blank" class="news-link">消息称荣耀旗舰产品线测试 AI 磁吸背屏，主打 AI 构图、新玩法</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/438.htm" target="_blank" class="news-link">扎克伯格称 Meta 在 AI 上落后 OpenAI 等公司，预告“西瓜”模型打造极致智能</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/436.htm" target="_blank" class="news-link">芝加哥大学法学院重新设计课程，确保学生使用 AI 前学会独立思考</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%90%8A%E8%B5%B72%E4%BA%BA%E7%A5%9E%E5%9B%BE%E7%B3%BBAI%E5%90%88%E6%88%90%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">无人机吊起2人神图系AI合成</a> [18] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/11/1be70af62c414da2ad49e873a2b4ded8.html" target="_blank" class="news-link">美国对伊朗实施新制裁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/433.htm" target="_blank" class="news-link">日本可重复使用火箭 RV-X 实验机体首次试飞成功：上升 11 米，横移 16 米后着陆</a> [12] <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7660921707238228022/" target="_blank" class="news-link">近14万日本民众抗议日政府危险政策</a> [21] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%97%A0%E4%BA%BA%E6%9C%BA%E2%80%9C%E8%BF%9D%E4%BE%8B%E2%80%9D%E6%93%8D%E4%BD%9C+%E5%85%A8%E7%BD%91%E7%A0%B4%E9%98%B2" target="_blank" class="news-link">中国无人机“违例”操作 全网破防</a> [23] <font color='grey'>- 14时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7661084366626635827/" target="_blank" class="news-link">2位高校党委书记任中国工程院副院长</a> [29] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%BB%99%E7%8C%AA%E5%81%9A%E6%89%8B%E6%9C%AF%E7%99%BB%E4%B8%8ANature" target="_blank" class="news-link">宇树机器人给猪做手术登上Nature</a> [15] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/432.htm" target="_blank" class="news-link">消息称微软 XBOX 下周将推新功能：实体游戏数字化</a> [13] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/447.htm" target="_blank" class="news-link">英伟达：SHIELD TV 基础款电视盒因需求旺盛缺货，目前暂无补货消息</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/442.htm" target="_blank" class="news-link">谷歌发布 SensorFM AI 模型：500 万人、1 万亿分钟可穿戴数据预训练</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/431.htm" target="_blank" class="news-link">瑞安航空的波音 737-800 航班因发动机碎片打破舷窗，1.5 万英尺高空险些致乘客吸出窗外</a> [14] <font color='grey'>- 14时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
