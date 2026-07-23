@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-07-23 15:05:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">11</td>
+                <td class="percentage">7.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665443098683637796/" target="_blank" class="news-link">中国队夺得国际数学奥林匹克团体第一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/f6cd43136d12492a8162da0f01413883.html" target="_blank" class="news-link">外媒：德自行车头盔厂拟将产能迁往中国</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%BC%80%E5%B1%80%E4%B9%8B%E5%B9%B4%E7%9C%8B%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">开局之年看中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/60b8c2a95bcb4621a4693c31143f38c6.html" target="_blank" class="news-link">港媒：中国功夫风靡科特迪瓦</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/d1d75d95b7174152be16907f48708206.html" target="_blank" class="news-link">外媒探访华强北：“中国产品品质不输欧美，甚至更胜一筹”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/c78fb809f2164b8c86504ec01998c212.html" target="_blank" class="news-link">西媒：西班牙可借鉴中国产教联盟模式</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/585.htm" target="_blank" class="news-link">2025 年度国资委大考：国家电网第一，中国移动 / 联通 / 电信三大运营商集体得 A</a> [12] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2063168901941400864" target="_blank" class="news-link">世界杯扩军至 64 队后，中国队可以进去吗？</a> [18] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%9A%E8%BF%90%E4%BC%9A%E4%B8%AD%E5%9B%BD%E7%94%B7%E8%B6%B3%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%9C%9D%E9%B2%9C%E9%98%BF%E8%81%94%E9%85%8B%E5%90%8C%E7%BB%84" target="_blank" class="news-link">亚运会中国男足与伊朗朝鲜阿联酋同组</a> [19] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2581921" target="_blank" class="news-link">群星闪耀时演出中国人的凝聚力</a> [28] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665530835600166443/" target="_blank" class="news-link">耐克们该适应中国市场新规则了</a> [30] <font color='grey'>- 15时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">5.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90AI%E4%BC%AA%E9%80%A0%E7%83%82%E6%B0%B4%E6%9E%9C%E4%BB%85%E9%80%80%E6%AC%BE%E8%BF%9E%E7%B4%AF%E5%85%A8%E5%8E%BF%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">男子AI伪造烂水果仅退款连累全县</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/602.htm" target="_blank" class="news-link">业绩远低于华尔街预期，IBM 坚持认为 AI 时代大型机业务依旧良好</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/59ed0d074b1a412b9a49b4a7305526a8.html" target="_blank" class="news-link">外媒综述：中国在人工智能领域彰显自信</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/587.htm" target="_blank" class="news-link">唯卓仕首批 M4/3 镜头 AF 25/35mm F1.7 Air 上市：899 元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/580.htm" target="_blank" class="news-link">AI 投资热潮推动：LSEG 报告 2026 上半年全球企业债券发行 3.68 万亿美元创新高</a> [16] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/578.htm" target="_blank" class="news-link">一人薅羊毛导致全县被电商拉黑：男子用 AI 生成烂果图骗取 1.6 万元水果“仅退款”并转售牟利，获刑一年</a> [17] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/575.htm" target="_blank" class="news-link">OpenAI 为数据中心争取社区支持：承诺不推高电费、用水量极低，还送 Codex 额度</a> [19] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=rain%E6%B7%98%E6%B1%B0%E7%8C%8E%E9%B9%B0%E9%AB%98%E5%85%89%E9%9B%86%E9%94%A6" target="_blank" class="news-link">rain淘汰猎鹰高光集锦</a> [30] <font color='grey'>- 15时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">4.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356432&amp;amp;topic_name=%E9%9F%A9%E5%9B%BD%E6%B3%95%E5%BE%8B%E4%BF%9D%E6%8A%A4%2CT1%E8%8A%B1%E5%9C%88%E4%B8%8D%E8%83%BD%E6%92%A4" target="_blank" class="news-link">韩国法律保护,T1花圈不能撤</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/6aa4a422478b46bfa824393bb69cbf90.html" target="_blank" class="news-link">俄战略轰炸机在日本海空域飞行11个小时</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD6%E8%89%98%E5%B7%A1%E9%80%BB%E8%88%B0%E2%80%9C%E7%8E%B0%E8%BA%AB%E2%80%9D%E5%8D%97%E6%B5%B7" target="_blank" class="news-link">美国6艘巡逻舰“现身”南海</a> [11] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641169575.html" target="_blank" class="news-link">梅西粉丝蛮惨的，以后只能看美国足球大联盟了</a> [12] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665154617358155812/" target="_blank" class="news-link">74年前坠海美国客机终于被找到</a> [14] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33642339" target="_blank" class="news-link">视频丨美国海岸警卫队6艘巡逻舰“现身”南海，打的什么算盘？</a> [14] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641123818.html" target="_blank" class="news-link">终结一个历史话题：韩国人到底吃得起吃不起西瓜？</a> [27] <font color='grey'>- 15时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/568.htm" target="_blank" class="news-link">IDC：二季度中国智能手机市场出货量同比下降 4.3%，华为、苹果、一加逆势增长</a> [20] <font color='grey'>- 15时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%A2%81%E6%96%87%E9%94%8B%EF%BC%9A%E4%B8%8D%E8%BF%BD%E6%B1%82%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%AD%97%E8%8A%82%E6%88%96%E8%85%BE%E8%AE%AF" target="_blank" class="news-link">梁文锋：不追求成为下一个字节或腾讯</a> [18] <font color='grey'>- 15时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
