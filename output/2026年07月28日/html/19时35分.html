@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 130</p><p>生成时间: 2026-07-28 19:35:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">15</td>
+                <td class="percentage">11.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%E5%8F%91%E7%94%9F7.1%E7%BA%A7%E5%9C%B0%E9%9C%87+%E4%BD%99%E9%9C%87%E4%B8%8D%E6%96%AD" target="_blank" class="news-link">日本熊本县发生7.1级地震 余震不断</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v8DZ5qeCRl" target="_blank" class="news-link">日本发生7.1级地震，灾区画面曝光</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v83pmQQFOt" target="_blank" class="news-link">外交部：日本找借口不及时严惩擅闯使馆凶犯，中方对此强烈不满</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356582&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E5%90%84%E5%9C%B0%E6%83%8A%E7%8E%B0%E2%80%9D%E5%96%B7%E7%B2%AA%E2%80%9D%E7%8B%82%E5%BE%92" target="_blank" class="news-link">日本各地惊现”喷粪”狂徒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%E5%8F%91%E7%94%9F7.1%E7%BA%A7%E5%9C%B0%E9%9C%87" target="_blank" class="news-link">日本熊本县发生7.1级地震</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC7.1%E7%BA%A7%E5%9C%B0%E9%9C%87%E6%B0%91%E4%BC%97%E5%93%AD%E5%96%8A%E5%A3%B0%E4%B8%80%E7%89%87%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">日本7.1级地震民众哭喊声一片</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%B0%94%E8%B1%A1%E5%8E%85%EF%BC%9A%E4%B8%8D%E6%8E%92%E9%99%A4%E5%86%8D%E5%8F%91%E7%94%9F%E5%A4%A7%E5%9C%B0%E9%9C%87%E5%8F%AF%E8%83%BD" target="_blank" class="news-link">日本气象厅：不排除再发生大地震可能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%9E%E6%8B%8D%E6%97%A5%E6%9C%AC%E5%9C%B0%E9%9C%87%EF%BC%9A%E8%B6%85%E5%B8%82%E5%86%85%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%93%AD%E6%88%90%E4%B8%80%E7%89%87" target="_blank" class="news-link">实拍日本地震：超市内孩子们哭成一片</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2588259" target="_blank" class="news-link">韩国KOSPI指数跌破6000点</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%E4%B8%80%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E4%BC%A0%E5%87%BA%E7%88%86%E7%82%B8%E5%A3%B0" target="_blank" class="news-link">日本熊本县一购物中心传出爆炸声</a> [17] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2065460492231864765" target="_blank" class="news-link">日本熊本县连续发生 7.1 级、 6.1 级地震，长三角多地网友称有震感，目前情况如何？</a> [17] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/712.htm" target="_blank" class="news-link">因入境检查时使用 GrapheneOS“胁迫密码”功能删除手机数据，一男子被美国司法部控罪</a> [17] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%AA%81%E5%8F%917.1%E7%BA%A7%E5%9C%B0%E9%9C%87+%E5%B1%B1%E5%B4%A9%E7%9E%AC%E9%97%B4%E6%9B%9D%E5%85%89" target="_blank" class="news-link">日本突发7.1级地震 山崩瞬间曝光</a> [21] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%B8%80%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E5%9D%8D%E5%A1%8C%E5%A4%9A%E4%BA%BA%E8%A2%AB%E5%9B%B0" target="_blank" class="news-link">日本一购物中心坍塌多人被困</a> [23] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC7.1%E7%BA%A7%E5%BC%BA%E9%9C%87%E5%90%8E%E5%8F%91%E7%94%9F%E8%B6%8530%E6%AC%A1%E4%BD%99%E9%9C%87" target="_blank" class="news-link">日本熊本7.1级强震后发生超30次余震</a> [29] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">6.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/742.htm" target="_blank" class="news-link">AI 公司被曝大量收购旧书，以获取“纯净”训练素材</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2588435" target="_blank" class="news-link">抖火杯AI番外大电影</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/andrewyng/aisuite" target="_blank" class="news-link">andrewyng / aisuite</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/740.htm" target="_blank" class="news-link">拒绝模仿在世作家文笔，OpenAI 悄悄为 ChatGPT 增加限制</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/739.htm" target="_blank" class="news-link">全球第一，智元 WITA-Omni Preview 具身大模型登顶 DailyOmni 全模态理解榜单</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/737.htm" target="_blank" class="news-link">消息称三星电机与 Solbrain 扩大合作范围，开发新一代玻璃基板材料</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/732.htm" target="_blank" class="news-link">可口可乐旗下超滤牛奶业务 Fairlife 遭黑客攻击后，美国 4 座工厂现已恢复大部分生产</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/701.htm" target="_blank" class="news-link">Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心</a> [22] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">4</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/738.htm" target="_blank" class="news-link">终于告别“诗野千里”：华为鸿蒙 HarmonyOS 7 花粉 Beta 版设备缩略图焕新</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/733.htm" target="_blank" class="news-link">QQ 鸿蒙版 App 获 9.2.50 新版本邀测升级，新增支持 QQ 文件闪传发送等功能</a> [12] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/705.htm" target="_blank" class="news-link">鸿蒙智行暑期 OTA 升级开启，各车型推送时间公布</a> [19] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/680.htm" target="_blank" class="news-link">一天三更：微信鸿蒙版 App 获 8.0.20.17 邀测升级</a> [29] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">4</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/743.htm" target="_blank" class="news-link">微软 Teams 个人版今起在中国大陆正式停用，用户可迁移至其他云协作服务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/736.htm" target="_blank" class="news-link">安全公司报告黑客利用钓鱼邮件，借“更新微软 Teams 客户端”为名传播恶意脚本</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/713.htm" target="_blank" class="news-link">微软为 Node.js 推出动态 Windows Runtime 语言投影工具，简化原生 API 调用流程</a> [16] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/686.htm" target="_blank" class="news-link">微软罕见听劝：Outlook 邮件 Copilot 搜索功能已取消上线计划</a> [24] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%80%E6%AC%A1%E4%BA%86%E8%A7%A3%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8%E5%8F%91%E5%B1%95%E5%8F%B2" target="_blank" class="news-link">一次了解中国瓷器发展史</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%A1%97%E8%88%9E%E4%BA%AE%E7%9B%B8%E6%9E%97%E8%82%AF%E8%A1%A8%E6%BC%94%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83" target="_blank" class="news-link">中国街舞亮相林肯表演艺术中心</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7667432541750755337/" target="_blank" class="news-link">曝中国队不参加首届国际足联东南亚杯</a> [20] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/685.htm" target="_blank" class="news-link">英伟达 CEO 黄仁勋：AI 消灭的是任务，而非工作</a> [25] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=C%E7%BD%97%E6%97%A0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B%E9%81%AD%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%98%B2%E8%AE%BD" target="_blank" class="news-link">C罗无世界杯冠军遭航空公司嘲讽</a> [15] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
