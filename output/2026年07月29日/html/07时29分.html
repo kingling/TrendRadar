@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-07-29 07:29:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1AI%E6%A6%82%E5%BF%B5%E5%BB%B6%E7%BB%AD%E2%80%9C%E8%A1%80%E8%89%B2%E4%B8%80%E5%A4%9C%E2%80%9D" target="_blank" class="news-link">美股AI概念延续“血色一夜”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/805.htm" target="_blank" class="news-link">IT早报 0729：苹果在美国推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；安徽卫视首播 AI 短剧；感冒灵纳入禁驾清单...</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/804.htm" target="_blank" class="news-link">OpenAI 奥尔特曼：人们并不想要 AI CEO，且更珍视人性联结</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/801.htm" target="_blank" class="news-link">OpenAI 引入两种转录模型：低延迟、更好理解上下文</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/800.htm" target="_blank" class="news-link">OpenAI 模型失控受害者不仅只有抱抱脸，Modal Labs 确认一名客户被黑</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%BC%BA%E9%9C%87%E5%B7%B2%E8%B6%85%E7%99%BE%E6%AC%A1%E4%BD%99%E9%9C%87+%E8%87%B4%E5%A4%9A%E4%BA%BA%E4%BC%A4%E4%BA%A1" target="_blank" class="news-link">日本强震已超百次余震 致多人伤亡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E9%9C%87%E5%90%8E%E7%88%86%E7%82%B8+%E7%99%BD%E7%83%9F%E7%8C%9B%E7%83%88%E5%96%B7%E6%B6%8C" target="_blank" class="news-link">日本购物中心震后爆炸 白烟猛烈喷涌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33674438" target="_blank" class="news-link">日本熊本7.1级地震：一商场或有大量人员死亡，专家警告有后续强震风险</a> [14] <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33672820" target="_blank" class="news-link">日本熊本县附近发生7.1级地震，气象厅发布海啸预警</a> [20] <font color='grey'>- 07时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7667713008373894707/" target="_blank" class="news-link">日本强震致神社完全垮塌列车脱轨</a> [21] <font color='grey'>- 07时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/798.htm" target="_blank" class="news-link">AIDA64 v8.35 发布：新增英特尔 Panther Lake-R 初步支持，强化 AMD Zen 6 及 Mustang Peak 支持</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/802.htm" target="_blank" class="news-link">数百条 Claude 聊天记录被谷歌索引，Anthropic 回应称用户主动分享所致</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
