@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-08-06 22:03:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">10</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/06/013ef7e2d2a64d85ab953a664f119c9e.html" target="_blank" class="news-link">日本熊本救灾保障不足引发灾民不满</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/06/fa806cffde6645c69902c16b82874bdc.html" target="_blank" class="news-link">日媒：日本三大在野党党首齐聚广岛，呼吁坚持“无核三原则”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%A5%B3%E7%BD%91%E7%BA%A2%E8%87%AA%E6%9D%80%E6%9B%B4%E5%A4%9A%E7%BB%86%E8%8A%82%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">日本女网红自杀更多细节曝光</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068633449532076447" target="_blank" class="news-link">日本网红 Mina 轻生离世，曾疑因偶像的含沙射影被大批粉丝人肉、网暴，直播含泪肯求停止网暴，发生了什么？</a> [11] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33727340" target="_blank" class="news-link">解放军报刊文：日本频繁军演凸显危险扩张图谋</a> [12] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356837&amp;amp;topic_name=%E8%B9%AD%E6%A0%B8%E5%96%8A%E5%BA%9F%E6%A0%B8%2C%E6%97%A5%E6%9C%AC%E5%8F%88%E6%BC%94%E5%8F%97%E5%AE%B3%E8%80%85" target="_blank" class="news-link">蹭核喊废核,日本又演受害者</a> [12] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670868771767894058/" target="_blank" class="news-link">中方回应日本在太平洋岛屿建军事设施</a> [17] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E2%80%9C%E6%9C%80%E5%A5%BD%E7%9A%84%E5%A4%8F%E5%A4%A9%E2%80%9D%E7%BB%93%E6%9D%9F%E4%BA%86%E5%90%97" target="_blank" class="news-link">韩国“最好的夏天”结束了吗</a> [19] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E5%B9%BF%E5%B2%9B%E6%A0%B8%E7%88%8681%E5%91%A8%E5%B9%B4" target="_blank" class="news-link">中方回应日本广岛核爆81周年</a> [26] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E7%83%AD" target="_blank" class="news-link">韩国到底有多热</a> [28] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">5</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/738.htm" target="_blank" class="news-link">华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/736.htm" target="_blank" class="news-link">华为官宣乾崑智驾 ADS Pro V5.0 即将推送，新版本亮点公布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/734.htm" target="_blank" class="news-link">支付宝鸿蒙版 App 获 12.12.16.4400 尝鲜升级，开放蚂蚁阿宝 AI 功能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/724.htm" target="_blank" class="news-link">华为官宣昇腾 0 Day 支持蚂蚁百灵 Ling-3.0-flash 模型，全新算子编程框架 CANN PyPTO 首秀</a> [14] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641612330.html" target="_blank" class="news-link">你是什么时候开始对华为祛魅的？</a> [21] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">宇树</td>
+                <td class="count">5</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670565723299020826/" target="_blank" class="news-link">宇树科技发行价格150.80元/股</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2600095" target="_blank" class="news-link">宇树科技8月10日开启网上申购</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E8%A1%8C%E4%BB%B7150.8%E5%85%83%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">宇树科技发行价150.8元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80+%E6%89%93%E6%96%B0" target="_blank" class="news-link">宇树科技 打新</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E8%A1%8C%E4%BB%B7%E6%A0%BC150.80%E5%85%83%2F%E8%82%A1" target="_blank" class="news-link">宇树科技发行价格150.80元/股</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BDAI%E8%BF%9E%E7%BB%AD14%E5%91%A8%E9%9C%B8%E6%A6%9C%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">中国AI连续14周霸榜</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%BC%8F%E5%A4%A9%E5%BA%AD%E2%80%9DAI%E8%A7%86%E9%A2%91%E6%B5%B7%E5%A4%96%E7%88%86%E7%81%AB" target="_blank" class="news-link">“中式天庭”AI视频海外爆火</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068662948407546390" target="_blank" class="news-link">怎么看 OpenAI 工程师说「现在大多数大型实验室成员几乎不看论文，因为大部分都是欺诈」？</a> [16] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/720.htm" target="_blank" class="news-link">特朗普科技顾问：部分企业以 AI 为借口实施裁员，这样听起来更好听</a> [16] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/714.htm" target="_blank" class="news-link">全新一代 smart 精灵#1 上市：定位新奢 AI 灵动 SUV，限时 14.99 万 / 16.99 万元</a> [21] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/06/74a6c21286234f2896dc99623dde64e6.html" target="_blank" class="news-link">“水饺瓜子也被视作威胁？”美打压中国食品公司遭群嘲</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2600153" target="_blank" class="news-link">中国U17男足vs勒沃库森U17男足</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E4%B8%89%E8%B9%A6%E5%AD%90%E4%B8%BA%E4%BD%95%E5%9C%A8%E7%BE%8E%E8%A2%AB%E5%88%B6%E8%A3%81" target="_blank" class="news-link">中国三蹦子为何在美被制裁</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670869076971929663/" target="_blank" class="news-link">外交部：中国一贯奉行防御性国防政策</a> [22] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">2</td>
+                <td class="percentage">1.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/729.htm" target="_blank" class="news-link">谷歌地图智能体功能迎来新升级：聊着天就把酒店、外卖订好了</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068498722300990537" target="_blank" class="news-link">谷歌 AI 领军人物杰夫・迪恩等离职创业，这预示着 AI 行业哪些新趋势？</a> [14] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">大疆 DJI</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/728.htm" target="_blank" class="news-link">大疆 Osmo 360 II 全景相机将于 8 月 7 日开启预约：有望延续现款外形设计、新增 NFC 功能</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/739.htm" target="_blank" class="news-link">国内已知最大规模！消息称字节跳动正讨论训练超 5 万亿参数模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/710.htm" target="_blank" class="news-link">曝微软将推出《战争机器：事变日》XBOX 限量版手柄，外观“非常漂亮”</a> [24] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961366053536916038" target="_blank" class="news-link">在科幻中几乎所有的高等外星生命都是恶意的？难道不是文明越高，看到宇宙美妙越多，从而变得更高尚吗？</a> [20] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
