@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-08-18 10:35:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">微软</td>
+                <td class="count">4</td>
+                <td class="percentage">3.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/936.htm" target="_blank" class="news-link">初探微软 Win11 新版右键菜单定制选项，支持 8 项动作开关</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/920.htm" target="_blank" class="news-link">外媒盘点微软 Win11 五年演变：切换任务栏位置，加速整合 AI 功能等</a> [14] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/909.htm" target="_blank" class="news-link">微软 Win11 效率神器 PowerToys 更新 0.101.2282 预览版：优化资源占用</a> [24] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/902.htm" target="_blank" class="news-link">微软 Win11 预览版已移除拖拽托盘和 WMIC 功能</a> [30] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28358152&amp;amp;topic_name=%E6%96%B0%E8%A7%84%E4%B8%80%E5%88%80%E5%88%87%2CAI%E6%BC%AB%E5%89%A7%E8%A2%AB%E8%BF%AB%E5%81%9C%E6%9B%B4" target="_blank" class="news-link">新规一刀切,AI漫剧被迫停更</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/924.htm" target="_blank" class="news-link">Counterpoint：未来五年超 1.3 亿颗先进封装 AI 芯片出货，英特尔挑战台积电</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/919.htm" target="_blank" class="news-link">苹果带摄像头的 AirPods 实机演示曝光，可实现环境视觉感知</a> [15] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/910.htm" target="_blank" class="news-link">OpenAI 前高管：相信 AI 能治愈所有疾病，但光靠大模型远远不够</a> [23] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">3.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E6%95%99%E6%8E%88%E5%8F%91%E4%B8%AD%E5%9B%BD%E8%A1%97%E6%99%AF%E7%A7%B0%E8%A2%AB%E5%8D%B0%E5%AA%92%E9%AA%97%E6%83%A8%E4%BA%86%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">印度教授发中国街景称被印媒骗惨了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%96%AF%E8%AF%BA%E5%85%8B%E8%BF%8E%E6%9D%A5%E7%88%86%E5%8F%91%E6%9C%9F" target="_blank" class="news-link">中国斯诺克迎来爆发期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2072808195915872052" target="_blank" class="news-link">男篮热身赛，中国队 77 比 84 不敌新西兰，如何评价本场比赛？男篮遭遇热身赛两连败，问题出在哪里？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674952107414372378/" target="_blank" class="news-link">老外为啥爱“中国游”</a> [27] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7675158889091829257/" target="_blank" class="news-link">美国为何决定不打古巴了</a> [17] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%A4%A7%E4%BD%BF%E5%8F%8D%E5%BA%94%E4%BB%A4%E4%BF%84%E5%A4%96%E9%95%BF%E7%9B%B4%E5%91%BC%E6%83%8A%E8%AE%B6" target="_blank" class="news-link">日本大使反应令俄外长直呼惊讶</a> [27] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/903.htm" target="_blank" class="news-link">美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当</a> [29] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">2</td>
+                <td class="percentage">1.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/911.htm" target="_blank" class="news-link">代码显示谷歌正为 Pixel 系列手机开发“Connectivity Health”网络诊断功能，可帮助用户快速排错</a> [22] <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/906.htm" target="_blank" class="news-link">谷歌 1000 万美元入手破产廉航精神航空数据，用于产品与 AI 改进</a> [26] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">2</td>
+                <td class="percentage">1.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vfhkZkglgH" target="_blank" class="news-link">印度航空又有两名飞行员涉嫌“毒驾”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2059467655065625666" target="_blank" class="news-link">地球的哪些资源在目前已知的宇宙里属于稀罕物？</a> [20] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/904.htm" target="_blank" class="news-link">阿维塔向华为员工已累计交付超 5000 台新车</a> [28] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89Cybercab%E6%9C%89%E6%9C%9B%E6%9C%AC%E6%9C%88%E6%8A%95%E6%94%BE%E8%BF%90%E8%90%A5" target="_blank" class="news-link">特斯拉Cybercab有望本月投放运营</a> [13] <font color='grey'>- 10时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
