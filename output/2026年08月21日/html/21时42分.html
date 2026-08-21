@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-08-21 21:42:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">4.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/851.htm" target="_blank" class="news-link">腾讯 QQ 鸿蒙版 App 获 9.2.60 邀测升级，好友聊天支持发送闪照</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/849.htm" target="_blank" class="news-link">开源鸿蒙 OpenHarmony 7.0 Release 发布，新增展锐 P7885 开发板支持</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/848.htm" target="_blank" class="news-link">单天线覆盖八个频段：华为宣布联合沙特 stc 完成全球首个 MB² 微波方案商用部署</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8vlFqYJqoVW" target="_blank" class="news-link">特朗普称打击伊朗贸易伙伴，美媒问如何制裁中国，美财长答非所问</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vmCZmvPX6G" target="_blank" class="news-link">蒙古这么缺油，还要殴打中国人？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/21/7a4523441dfb4791b72d5ace7939ff10.html" target="_blank" class="news-link">美国29个州起诉元宇宙案正式开庭</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/861.htm" target="_blank" class="news-link">产品涨价最高 25%：美国政府退税后罗技没退，罗技被消费者集体起诉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/860.htm" target="_blank" class="news-link">微软为 Win10/Win11 新版 Outlook 添加经典主题，提升使用体验</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7676426973022785051/" target="_blank" class="news-link">任泽平：电力成为AI新货币</a> [30] <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7676463062634843658/" target="_blank" class="news-link">未来五年将持续加大科技领域投入力度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2074111696277337659" target="_blank" class="news-link">北京理工大学、南京航空航天大学等多所名校新校区搬到县城，去县城读名校是捡漏还是踩坑？会影响学生发展吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
