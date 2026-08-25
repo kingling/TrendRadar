@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2026-08-25 09:08:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">机器人</td>
+                <td class="count">3</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7677735085109513766/" target="_blank" class="news-link">机器人举重赛后硬要表演舞蹈</a> [18] <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7677532843749392420/" target="_blank" class="news-link">机器人捂脸狂奔</a> [20] <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AA%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">个人机器人</a> [28] <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/792.htm" target="_blank" class="news-link">IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...</a> [14] <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E6%B3%B0%E5%9B%BD%E9%81%AD%E7%BB%91%EF%BC%9A%E6%9C%AC%E4%BB%A5%E4%B8%BA%E6%98%AF%E5%AF%BC%E6%B8%B8%E6%9D%A5%E6%8E%A5" target="_blank" class="news-link">中国女子泰国遭绑：本以为是导游来接</a> [22] <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BD%BD20%E5%90%8D%E4%B8%AD%E5%9B%BD%E8%88%B9%E5%91%98%E8%B4%A7%E8%BD%AE%E6%B2%89%E6%B2%A1+%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">载20名中国船员货轮沉没 家属发声</a> [27] <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/797.htm" target="_blank" class="news-link">特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/794.htm" target="_blank" class="news-link">特斯拉公布新专利，从源头解决前置摄像头起雾问题</a> [12] <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/798.htm" target="_blank" class="news-link">微软 AI 智能体系统 Aion 曝光：以 Copilot 为核心、重塑桌面体验</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/795.htm" target="_blank" class="news-link">Epic CEO 吐槽微软 Ctrl+C 可靠性，让 99% 的 Win10/Win11 用户感到懊恼</a> [11] <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/803.htm" target="_blank" class="news-link">200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/796.htm" target="_blank" class="news-link">马斯克：SpaceX 计划明年第四季度发射搭载英伟达芯片的 AI 卫星</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="http://flive.ifeng.com/live/1016529.html?webkit=1" target="_blank" class="news-link">美国公布对伊朗“经济战”具体措施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时08分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vra2ZMVngC" target="_blank" class="news-link">美国财长：任何为伊朗洗钱的实体将被移出美元体系</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/809.htm" target="_blank" class="news-link">余承东官宣全新三折叠即将登场，华为鸿蒙 HarmonyOS 7 | Mate XT 2 及全场景新品发布会定档</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
