@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 189</p><p>生成时间: 2026-09-15 22:09:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">2.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/775.htm" target="_blank" class="news-link">ATK RS7 Air 磁轴键盘新增中国航母 FLEET 18 IP 联名款，到手低至 379.05 元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/767.htm" target="_blank" class="news-link">博通 CEO 陈福阳回应 AI 放缓担忧：算力需求仍强劲，长期收入目标不变</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34050252" target="_blank" class="news-link">比尔·盖茨警告AI就业冲击：全球或经历20年动荡转型，现在就要开始准备</a> [16] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/750.htm" target="_blank" class="news-link">OpenAI 内部 Lily 项目曝光：人工审核 ChatGPT 用户聊天记录以优化大模型</a> [25] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2650741" target="_blank" class="news-link">25号台风“杜鹃”未来或将趋向日本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E6%A2%85%E6%AF%92%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E4%B8%A5%E9%87%8D" target="_blank" class="news-link">日本梅毒疫情有多严重</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34074262" target="_blank" class="news-link">多个代表团差评亚运会住宿条件，韩国男篮：运动员在床上无法伸直腿</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7684884488019771428/" target="_blank" class="news-link">日本共产党委员长落泪痛批高市政府</a> [15] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/762.htm" target="_blank" class="news-link">华为发布全球首个 3D 数据中心</a> [14] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/749.htm" target="_blank" class="news-link">问界致全体渠道伙伴的函曝光，授权经销商合作协议主体由华为终端转为赛力斯</a> [26] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2083117744707352472" target="_blank" class="news-link">如何看待英伟达、 Palantir 等金主集体限制 Anthropic Claude 使用？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/760.htm" target="_blank" class="news-link">Salesforce 联合英伟达推出 Koa 推理大模型，挑战闭源前沿模型</a> [16] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">比亚迪</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/772.htm" target="_blank" class="news-link">比亚迪辅助驾驶车型保有量超 372 万辆，天神之眼每天生成数据超 2.3 亿公里</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/764.htm" target="_blank" class="news-link">因 AI 投入加大，消息称字节跳动今年上半年利润降至 200 亿美元</a> [12] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">谷歌 google</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/002/740.htm" target="_blank" class="news-link">曝百度挖来前谷歌 DeepMind 核心成员 Qiyin Wu，曾是 Gemini 2.5 模型官方报告核心作者</a> [29] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/15/de2484814f6246cfa0880b526423d005.html" target="_blank" class="news-link">美国国家安全局（NSA）要设“中国事务部”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
