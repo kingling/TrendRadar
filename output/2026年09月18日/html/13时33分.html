@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 181</p><p>生成时间: 2026-09-18 13:33:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">13</td>
+                <td class="percentage">7.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686613800497397803/" target="_blank" class="news-link">中国先进制造接连“上新”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%AF%8F%E4%B8%AA%E4%B8%AD%E5%9B%BD%E4%BA%BA%E9%83%BD%E4%B8%8D%E8%83%BD%E5%BF%98%E8%AE%B0%E4%B9%9D%E4%B8%80%E5%85%AB%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">每个中国人都不能忘记九一八</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686313447135461412/" target="_blank" class="news-link">张本智和：日本男团夺冠概率高于中国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2654616" target="_blank" class="news-link">中国女排vs哈萨克斯坦女排</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wVsPR4AQr9" target="_blank" class="news-link">不止中国，AUKUS还想针对俄罗斯？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2083895446393418784" target="_blank" class="news-link">很多人说「不能以中国标准看其他国家办大赛」，但办好比赛不是东道主该做的吗，为什么好像全世界都在草台化？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34089258" target="_blank" class="news-link">美国返还58件中国文物，包括流失百年的山西天龙山菩萨身躯</a> [12] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686701816256479754/" target="_blank" class="news-link">媒体人：中国男篮锋线紧张有望缓解</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%A7%89%E5%BE%97%E5%8E%8B%E5%8A%9B%E5%A4%A7%E7%9A%84%E5%8F%AF%E4%BB%A5%E7%9C%8B%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE" target="_blank" class="news-link">觉得压力大的可以看看中国男篮</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/053.htm" target="_blank" class="news-link">张雪机车官宣 2026 中国摩博会“五车齐发”，首款巡航、ADV 摩托车将至</a> [16] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%88%BF%E5%9C%B0%E4%BA%A7%E8%BF%9B%E5%85%A5%E5%AD%98%E9%87%8F%E6%97%B6%E4%BB%A3" target="_blank" class="news-link">中国房地产进入存量时代</a> [21] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B0%84%E5%87%BB%E9%98%9F%E5%9B%A0%E9%85%92%E5%BA%97%E8%BF%9C%E4%B8%8D%E5%8F%82%E5%8A%A0%E4%BA%9A%E8%BF%90%E5%BC%80%E5%B9%95%E5%BC%8F" target="_blank" class="news-link">中国射击队因酒店远不参加亚运开幕式</a> [29] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE918%E6%99%9A%E5%AF%B9%E9%98%B5%E6%97%A5%E6%9C%AC%E7%94%B7%E7%AF%AE%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">中国男篮918晚对阵日本男篮</a> [30] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">3.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364684&amp;amp;topic_name=%E5%A4%A7%E6%8C%AB%E8%B4%A5%21AI%E8%A2%AB%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%95%B4%E8%87%AA%E9%97%AD" target="_blank" class="news-link">大挫败!AI被我的世界整自闭</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/068.htm" target="_blank" class="news-link">白帽黑客借 Anthropic Claude 成功入侵 OpenAI ChatGPT 账户，获 6500 美元赏金</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8BAI%E5%BC%80%E5%A7%8B%E5%88%B7%E6%A6%9C%E6%95%B0%E5%AD%A6%E9%9A%BE%E9%A2%98" target="_blank" class="news-link">如何看AI开始刷榜数学难题</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/062.htm" target="_blank" class="news-link">全国首个海洋 Token 工厂落地青岛：算力规模超 800P，AI 像用水用电一样即开即用</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wW17YLDF3D" target="_blank" class="news-link">放缓AI发展，美国政商两界谁赞成、谁反对？</a> [12] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/040.htm" target="_blank" class="news-link">讯飞 AI 录音卡上架：支持 10 种外语翻译、30 小时续航，999 元</a> [20] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/003/994.htm" target="_blank" class="news-link">AI 需求一浪叠一浪，美光高管称有意义的内存新增供应 2028 年才开始爬坡、存储行业何时恢复供需平衡仍难以确定</a> [26] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">3.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2654898" target="_blank" class="news-link">日本央行加息25个基点</a> [17] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E6%AC%A2%E8%BF%8E%E6%9D%A5%E9%BE%99%E9%A4%90%E9%A6%86%E3%80%8B918%E6%97%A5%E6%9C%AC%E4%B8%8A%E6%98%A0" target="_blank" class="news-link">《欢迎来龙餐馆》918日本上映</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E5%8A%A0%E6%81%AF&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">日本加息</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2084003052877341283" target="_blank" class="news-link">媒体称美国大模型已被日本错误历史观污染，有哪些信息值得关注？</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686682647912910346/" target="_blank" class="news-link">邱毅：日本已被边缘化</a> [20] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%89%B9%E5%87%86%E5%90%91%E6%B2%99%E7%89%B9%E5%87%BA%E5%94%AE48%E6%9E%B6F-35%E6%88%98%E6%96%97%E6%9C%BA" target="_blank" class="news-link">美国批准向沙特出售48架F-35战斗机</a> [23] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软</td>
+                <td class="count">5</td>
+                <td class="percentage">2.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/067.htm" target="_blank" class="news-link">Win11 用户反馈卡巴斯基杀软不兼容微软 9 月经典版 Outlook 更新，导致应用卡死</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2080022-1-1.html" target="_blank" class="news-link">伙计们，win11纯净版系统大家用什么版本？安装时还要输入微软账号很麻烦</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/059.htm" target="_blank" class="news-link">微软解释为何点击 Win11 关机操作并不等同于彻底关机</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/010.htm" target="_blank" class="news-link">微软增强 Win11 搜索体验，自动索引高频访问文件夹</a> [23] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/003/992.htm" target="_blank" class="news-link">微软 Azure CTO 惊叹 AI 能力：30 分钟跨平台移植基础功能、2 天实现约 90% 功能</a> [27] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">3</td>
+                <td class="percentage">1.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/064.htm" target="_blank" class="news-link">网友偶遇华为余承东、奇瑞尹同跃“边走边聊”，智界 R7 焕新款将至</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/058.htm" target="_blank" class="news-link">赛力斯康波回应“问界品牌专属专营”是否影响“含华量”：问界将有华为最新、最好、最实用的技术、产品以及供应保障</a> [11] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/003/981.htm" target="_blank" class="news-link">华为灵衢昇腾 950 智算集群云服务计划 9 月 30 日国内商用、11 月 30 日全球商用</a> [30] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">宇树</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2083975165638198902" target="_blank" class="news-link">宇树科技大涨重回 500 元，总市值重返 2000 亿元，当下是触底反弹还是下跌中继？谁在 500 元下方接盘？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/003/999.htm" target="_blank" class="news-link">消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺</a> [25] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2084205403479302545" target="_blank" class="news-link">美股三大指数全线收涨，纳指涨 1.69%，半导体狂飙，英特尔涨 7.67%，科技股集体上涨，如何解读？</a> [16] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
