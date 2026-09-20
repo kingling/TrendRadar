@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 210</p><p>生成时间: 2026-09-20 17:57:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">23</td>
+                <td class="percentage">10.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AEvs%E4%BC%8A%E6%9C%97%E7%94%B7%E7%AF%AE&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">中国男篮vs伊朗男篮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2657642" target="_blank" class="news-link">中国U23男足0:0伊朗U23</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687445856612007977/" target="_blank" class="news-link">中国队夺金速度太快</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%98%9F%E5%A4%BA%E9%87%91%E9%80%9F%E5%BA%A6%E4%B9%9F%E5%A4%AA%E5%BF%AB%E4%BA%86" target="_blank" class="news-link">中国队夺金速度也太快了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%8E%E6%95%B0%E6%8D%AE%E9%87%8C%E8%AF%BB%E6%87%82%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E9%9F%A7%E6%80%A7%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">从数据里读懂中国经济韧性</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2657371" target="_blank" class="news-link">中国基建有实力更有温度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E9%93%9C%E7%89%8C%E6%88%98%E4%B8%8D%E6%95%8C%E4%BC%8A%E6%9C%97+%E6%97%A0%E7%BC%98%E9%A2%86%E5%A5%96%E5%8F%B0" target="_blank" class="news-link">中国男篮铜牌战不敌伊朗 无缘领奖台</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E4%BA%9A%E8%BF%90%E6%97%A0%E7%BC%98%E5%A5%96%E7%89%8C" target="_blank" class="news-link">中国男篮亚运无缘奖牌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687289324618235931/" target="_blank" class="news-link">名古屋亚运会漏算中国首金</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/20/e081cbd1f39a4c6b99d25c10ef17fa96.html" target="_blank" class="news-link">日媒：中国造船业迎来新一轮繁荣</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2658000" target="_blank" class="news-link">中国男篮不敌伊朗无缘亚运铜牌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2084935724428744525" target="_blank" class="news-link">亚运会男篮铜牌赛，中国男篮 70-79 伊朗男篮，如何评价本场比赛？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/20/5a3c5ca04ae74caea69b45e14d2553eb.html" target="_blank" class="news-link">港媒：中国生物医药产业瞄准世界前列</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9A%E8%BF%90%E4%BC%9A%E6%BC%8F%E7%AE%97%E4%B8%AD%E5%9B%BD%E9%A6%96%E9%87%91" target="_blank" class="news-link">名古屋亚运会漏算中国首金</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/879.htm" target="_blank" class="news-link">消息称丰田将首次推出增程式电动汽车，计划 2027 年 4 月在中国投产</a> [11] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2657516" target="_blank" class="news-link">中国队首金选手来抖音报到了</a> [15] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2084935818477621596" target="_blank" class="news-link">亚运会男足小组赛，中国 U23 0-0 伊朗 U23，如何评价本场比赛？</a> [16] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687502597267734566/" target="_blank" class="news-link">日民众集会要求高市赶快向中国道歉</a> [17] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34104952" target="_blank" class="news-link">亚运会明日看点：赛会首金悬念大，中国队或在泳池掀起夺金潮</a> [19] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686857734779883049/" target="_blank" class="news-link">苹果闹钟终于认中国调休了</a> [21] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9A%E8%BF%90%E4%BC%9A%E6%BC%8F%E7%AE%97%E4%B8%AD%E5%9B%BD%E9%A6%96%E9%87%91%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">名古屋亚运会漏算中国首金</a> [26] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/642506281.html" target="_blank" class="news-link">说出三个在中国有名的德国人？</a> [26] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%E9%81%87%E5%86%B7+%E4%B8%AD%E5%9B%BD%E9%98%9F%E5%8D%B4%E2%80%9C%E5%87%BA%E5%9C%88%E2%80%9D" target="_blank" class="news-link">亚运会开幕式遇冷 中国队却“出圈”</a> [28] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">机器人</td>
+                <td class="count">5</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/890.htm" target="_blank" class="news-link">“全球首个可变形个人机器人”启元 T1 发售：人形 / 四足秒切换，19999 元起</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/876.htm" target="_blank" class="news-link">“全球首个个人机器人”启元 Q1 发售：稚晖君打造，19999 元起</a> [14] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/871.htm" target="_blank" class="news-link">稚晖君发布启元 Q1 和 T1 人形机器人：外壳随心改换、人形四足秒切换，首发接入腾讯 WorkBuddy</a> [18] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/841.htm" target="_blank" class="news-link">丰田将投放 40 万台自研轮式人形机器人“ELEY”，副社长称机器人并非用来取代人类</a> [23] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/831.htm" target="_blank" class="news-link">东风人形机器人将于今年 10 月份进入工厂：主要面向生产制造领域，进行分拣、质检等工作</a> [27] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/20/ecb0bfe6a20349c49048dd9167d5b722.html" target="_blank" class="news-link">日媒：人工智能发展引爆铜需求 铜价逼近镍价凸显全球产业转型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/894.htm" target="_blank" class="news-link">怕 AI“脱离管控”，Anthropic 和埃森哲豪掷 20 亿美元搞 AI 安全评估</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/829.htm" target="_blank" class="news-link">特朗普要给“人工智能”改名：超 18 万人投票，“卓越智能”票数暂领先</a> [29] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wZn77TYY38" target="_blank" class="news-link">美国和丹麦都宣布“赢了”，特朗普的协议有哪些变化？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8wZlst31Iyf" target="_blank" class="news-link">数万日本民众要求高市下台，“日本出现和二战前相似的气氛”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687198521187860490/" target="_blank" class="news-link">日本地面电视不播亚运开幕式</a> [15] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/869.htm" target="_blank" class="news-link">华为王超：2026 年马上会量产每度电 12 公里的纯电车型，明年探索每度电 14 公里</a> [20] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/872.htm" target="_blank" class="news-link">特斯拉 FSD（监督版）澳新上线一周年：碰撞事故率相比人工驾驶低 40%</a> [17] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687358012926804019/" target="_blank" class="news-link">我国硬核科技与重大工程捷报频传</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
