@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-10-05 10:17:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/761.htm" target="_blank" class="news-link">OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2090007164509054060" target="_blank" class="news-link">30 岁女子靠 AI 婚庆培训年入 200 万，10 万元内的方案仅需十几分钟生成，实际含金量如何？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/758.htm" target="_blank" class="news-link">软银集团孙正义罕见发出 AI 安全警告，呼吁各国携手应对威胁</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/755.htm" target="_blank" class="news-link">Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/754.htm" target="_blank" class="news-link">OpenAI 奥尔特曼：人工智能的巨大效益值得承担部分风险</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/746.htm" target="_blank" class="news-link">“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元</a> [15] <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/745.htm" target="_blank" class="news-link">OpenAI GPT-6 Sol 被破解，30 万字系统提示词已泄露</a> [16] <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/744.htm" target="_blank" class="news-link">TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻</a> [17] <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/743.htm" target="_blank" class="news-link">人人都能有自己的智能体设备：Meta 开源 Muse Gadgets，用 ESP32 和树莓派打造自定义 AI 硬件</a> [18] <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%9B%BD%E6%B0%91%E8%BE%A3%E9%85%B1%E2%80%9D%E8%80%81%E5%B9%B2%E5%A6%88%E4%B9%9F%E7%94%A8%E4%B8%8AAI" target="_blank" class="news-link">“国民辣酱”老干妈也用上AI</a> [25] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%BD%95%E8%A7%811%E5%A4%A93%E6%AC%A1%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">日本罕见1天3次强烈抗议美国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7692950590237756937/" target="_blank" class="news-link">日本罕见1天3次向美国强烈抗议</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wy7rIFwrWE" target="_blank" class="news-link">难得真难得，日本强烈抗议美国</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wy6Vi87sku" target="_blank" class="news-link">日本防相召见驻日美军司令</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7692279017315044883/" target="_blank" class="news-link">蔡康永账号IP在日本</a> [18] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/742.htm" target="_blank" class="news-link">IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...</a> [19] <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/739.htm" target="_blank" class="news-link">华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代</a> [22] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wy2GghFEme" target="_blank" class="news-link">特朗普：超赚钱，不能关，否则就跑到中国去了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/747.htm" target="_blank" class="news-link">宝马中国 2027 年产品规划路线图曝光：iX1 长轴距版与 3 系长轴距版有望同期亮相</a> [14] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/751.htm" target="_blank" class="news-link">DeepSeek V4.1 Flash 发力，中美顶尖模型 LiveBench 跑分差距缩至 3%</a> [11] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/741.htm" target="_blank" class="news-link">英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元</a> [20] <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/762.htm" target="_blank" class="news-link">消息称 Wayve 将为大众供应自动驾驶解决方案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
