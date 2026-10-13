@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-10-13 09:49:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2092937311851902232" target="_blank" class="news-link">陶哲轩的「黑盒 AI 治癌药」思想实验引发争议，如何看待这一讨论？我们需要完全理解科学的内在机制再应用吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/168.htm" target="_blank" class="news-link">消息称 OpenAI 计划“复活”Sora：换赛道进军 AI 专业影视工具</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/159.htm" target="_blank" class="news-link">Meta 发布 Muse Wonder 模型，扎克伯格称公司已在 AI 前沿领域追上竞争对手</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34235226" target="_blank" class="news-link">王兴兴：过去十几年犯的最大错误是不够相信AI，具身智能临界点最快一两年内到来</a> [11] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%9B%9Daijing%E7%88%B6%E6%AF%8D%E6%98%AF%E8%80%81%E8%B5%96&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">曝aijing父母是老赖</a> [11] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2093008136088938434" target="_blank" class="news-link">如何看待由 Opus 5.5 生成的各类科普视频爆火？AI 正在改变科普内容的创作方式吗？</a> [13] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/156.htm" target="_blank" class="news-link">北京警方通报：男子用 AI 制作虚假截图、标注贩毒人员车辆为某品牌，被采取刑事强制措施</a> [13] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/144.htm" target="_blank" class="news-link">英特尔 CEO 陈立武：未来两到三年 AI 硬件将持续短缺</a> [22] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/138.htm" target="_blank" class="news-link">Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI</a> [28] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/136.htm" target="_blank" class="news-link">消息称 Epic 为迪士尼打造的游戏推迟上线，全面改用 AI 开发</a> [30] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">4.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7695822021292199475/" target="_blank" class="news-link">法国把“一个中国”说定</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2093019602653536666" target="_blank" class="news-link">刘国梁 16 岁女儿刘宇婕登顶高尔夫中国女子公开赛，成赛事创办以来首位业余冠军，哪些信息值得关注？</a> [11] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34237107" target="_blank" class="news-link">对话｜汤加副首相拉图：四大全球倡议充分体现中国领导人的远见与卓越领导力</a> [15] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%BD%91%E5%8F%8B%E6%9D%80%E4%BC%90%E6%9E%9C%E6%96%AD%E5%9C%A8%E5%B7%B4%E8%A5%BF%E7%81%AB%E4%BA%86&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">中国网友杀伐果断在巴西火了</a> [15] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=2025%E5%85%A8%E7%90%83%E6%96%B0%E7%94%9F%E5%84%BF%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%BA%8C&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">2025全球新生儿中国第二</a> [18] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E2%80%9C%E4%B8%AD%E5%9B%BD%E9%80%A0%E2%80%9D%E5%85%A8%E7%90%83%E7%88%86%E5%8D%95" target="_blank" class="news-link">又一“中国造”全球爆单</a> [20] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/642883344.html" target="_blank" class="news-link">周杰伦ins发布自己是中国歌手的视频，评论区大混战</a> [27] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xB9WdhgkWl" target="_blank" class="news-link">美国威胁切断对乌武器供应，俄乌局势或出现重大转折</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E9%81%AD%E9%81%87%E5%A4%96%E8%B5%84%E5%A4%A7%E6%92%A4%E9%80%80" target="_blank" class="news-link">韩国股市遭遇外资大撤退</a> [15] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7695683831542743081/" target="_blank" class="news-link">民调：八成日本人反对军事介入台海</a> [16] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%B8%AD%E6%9C%9F%E9%80%89%E4%B8%BE%E7%A9%B6%E7%AB%9F%E6%9C%89%E5%A4%9A%E9%87%8D%E8%A6%81" target="_blank" class="news-link">美国中期选举究竟有多重要</a> [19] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA</td>
+                <td class="count">3</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/165.htm" target="_blank" class="news-link">9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/155.htm" target="_blank" class="news-link">英伟达携手思科推出首款 400G / lane 可插拔光模块规范 USFP</a> [14] <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/139.htm" target="_blank" class="news-link">英伟达 RTX Spark 全球巡展官宣：北京等 6 城将开启体验，可赢黄仁勋签名版笔记本</a> [27] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">2</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/169.htm" target="_blank" class="news-link">华为徐松余：麒麟 9030 系列是中国半导体产业的一座“高峰”，是各方努力的大成之作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/141.htm" target="_blank" class="news-link">IT早报 1013：江淮汽车否认尊界 SUV 将给赛力斯生产；华为注册“星芒”商标涵盖手机等类目；华为折叠屏手机累计发货量破 2000 万台；5999 元起一加 16 发布...</a> [25] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">字节</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/149.htm" target="_blank" class="news-link">3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配</a> [17] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/140.htm" target="_blank" class="news-link">因非法共享 Grindr 用户敏感数据，挪威数据保护局对微软旗下 Xandr 开出该局史上最大罚单</a> [26] <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/163.htm" target="_blank" class="news-link">南亚科技：DRAM 内存短缺将持续到 2028 年初</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
