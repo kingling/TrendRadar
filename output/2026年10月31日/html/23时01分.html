@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2026-10-31 23:01:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">4.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2723227" target="_blank" class="news-link">这届进博会出行有了AI助手</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368651&amp;amp;topic_name=%E7%BE%8E%E8%82%A1AI%E6%9A%B4%E8%B7%8C%2C%E4%B8%87%E4%BA%BF%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91" target="_blank" class="news-link">美股AI暴跌,万亿市值蒸发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A6%96%E9%83%A8AI%E7%94%B5%E5%BD%B1%E6%88%90%E6%9C%AC%E5%8D%83%E4%B8%87%E5%91%A8%E7%A5%A8%E6%88%BF%E4%B8%8D%E5%88%B0150%E4%B8%87" target="_blank" class="news-link">首部AI电影成本千万周票房不到150万</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E9%82%AA%E4%BF%AE%E6%B6%A6%E9%AD%82%E5%AD%90" target="_blank" class="news-link">AI短片邪修润魂子</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Orkas-AI/Orkas" target="_blank" class="news-link">Orkas-AI / Orkas</a> [11]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" class="news-link">THU-MAIC / OpenMAIC</a> [12]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/vorssaint/vorssaint-utils" target="_blank" class="news-link">vorssaint / vorssaint-utils</a> [14]</div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2096595801644299451" target="_blank" class="news-link">「豆包们」正在成为医患之间的「第三人」，大量 AI 问诊对门诊医生造成了什么影响？会有哪些困扰？</a> [20] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/597.htm" target="_blank" class="news-link">存储芯片短缺加剧之际，OpenAI 奥尔特曼赴韩与约 50 名三星高管会面</a> [21] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/593.htm" target="_blank" class="news-link">号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型</a> [23] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/586.htm" target="_blank" class="news-link">宏碁非凡 Go Air 新增 16+512GB 存储版本：酷睿 Ultra 5 125H 售 6999 元，999g 轻薄设计</a> [29] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">3.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34377447" target="_blank" class="news-link">原中国石油化工集团公司党组书记、董事长傅成玉被查</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%9A%E9%A2%86%E5%9F%9F%E8%A7%81%E8%AF%81%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%B4%BB%E5%8A%9B" target="_blank" class="news-link">多领域见证中国经济活力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7702661932407128127/" target="_blank" class="news-link">将有两名中国人登陆月球</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/31/ac8de7785f9741b0a382e41a5e12d3c1.html" target="_blank" class="news-link">外媒：新一波出口浪潮重新定义“中国制造”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7702785099296964650/" target="_blank" class="news-link">院士：国产算力不能只看芯片</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/31/3f2bcb52c5844bafbbd5d29cfa2ee5b0.html" target="_blank" class="news-link">中国拓宽优质产品进口渠道</a> [12] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/31/c0066246f02f4ac5bc48d500664848a0.html" target="_blank" class="news-link">报告显示：中国清洁能源产品出口助力全球减排</a> [13] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34375607" target="_blank" class="news-link">官宣：时隔12年，阿联酋空军“骑士”飞行表演队重磅回归中国航展</a> [19] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">7</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xfeSxEKO5c" target="_blank" class="news-link">美国强推西撒草案，中方：遗憾</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8xfozeIYWZi" target="_blank" class="news-link">“波兰似乎正上演一场前所未有的对抗”，美国大使回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xfxrbUT4iq" target="_blank" class="news-link">美国点名警告波罗的海三国：别招惹俄罗斯</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34376878" target="_blank" class="news-link">遭处决失败后美国女囚首次发声：身体遭受痛苦、精神饱受折磨</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/617.htm" target="_blank" class="news-link">数据显示，“存储五巨头”上季度营业利润及净利总额首超美国科技五巨头</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/31/a1a49f73e45a4dacaf74d5c408493956.html" target="_blank" class="news-link">挺过致命注射的美国女囚犯公开发声</a> [11] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/585.htm" target="_blank" class="news-link">Waymo 无人驾驶出租车长期霸占充电桩，美国电车车主不胜其扰</a> [30] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">2</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/615.htm" target="_blank" class="news-link">DeepSeek 提出 Super-agent 架构设计：Router 与 Worker 双层架构，探索更自主的 Agent 系统</a> [11] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E5%8F%91%E5%B8%83%E5%85%A8%E6%96%B0Agent%E6%9E%B6%E6%9E%84" target="_blank" class="news-link">DeepSeek发布全新Agent架构</a> [25] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/596.htm" target="_blank" class="news-link">75 英寸 5799 → 3333 元：华为 Vision 智慧屏 6 SE RGB 国补探新低</a> [22] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/590.htm" target="_blank" class="news-link">马斯克再撕比尔盖茨：一边资助攻击我的人，一边做空特斯拉</a> [26] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">微软</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2083398-1-1.html" target="_blank" class="news-link">微软的优化还是比较明显的</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/619.htm" target="_blank" class="news-link">上市价 4699 元 → 国补后 2800 元：石头扫拖机器人 P20 Max 上下水版新低</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/020/599.htm" target="_blank" class="news-link">长鑫科技：基于 4F² 架构的第六代技术平台 DRAM 完成工程样片验证</a> [20] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2099856268898690006" target="_blank" class="news-link">我国首次载人登月任务乘组计划由三人组成，两人着陆月球表面，哪些细节值得关注？此次任务重点在哪？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
